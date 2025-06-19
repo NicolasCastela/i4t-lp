@@ -473,7 +473,7 @@ body {
 }
 
 /* Media Query para dispositivos móveis */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
   /* Evita scroll horizontal */
   body {
