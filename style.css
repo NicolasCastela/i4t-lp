@@ -193,10 +193,7 @@ body {
   /* para ::before */
 }
 
-.monitoring-rpm {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 
 .technology-rpm .container,
 .revolution-rpm .container {
@@ -269,29 +266,9 @@ body {
   z-index: 9999;
 }
 
-.monitoring-rpm .container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 1280px;
-  height: 812px;
-}
 
 
-.monitoring-rpm .fourth-image-right {
-  height: 561px;
-  width: 526px;
-  margin-top: 80px;
-  object-fit: cover;
-  border-radius: 12px;
-}
 
-.monitoring-rpm span {
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0%;
-  font-size: 16px;
-}
 
 .hamburger {
   display: none;
@@ -313,9 +290,6 @@ body {
   transition: all 0.3s linear;
 }
 
-.children-section-monitoring-left {
-  width: 50%;
-}
 
 .container-box-items {
   width: 100%;
@@ -392,11 +366,10 @@ body {
 
 .banner-content {
   background-image: linear-gradient(135deg,
-      rgba(0, 0, 0, 0.7) 0%,   
+      rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 50%,
-      rgba(18, 223, 223, 0.2) 100%      
-    ),
-  url(assets/banner-footer-index.jpg);
+      rgba(18, 223, 223, 0.2) 100%),
+    url(assets/banner-footer-index.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -455,7 +428,7 @@ body {
 }
 
 .btn-secondary {
-    width: 198px;
+  width: 198px;
   height: 48px;
   background-color: transparent;
   color: white;
@@ -737,7 +710,7 @@ body {
 }
 
 
-.footer-left address{
+.footer-left address {
   color: #ffffff;
   font-size: 1.1em;
 }

@@ -1,6 +1,6 @@
 /* Media Query para dispositivos móveis */
 
-@media (max-width: 788px){
+@media (max-width: 788px) {
 
   /* Evita scroll horizontal */
   body {
@@ -201,11 +201,12 @@
     z-index: 1;
   }
 
-   #first-span-after-caption {
+  #first-span-after-caption {
     text-align: left;
-   }
+  }
 
-  .children-section-left h3, p {
+  .children-section-left h3,
+  p {
     text-align: left;
   }
 
@@ -262,19 +263,7 @@
     z-index: 1;
   }
 
-  .monitoring-rpm .container {
-    flex-direction: column;
-    margin-bottom: 600px;
-    max-width: 100%;
-    gap: 32px;
 
-  }
-
-  .children-section-monitoring-left,
-  .children-section-monitoring-right {
-    width: 100%;
-    height: auto;
-  }
 
   .container-box-items {
     display: flex;
@@ -297,17 +286,7 @@
 
   }
 
-  /* Forçar ordem dos elementos na coluna */
-  .monitoring-rpm .children-section-left {
-    order: 1;
-    /* título + texto + boxes */
-  }
 
-  /* Os boxes dentro de children-section-left, então já vem juntos */
-  .monitoring-rpm .container-box-items {
-    order: 2;
-    /* fica logo após o texto */
-  }
 
 
 
