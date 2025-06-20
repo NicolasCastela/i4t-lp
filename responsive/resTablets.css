@@ -17,6 +17,14 @@
     justify-content: center;
   }
 
+  .banner-content {
+    padding: 20px;
+  }
+
+  .banner-items {
+    padding: 0;
+  }
+
   .discovery-pos-banner {
     height: auto;
     padding: 60px 24px;

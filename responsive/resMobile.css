@@ -349,11 +349,24 @@
   .banner-content {
     position: static;
     transform: none;
-    padding: 20px;
+    padding: 10px;
     max-width: 100%;
   }
 
+  .banner-items h2 {
+    font-size: 2em;
+  }
 
+  .banner-items p {
+    font-size: 0.9em;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .banner-footer {
     margin-top: 100px !important;
