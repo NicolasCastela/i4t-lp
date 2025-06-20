@@ -121,7 +121,7 @@ body {
 
 .captions {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 2.5em;
   line-height: 120%;
   letter-spacing: 0%;
   text-align: center;
@@ -141,6 +141,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 48px;
 }
 
 .discovery-images {
@@ -157,6 +158,10 @@ body {
   height: 443px;
   align-items: center;
   text-align: center;
+}
+
+.children-item span {
+  max-width: 320px;
 }
 
 .technology-rpm {

@@ -132,20 +132,15 @@
 
   .children-item {
     height: auto;
-    text-align: left;
-    align-items: flex-start;
-    background-color: white;
-    border-radius: 12px;
-    padding: 16px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    align-items: center;
     gap: 16px;
+    border: 2px solid red;
   }
 
   .discovery-images {
     width: 100% !important;
     height: auto !important;
     max-width: 100% !important;
-    border-radius: 8px;
     object-fit: cover;
   }
 
