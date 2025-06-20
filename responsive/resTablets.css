@@ -103,6 +103,14 @@
     line-height: 160%;
   }
 
+  .children-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   .technology-rpm::before,
   .revolution-rpm::before {
     width: 100%;

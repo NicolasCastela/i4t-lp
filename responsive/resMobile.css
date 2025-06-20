@@ -203,6 +203,14 @@
     margin-bottom: 20px;
   }
 
+  .children-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
   .first-span-after-caption {
     font-size: 15px;
     line-height: 170%;
