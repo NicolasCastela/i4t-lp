@@ -6,10 +6,15 @@
   }
 
   .banner-home-index {
+    padding: 40px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 0;           
+  }
+
+  .banner-content-index {
+    display: flex;
+    justify-content: center;
   }
 
   .discovery-pos-banner {

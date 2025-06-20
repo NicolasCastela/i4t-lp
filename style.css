@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  max-width: 1128px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -109,7 +109,7 @@ body {
 
 .discovery-pos-banner {
   height: 891px;
-  padding-top: 120px;
+  border: 2px solid red;
 }
 
 .discovery-pos-banner .container {
@@ -645,7 +645,6 @@ body {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
 }
 
 .banner-content-index h2 {
