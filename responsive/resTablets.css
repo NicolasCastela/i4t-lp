@@ -103,6 +103,21 @@
     line-height: 160%;
   }
 
+  .revolution-rpm-ul-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .first-span-after-caption ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-span-after-caption li {
+    text-align: left;
+  }
+
   .children-section-left {
     display: flex;
     flex-direction: column;
