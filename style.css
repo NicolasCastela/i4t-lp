@@ -112,18 +112,12 @@ body {
 }
 
 .discovery-pos-banner {
-  height: 891px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
 
-.discovery-pos-banner .container {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .captions {
   display: flex;
@@ -154,9 +148,7 @@ body {
 
 .children-more {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  gap: 48px;
 }
 
 .discovery-images {
@@ -197,12 +189,14 @@ body {
 
 
 .technology-rpm .container,
-.revolution-rpm .container {
+.revolution-rpm .container,
+.discovery-pos-banner .container {
   display: flex;
   flex-direction: row;
   width: 1280px;
   height: auto;
   padding: 0;
+  background-color: red;
 }
 
 .image-second-section-rpm {
@@ -218,7 +212,6 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .image-third-section-rpm {
