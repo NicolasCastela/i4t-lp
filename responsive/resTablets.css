@@ -26,7 +26,6 @@
     font-size: 1.2em;
     line-height: 120%;
     text-align: center;
-    margin-bottom: 40px;
   }
 
   .children-more {
@@ -34,6 +33,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
+    margin-top: 0;
   }
 
   .children-item {

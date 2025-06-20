@@ -192,6 +192,11 @@
     z-index: 1;
   }
 
+  .captions h3 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
   .captions-second {
     font-size: 22px;
     text-align: center;

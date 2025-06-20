@@ -112,6 +112,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .discovery-pos-banner .container {
@@ -120,6 +122,8 @@ body {
 }
 
 .captions {
+  display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 2.5em;
   line-height: 120%;
@@ -127,6 +131,12 @@ body {
   text-align: center;
   color: #4C666D;
 }
+
+.captions h3 {
+  max-width: 100vh;
+  margin-bottom: 64px;
+}
+
 
 .captions-second {
   font-weight: 700;
@@ -137,7 +147,6 @@ body {
 }
 
 .children-more {
-  margin-top: 64px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
