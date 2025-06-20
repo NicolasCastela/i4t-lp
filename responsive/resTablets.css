@@ -1,5 +1,5 @@
 /* Media Query para tablets e desktops médios */
-@media (min-width: 769px) and (max-width: 1477px) {
+@media (min-width: 777px) and (max-width: 1477px) {
   .container {
     max-width: 100%;
     padding: 0 24px;
@@ -106,8 +106,8 @@
   .children-section-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
   }
 
 
@@ -115,7 +115,7 @@
   .revolution-rpm::before {
     width: 100%;
     height: 300px;
-    background: radial-gradient(circle at top right, #11D3D3 0%, transparent 30%);
+    background: radial-gradient(circle at top right, #11D3D3 0%, transparent 20%);
     opacity: 50%;
   }
 

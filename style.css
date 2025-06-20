@@ -148,6 +148,8 @@ body {
   line-height: 120%;
   letter-spacing: 0%;
   color: #4C666D;
+  max-width: 526px;
+  width: 100%;
 }
 
 .children-more {
@@ -215,6 +217,9 @@ body {
 
 .children-section-left {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image-third-section-rpm {
@@ -225,12 +230,14 @@ body {
   border-radius: 12px;
 }
 
+
 .first-span-after-caption {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
+  max-width: 526px;
 }
 
 .technology-rpm::before {

@@ -201,6 +201,14 @@
     z-index: 1;
   }
 
+   #first-span-after-caption {
+    text-align: left;
+   }
+
+  .children-section-left h3, p {
+    text-align: left;
+  }
+
   .captions h3 {
     font-size: 1em;
     margin-bottom: 0;
@@ -224,6 +232,7 @@
     font-size: 15px;
     line-height: 170%;
     margin-bottom: 20px;
+    text-align: left;
   }
 
   .first-span-after-caption ul {
