@@ -109,7 +109,9 @@ body {
 
 .discovery-pos-banner {
   height: 891px;
-  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .discovery-pos-banner .container {
