@@ -1,8 +1,15 @@
 /* Media Query para tablets e desktops médios */
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 769px) and (max-width: 1477px) {
   .container {
     max-width: 100%;
     padding: 0 24px;
+  }
+
+  .banner-home-index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;           
   }
 
   .discovery-pos-banner {

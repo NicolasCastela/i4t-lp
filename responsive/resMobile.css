@@ -37,12 +37,17 @@
   }
 
   .banner-home-index {
+    padding-right: 300px;
     padding: 40px 20px;
     padding-right: 0 !important;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     display: flex;
+    border: 2px solid blue;
+  }
 
+  .banner-content {
+    border: 2px solid red;
   }
 
   .banner-content-index {
