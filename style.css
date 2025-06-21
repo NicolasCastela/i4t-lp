@@ -226,7 +226,6 @@ body {
   width: 526px;
   height: 561px;
   object-fit: cover;
-  margin-top: 40px;
   border-radius: 12px;
 }
 
@@ -288,9 +287,6 @@ body {
   display: flex;
   align-items: center;
 }
-
-
-
 
 .hamburger {
   display: none;

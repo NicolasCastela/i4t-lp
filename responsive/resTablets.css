@@ -30,11 +30,6 @@
     padding: 60px 24px;
   }
 
-  .captions h3 {
-    font-size: 1em;
-    line-height: 120%;
-    text-align: center;
-  }
 
   .children-more {
     flex-direction: row;
@@ -88,7 +83,7 @@
   }
 
   .captions h3 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .children-item h4 {

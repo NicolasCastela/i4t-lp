@@ -32,7 +32,7 @@
     }
 
     .captions h3 {
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 120%;
         text-align: center;
     }
@@ -87,11 +87,6 @@
         align-items: center;
         gap: 32px;
         height: auto;
-    }
-
-    .captions-second {
-        font-size: 24px;
-        text-align: center;
     }
 
     .first-span-after-caption {
@@ -151,32 +146,17 @@
         align-items: center;
     }
 
-
-
-    .children-section-left,
-    .children-section-right {
-        width: 100%;
-        text-align: center;
-    }
-
     .image-second-section-rpm,
     .image-third-section-rpm,
     .quarta-imagem {
         object-fit: cover;
         border-radius: 12px;
-    }
-
-
-    .teste {
         display: flex;
-        flex-direction: column;
     }
 
     .children-section-left {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
 
@@ -215,5 +195,22 @@
 
     .div-do-lado-direito {
         width: 100% !important;
+    }
+
+    .flex-imagem-container {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1280px) {
+
+    .children-section-left,
+    .children-section-right {
+        width: 100%;
+    }
+
+    .captions-second {
+    font-size: 24px;
     }
 }
