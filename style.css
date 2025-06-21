@@ -23,9 +23,9 @@ body {
 }
 
 .container {
-  max-width: 100%;
+  width: 1280px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .header-content {
@@ -715,4 +715,19 @@ body {
 .footer-left a {
   width: 45px;
   height: 45px;
+}
+
+
+
+.teste {
+  width: 100%;
+  padding: 0 !important;
+  display: flex;
+
+}
+
+.div-do-lado-direito {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
