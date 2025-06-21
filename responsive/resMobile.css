@@ -138,7 +138,7 @@
   }
 
   .discovery-images {
-    width: 50% !important;
+    max-width: 50% !important;
     height: auto !important;
     max-width: 100% !important;
     object-fit: cover;
