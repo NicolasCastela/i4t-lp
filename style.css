@@ -166,11 +166,19 @@ body {
 }
 
 .children-item {
+  height: 443px;
   display: flex;
   flex-direction: column;
   margin-bottom: 32px;
   align-items: center;
   text-align: center;
+  justify-content: space-between;
+}
+
+.children-item-b-box {
+  display: flex;
+  flex-direction: column;
+  height: 202px;
   justify-content: space-between;
 }
 
@@ -203,7 +211,6 @@ body {
   width: 1280px;
   height: auto;
   padding: 0;
-  background-color: red;
 }
 
 .image-second-section-rpm {
