@@ -369,29 +369,3 @@
   }
 
 }
-
-@media (min-width: 775px) and (max-width: 914px) {
-
-  .header-nav a,
-  .language-selector {
-    font-size: 12.1px;
-  }
-
-  .header-nav {
-    gap: 10px !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-
-  .header-logo img {
-    width: 80%;
-  }
-
-  .header-logo {
-    width: 20%;
-    height: auto;
-  }
-
-
-
-}
