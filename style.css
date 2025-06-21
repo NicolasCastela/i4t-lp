@@ -730,6 +730,7 @@ body {
   width: 100%;
   padding: 0 !important;
   display: flex;
+  gap: 80px;
 
 }
 
@@ -737,4 +738,15 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.div-pai-de-todes {
+  margin-top: 40px;
+}
+
+.quarta-imagem {
+  height: 561px;
+  max-width: 526px;
+  object-fit: cover;
+  object-position: right;
 }
