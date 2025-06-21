@@ -165,7 +165,6 @@
   /* Seções RPM */
   .technology-rpm,
   .revolution-rpm {
-    padding: 40px 16px;
     height: auto;
     position: relative;
   }
@@ -205,8 +204,7 @@
     text-align: left;
   }
 
-  .children-section-left h3,
-  p {
+  .children-section-left h3 {
     text-align: left;
   }
 
@@ -219,14 +217,6 @@
     font-size: 22px;
     text-align: center;
     margin-bottom: 20px;
-  }
-
-  .children-section-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 
   .first-span-after-caption {
@@ -247,7 +237,6 @@
     height: auto !important;
     max-height: 300px;
     object-fit: cover;
-    margin-top: 20px;
     border-radius: 10px;
     display: block;
   }
@@ -286,11 +275,6 @@
 
   }
 
-
-
-
-
-
   .container-box-items {
     display: flex;
     flex-direction: column;
@@ -324,7 +308,6 @@
     line-height: 170%;
   }
 
-
   .banner-content {
     position: static;
     transform: none;
@@ -352,7 +335,16 @@
 
   }
 
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
 
-
+  .children-section-left {
+    display: flex;
+    flex-direction: column;
+  }
 
 }
