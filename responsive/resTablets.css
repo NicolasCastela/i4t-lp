@@ -1,5 +1,5 @@
 /* Media Query para tablets e desktops médios */
-@media (min-width: 769px) and (max-width: 1028px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .container {
     max-width: 100%;
     padding: 0 24px;
@@ -178,10 +178,14 @@
 
 
 
-  .children-section-left,
-  .children-section-right {
+  .children-section-left {
     width: 100%;
     text-align: center;
+  }
+
+  .children-section-right {
+    width: 100%;
+    object-fit: cover;
   }
 
   .image-second-section-rpm,
@@ -245,6 +249,16 @@
   .div-do-lado-direito {
     width: 100% !important;
   }
+
+
+  .flex-imagem-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+
 }
 
 @media (min-width: 775px) and (max-width: 914px) {
@@ -267,7 +281,5 @@
   .header-logo {
     width: 20%;
   }
-
-
 
 }
