@@ -1,5 +1,5 @@
 /* Media Query para tablets e desktops médios */
-@media (min-width: 1024px) and (max-width: 1248px) {
+@media (min-width: 1028px) and (max-width: 1225px) {
     .container {
         max-width: 100%;
         padding: 0 24px !important;
@@ -116,7 +116,6 @@
     .technology-rpm::before,
     .revolution-rpm::before {
         width: 100%;
-        height: 300px;
         background: radial-gradient(circle at top right, #11D3D3 0%, transparent 20%);
         opacity: 50%;
     }
