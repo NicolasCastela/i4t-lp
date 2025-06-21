@@ -201,7 +201,10 @@ body {
   /* para ::before */
 }
 
-
+.monitoring-rpm {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .technology-rpm .container,
 .revolution-rpm .container,
@@ -724,14 +727,26 @@ body {
   height: 45px;
 }
 
-
-
 .teste {
   width: 100%;
   padding: 0 !important;
   display: flex;
   gap: 80px;
 
+}
+
+.teste-monitoring {
+  width: 100%;
+  padding: 0 !important;
+  display: flex;
+  gap: 80px;
+
+}
+
+
+.div-do-lado-esquerdo {
+  width: 50%;
+  height: auto;
 }
 
 .div-do-lado-direito {
@@ -742,6 +757,11 @@ body {
 
 .div-pai-de-todes {
   margin-top: 40px;
+}
+
+.div-pai-da-1-linha {
+  width: 50%;
+  height: 259px
 }
 
 .quarta-imagem {
