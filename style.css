@@ -218,7 +218,7 @@ body {
 
 .image-second-section-rpm {
   width: 526px;
-  height: 500px;
+  height: 561px;
   object-fit: cover;
   margin-top: 40px;
   border-radius: 12px;
@@ -277,6 +277,11 @@ body {
   z-index: 9999;
 }
 
+.flex-imagem-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 
 
 
@@ -769,4 +774,5 @@ body {
   max-width: 526px;
   object-fit: cover;
   object-position: right;
+  border-radius: 12px;
 }

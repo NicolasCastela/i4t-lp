@@ -42,7 +42,6 @@
   .banner-content-index {
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    /* opcional, para melhorar leitura no fundo */
     padding: 20px;
     margin-bottom: 20px;
   }
@@ -111,7 +110,6 @@
   /* Container base */
   .container {
     max-width: 100%;
-    padding: 0 16px;
     box-sizing: border-box;
   }
 
@@ -160,21 +158,23 @@
 
   /* Seções RPM */
   .technology-rpm,
-  .revolution-rpm {
+  .revolution-rpm .monitoring-rpm {
     height: auto;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
     position: relative;
   }
 
-
+  .monitoring-rpm .container {
+    padding-top: 1px !important;
+  }
 
   .technology-rpm .container,
   .revolution-rpm .container {
     flex-direction: column !important;
     width: 100% !important;
     max-width: 100% !important;
-    padding: 0 16px;
     box-sizing: border-box;
-    gap: 24px;
     position: relative;
     z-index: 1;
   }
@@ -194,6 +194,7 @@
     text-align: left;
     position: relative;
     z-index: 1;
+    padding: 15px;
   }
 
   #first-span-after-caption {
@@ -228,7 +229,8 @@
   }
 
   .image-second-section-rpm,
-  .image-third-section-rpm {
+  .image-third-section-rpm,
+  .quarta-imagem {
     width: 100% !important;
     height: auto !important;
     max-height: 300px;
@@ -319,8 +321,14 @@
   }
 
   .banner-footer {
-    margin-top: 100px !important;
+    margin-top: 20px !important;
+    padding-bottom: 60px !important;
+    padding-top: 60px !important;
+  }
 
+  .monitoring-rpm {
+    padding-bottom: 20px !important;
+    padding-top: 0px !important;
   }
 
   .teste {
@@ -328,6 +336,7 @@
     flex-direction: column;
     justify-content: left;
     align-items: left;
+    gap: 0px;
   }
 
   .children-section-left {
@@ -335,14 +344,6 @@
     flex-direction: column;
   }
 
-  .teste-monitoring {
-    width: 100%;
-    padding: 0 !important;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-
-  }
 
   .div-do-lado-esquerdo {
     width: 100%;
@@ -363,12 +364,6 @@
     width: 100% !important;
   }
 
-  .quarta-imagem {
-    order: 1;
-    width: 100% !important;
-    height: auto !important;
-
-  }
 
   .div-do-lado-direito {
     width: 100% !important;
