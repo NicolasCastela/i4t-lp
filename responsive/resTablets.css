@@ -179,7 +179,7 @@
 
   .image-second-section-rpm,
   .image-third-section-rpm,
-  .fourth-image-right {
+  .quarta-imagem {
     object-fit: cover;
     border-radius: 12px;
   }
@@ -192,7 +192,6 @@
   .teste {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
   }
 
   .children-section-left {
@@ -228,11 +227,9 @@
 
   .div-pai-da-1-linha {
     width: 100% !important;
-    background-color: red;
   }
 
   .quarta-imagem {
-    order: 1;
     width: 100% !important;
     height: auto !important;
 
