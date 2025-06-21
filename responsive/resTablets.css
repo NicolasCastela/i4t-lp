@@ -1,5 +1,5 @@
 /* Media Query para tablets e desktops médios */
-@media (min-width: 769px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 100%;
     padding: 0 24px;
@@ -31,7 +31,7 @@
   }
 
   .captions h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 120%;
     text-align: center;
   }
@@ -54,7 +54,6 @@
     padding: 16px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    background-color: white;
   }
 
   .discovery-images {
@@ -70,7 +69,7 @@
   }
 
   .children-item span {
-    font-size: 15px;
+    font-size: 0.8em;
     line-height: 160%;
   }
 
@@ -86,6 +85,14 @@
     align-items: center;
     gap: 32px;
     height: auto;
+  }
+
+  .captions h3 {
+    font-size: 1em;
+  }
+
+  .children-item h4 {
+    font-size: 1.1em;
   }
 
   .captions-second {

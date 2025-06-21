@@ -1,6 +1,6 @@
 /* Media Query para dispositivos móveis */
 
-@media (max-width: 768px) {
+@media (max-width: 774px) {
 
   /* Evita scroll horizontal */
   body {
@@ -117,7 +117,6 @@
   .discovery-pos-banner {
     height: auto;
     padding: 40px 16px;
-    background-color: #f9f9f9;
   }
 
   .captions {
@@ -139,7 +138,7 @@
   }
 
   .discovery-images {
-    width: 100% !important;
+    width: 50% !important;
     height: auto !important;
     max-width: 100% !important;
     object-fit: cover;
@@ -369,4 +368,18 @@
     width: 100% !important;
   }
 
+}
+
+@media (min-width: 775px) and (max-width: 914px) {
+
+  .header-nav a,
+  .language-selector {
+    font-size: 12.1px;
+  }
+
+  .header-nav {
+    gap: 10px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 }
