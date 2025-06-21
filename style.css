@@ -141,8 +141,6 @@ body {
   font-size: 1.5em;
 }
 
-
-
 .captions-second {
   font-weight: 700;
   font-size: 2.5em;
@@ -184,6 +182,7 @@ body {
 
 .children-item span {
   max-width: 320px;
+  font-size: 1em;
 }
 
 .technology-rpm {
