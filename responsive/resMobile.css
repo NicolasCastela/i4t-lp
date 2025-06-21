@@ -217,6 +217,7 @@
     margin-bottom: 20px;
     text-align: center;
     display: flex;
+    flex-direction: column;
   }
 
   .first-span-after-caption ul {
@@ -363,6 +364,9 @@
 
   .div-pai-da-1-linha {
     width: 100% !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   
   .div-do-lado-direito {
