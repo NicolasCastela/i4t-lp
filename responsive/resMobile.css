@@ -1,6 +1,6 @@
 /* Media Query para dispositivos móveis */
 
-@media (max-width: 774px) {
+@media (max-width: 768px) {
 
   /* Evita scroll horizontal */
   body {
@@ -232,17 +232,20 @@
   .quarta-imagem {
     width: 100% !important;
     height: auto !important;
-    max-height: 300px;
+    max-height: 400px;
+
     object-fit: cover;
     border-radius: 10px;
     display: block;
   }
 
-
+  .quarta-imagem {
+    max-width: 100% !important;
+  }
 
   .children-section-right {
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    object-fit: cover;
   }
 
   .children-section-left {
@@ -367,5 +370,11 @@
   .div-do-lado-direito {
     width: 100% !important;
   }
+
+  .flex-imagem-container {
+    background-color: red;
+
+  }
+
 
 }
