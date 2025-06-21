@@ -1,5 +1,5 @@
 /* Media Query para tablets e desktops médios */
-@media (min-width: 777px) and (max-width: 1477px) {
+@media (min-width: 769px) and (max-width: 1248px) {
   .container {
     max-width: 100%;
     padding: 0 24px;
