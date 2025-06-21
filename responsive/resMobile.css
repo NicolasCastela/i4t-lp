@@ -92,8 +92,8 @@
   .header-actions {
     width: 100%;
     margin-top: 8px;
-    justify-content: end;
-    justify-content: space-around;
+    padding: 16px;
+    justify-content: space-between;
   }
 
   .btn-login {
@@ -382,4 +382,16 @@
     padding: 0 !important;
     margin: 0 !important;
   }
+
+  .header-logo img {
+    width: 80%;
+  }
+
+  .header-logo {
+    width: 20%;
+    height: auto;
+  }
+
+
+
 }
