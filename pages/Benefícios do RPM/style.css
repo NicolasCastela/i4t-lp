@@ -11,12 +11,14 @@
     padding: 112px 156px 112px 156px;
     display: flex;
     justify-content: center;
+    border: 2px solid red;
 }
 
 .container {
   width: 1440px;
   margin: 0 auto;
   padding: 0 !important;
+  border: 2px solid red;
 }
 
 .header-content {
@@ -76,5 +78,29 @@
     color: #4C666D;
     font-weight: 700;
     font-size: 1em;
+}
+
+/* SECTION beneficios-monitoramento*/
+
+.beneficios-monitoramento {
+    padding: 112px 156px 112px 156px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+}
+
+.monitoramento-items {
+    display: flex;
+    gap: 80px;
+}
+
+.monitoramento-left img {
+    width: 524px;
+    height: 558.9px;
+    object-fit: cover;
+}
+
+.monitoramento-right {
+    width: 524px;
 }
 
