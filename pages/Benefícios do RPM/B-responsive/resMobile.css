@@ -1,3 +1,72 @@
 @media (max-width: 768px) {
-    
+    .header-tittle {
+        font-size: 2em;
+    }
+
+    .header-items {
+        border: 1px solid #11D3D3;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .header-items span,
+    .monitoramento-right span,
+    .medicos-content-left-top span,
+    .hospitais-content-left-top span,
+    .pacientes-content-left-top span {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .header-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .monitoramento-right h3,
+    .medicos-content-left-top h3,
+    .hospitais-content-left-top h3,
+    .pacientes-content-left-top h3 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .monitoramento-right-bottom h4,
+    .box-items h4 {
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+    .monitoramento-right-bottom span,
+    .box-items span {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .monitoramento-right-bottom {
+        flex-direction: column;
+    }
+
+    .monitoramento-right-bottom .left,
+    .monitoramento-right-bottom .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+        border-radius: 10px;
+    }
+
+    .box-items {
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+        border-radius: 10px;
+        padding: 25px;
+    }
+
+    .pacientes-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        flex-direction: column;
+    }
 }
