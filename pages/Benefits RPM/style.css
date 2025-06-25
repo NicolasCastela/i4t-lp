@@ -17,3 +17,8 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+.n-container {
+    width: 1128px;
+    padding: 60px 0
+}

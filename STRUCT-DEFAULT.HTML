@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../components/style-components.css">
 </head>
+
 <body>
-       <div id="header-placeholder"></div>
+    <div id="header-placeholder"></div>
     <script>
         fetch('../../components/header.html')
             .then(response => response.text())
@@ -17,16 +19,48 @@
                 document.getElementById('header-placeholder').innerHTML = data;
             });
     </script>
-    <section class="body-container"></section>
+    <section class="body-container">
+
+        <h1>CRIAÇÃO PADRÃO AQUI DENTRO</h1>
+        <!-- # Só colocar as divs aqui e fazer normal dentro da section body-container -->
+        <!-- Código inicial do css. colocar isso pada padrão -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Roboto", sans-serif;
+
+            }
+
+            body {
+                padding: 0;
+            }
+
+            .body-container {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .n-container {
+                width: 1128px;
+                padding: 60px 0
+            }
+        </style>
+
+
+    </section>
 
 
 
 
 
-    
 
 
-       <div id="footer-placeholder"></div>
+    <div id="footer-placeholder"></div>
     <script>
         fetch('../../components/footer.html')
             .then(response => response.text())
@@ -35,4 +69,5 @@
             });
     </script>
 </body>
+
 </html>
