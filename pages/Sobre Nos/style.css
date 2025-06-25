@@ -14,9 +14,10 @@ body{
     flex-direction: column;
     padding: 0;
 }
+
 .n-container{
     width: 1128px;
-    padding: 80px 0
+    padding: 60px 0
 }
 
 .container{
@@ -68,8 +69,9 @@ body{
 
 .container-btn {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start ;
     gap: 16px;
+    margin-top: 24px;
 }
 
 #sub-second-btn {
@@ -94,7 +96,7 @@ body{
 height: 973px;
 }
 
-.teste{
+.span-text{
     line-height: 150%;
     font-weight: 400;
 }
