@@ -223,6 +223,7 @@
   flex-wrap: wrap;
   padding-bottom: 8px;
   padding-top: 8px;
+  gap: 24px;
 }
 
 .box-items {
@@ -297,7 +298,7 @@
   font-size: 1.125em;
   color: #4C666D;
   line-height: 150%;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .hospitais-content-left-bottom .top {
@@ -312,6 +313,7 @@
   flex-wrap: wrap;
   padding-bottom: 8px;
   padding-top: 8px;
+  gap: 24px;
 }
 
 .box-items {
