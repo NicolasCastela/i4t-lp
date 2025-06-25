@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmitech Health</title>
+    <link rel="shortcut icon" href="../../assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../components/style-components.css">
+</head>
+
+<body>
+    <!-- * HEADER -->
+    <div id="header-placeholder"></div>
+    <script>
+        fetch('../../components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+    </script>
+    <section class="body-container">
+        <div class="n-container">
+            <div class="sub-container">
+                <div class="sub-container-left">
+                    <h1>Benefícios do RPM (Monitoramento Remoto de Pacientes)</h1>
+                </div>
+                <div class="sub-container-right">
+                    <p>O Monitoramento Remoto de Pacientes (RPM) está no centro da
+                        nossa missão de tornar os cuidados de saúde mais acessíveis,
+                        eficientes e proativos. Ao oferecer uma visão clara e em
+                        tempo real da saúde dos pacientes, médicos e enfermeiros
+                        podem tomar decisões baseadas em dados, melhorando os
+                        resultados clínicos e otimizando os recursos. Com o RPM,
+                        os pacientes recebem cuidados de qualidade no conforto
+                        de suas casas, reduzindo a pressão sobre hospitais e
+                        clínicas. É o próximo passo na evolução da saúde,
+                        conectando pessoas e profissionais de forma eficiente,
+                        independentemente da distância ou condição física.</p>
+
+                    <div class="recipient-btn">
+                        <button id="header-first-btn">
+                            Saiba Mais
+                        </button>
+                        <button id="header-second-btn">
+                            Agende uma Visita
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="n-container">
+            <img class="imagem-banner" src="assets/first-image.jpg" alt="">
+        </div>
+
+        <div class="n-container">
+            <div class="container-person">
+                <div class="sub-container-mid">
+                    <h1>Como Funciona o Monitoramento Remoto de Pacientes</h1>
+                    <p>O Monitoramento Remoto de Pacientes (RPM) é uma tecnologia
+                        revolucionária que conecta pacientes e provedores de saúde de forma contínua e eficiente. Com o
+                        RPM, é possível monitorar dados de saúde em tempo real, garantindo um cuidado personalizado e
+                        proativo, independentemente da localização do paciente. Essa abordagem transforma a experiência
+                        de saúde, promovendo mais segurança,
+                        agilidade e qualidade no atendimento.</p>
+                </div>
+            </div>
+            <div class="cols-4">
+                <div class="sub-col">
+                    <div>sub 1</div>
+                    <div>sub 2</div>
+                </div>
+                <div class="sub-col">
+                    <img src="assets/image-col-mid.jpg" alt="">
+                </div>
+                <div class="sub-col">
+                    <div>sub 1</div>
+                    <div>sub 2</div>
+                </div>
+
+            </div>
+        </div>
+
+
+            <div class="n-container">
+                <div class="sub-container">
+                    <div class="sub-container-left">
+                        <h1>Considerações Financeiras para 
+                            Cuidados Sustentáveis</h1>
+                            <p>Na EmmiTec, acreditamos que a melhoria dos cuidados com os pacientes deve ser financeiramente viável. 
+                                Nossas soluções visam reduzir complicações e readmissões hospitalares,
+                                 garantindo um atendimento de qualidade.</p>
+                                 <div class="sub-division-text">
+                                    <div>
+                                        <h2>Eficiência Financeira</h2>
+                                        <p>Reduzimos custos e melhoramos resultados com intervenções oportunas e monitoramento contínuo.</p>
+                                    </div>
+                                    <div>
+                                        <h2>Investimento Sustentável</h2>
+                                        <p>Promova a viabilidade econômica da sua prática com nossos serviços de RPM.</p>
+                                    </div>
+                                 </div>
+                    </div>
+                    <div class="sub-container-right last-image">
+                            <img class="image-thrid-section" src="assets/image-thrid-section.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+             <div class="n-container">
+                <div class="sub-container">
+                    <div class="sub-container-left">
+                        <h1>Agende sua demonstração personalizada</h1>
+                        <p>Invista em um futuro de cuidados personalizados para cada paciente, em seus próprios termos. </p>
+                        <div class="recipient-btn">
+                        <button id="header-first-btn">
+                            Saiba Mais
+                        </button>
+                        <button id="header-second-btn">
+                            Agende uma Visita
+                        </button>
+                    </div>
+                    </div>
+                    <div class="sub-container-right last-image">
+                            <img class="image-fourth-section" src="assets/image-fourth-section.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- *FOOTER -->
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('../../components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
