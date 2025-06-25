@@ -16,11 +16,10 @@ body{
 }
 .n-container{
     width: 1128px;
-    border: 1px solid black;
+    padding: 80px 0
 }
 
 .container{
-    height: 656px;
    padding: 0;
     width: 100%;
     background-color: #11D3D3;
@@ -39,15 +38,16 @@ body{
 
 .sub-container{
     padding: 0;
-    border: 1px solid red;
     display: flex;
     width: 100%;
     flex-direction: row;
+    gap: 80px;
 }
 
 .sub-container-left{
     padding: 0;
     width: 50%;
+
 }
 .sub-container-right{
     padding: 0;
@@ -88,4 +88,13 @@ body{
 .last-image{
     max-width: 524px;
     height: 558px;
+}
+
+.last-item{
+height: 973px;
+}
+
+.teste{
+    line-height: 150%;
+    font-weight: 400;
 }
