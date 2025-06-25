@@ -281,9 +281,9 @@ body {
 /* HEADER IMPORTADO */
 .header {
   background-color: #fff;
-  border-bottom: 1px solid #e5e7eb;
   padding: 16px 0;
 }
+
 .header-content {
   display: flex;
   align-items: center;
@@ -359,8 +359,15 @@ body {
 .btn-login:hover {
   background-color: #00b7c3;
 }
+
 .container-header {
   width: 1128px;
   margin: 0 auto;
   padding: 0;
+}
+
+.header-logo img {
+  height: 32px;
+  width: auto;
+  object-fit: cover;
 }
