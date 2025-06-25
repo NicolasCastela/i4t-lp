@@ -10,6 +10,7 @@
 
 body {
     padding: 0;
+    color: #4C666D;
 }
 
 .body-container {
@@ -92,7 +93,6 @@ body {
 
 .container-person {
     width: 100%;
-    background-color: red;
     display: flex;
     justify-content: center;
 }
@@ -116,7 +116,7 @@ body {
     border: 1px solid blue
 }
 
-.sub-division-text{
+.sub-division-text {
     display: flex;
     flex-direction: row;
     flex: 1 1 0;
@@ -144,3 +144,16 @@ body {
 
 
 /*  */
+
+.sub-col-items {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    align-items: center;
+    gap: 21.33px;
+}
+
+.vector-box {
+    width: 36px;
+    object-fit: cover;
+}

@@ -7,6 +7,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    padding: 0;
+    color: #4C666D;
+}
+
 .header {
     padding: 112px 156px 112px 156px;
     display: flex;
