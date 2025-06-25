@@ -116,6 +116,14 @@ body {
     border: 1px solid blue
 }
 
+.sub-division-text{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    border: 1px solid green;
+    gap: 16px;
+}
+
 .image-thrid-section {
     width: 538px;
     height: 574px;
