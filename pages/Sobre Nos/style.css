@@ -8,36 +8,39 @@
 
 }
 
-body{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+body {
     padding: 0;
 }
 
-.n-container{
+.body-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.n-container {
     width: 1128px;
     padding: 60px 0
 }
 
-.container{
-   padding: 0;
+.container {
+    padding: 0;
     width: 100%;
     background-color: #11D3D3;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.image-banner{
+.image-banner {
     height: 514px;
     width: 1130px;
     object-fit: cover;
 }
 
 
-.sub-container{
+.sub-container {
     padding: 0;
     display: flex;
     width: 100%;
@@ -45,12 +48,13 @@ body{
     gap: 80px;
 }
 
-.sub-container-left{
+.sub-container-left {
     padding: 0;
     width: 50%;
 
 }
-.sub-container-right{
+
+.sub-container-right {
     padding: 0;
     width: 50%;
 }
@@ -69,7 +73,7 @@ body{
 
 .container-btn {
     display: flex;
-    justify-content: flex-start ;
+    justify-content: flex-start;
     gap: 16px;
     margin-top: 24px;
 }
@@ -87,16 +91,276 @@ body{
     font-size: 1em;
 }
 
-.last-image{
+.last-image {
     max-width: 524px;
     height: 558px;
 }
 
-.last-item{
-height: 973px;
-}
+/* .last-item {
+    height: 973px;
+} */
 
-.span-text{
+.span-text {
     line-height: 150%;
     font-weight: 400;
+}
+
+/* testando o footer importado */
+/* Aqui */
+/* Footer teste */
+.footer-bottom {
+    margin-top: 40px;
+    border-top: 1px solid #222631;
+    padding-top: 14px;
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-terms a {
+    color: #666;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+    transition: color 0.3s ease;
+}
+
+.footer-terms a:hover {
+    color: #21d1db;
+}
+
+.logo-footer {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #10121B;
+    color: #aaaebf;
+    font-family: 'Arial', sans-serif;
+    padding: 40px 20px 20px;
+    font-size: 14px;
+}
+
+.container-footer {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+}
+
+.footer-left {
+    max-width: 250px;
+}
+
+.footer address {
+    font-style: normal;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #aaaebf;
+}
+
+.footer h4 {
+    color: white;
+    margin-bottom: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #21d1db;
+    padding-bottom: 6px;
+    max-width: max-content;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    color: #8a94a6;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #21d1db;
+}
+
+.arrow {
+    color: #ffff;
+    font-weight: 700;
+}
+
+.footer-newsletter p {
+    margin-bottom: 12px;
+    max-width: 260px;
+}
+
+.footer-newsletter p strong {
+    color: white;
+}
+
+.newsletter-form {
+    display: flex;
+    max-width: 300px;
+    gap: 6px;
+}
+
+.newsletter-form input[type="email"] {
+    flex: 1;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #23232f;
+    color: #bbb;
+    font-size: 14px;
+}
+
+.newsletter-form input::placeholder {
+    color: #666;
+}
+
+.newsletter-form button {
+    background-color: #21d1db;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    color: #10121b;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #1bb0b7;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    border-top: 1px solid #222631;
+    padding-top: 14px;
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-terms a {
+    color: #666;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+    transition: color 0.3s ease;
+}
+
+.footer-terms a:hover {
+    color: #21d1db;
+}
+
+.logo-footer {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/* HEADER IMPORTADO */
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.header-logo img {
+  height: 32px;
+  width: auto;
+}
+
+/* Navegação */
+.header-content-right {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  gap: 24px;
+}
+
+.header-nav a {
+  color: #4C666D;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+/* Ações */
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.header-actions-right {
+  display: flex;
+  gap: 16px;
+}
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #4C666D;
+  font-size: 1em;
+}
+
+.language-selector span {
+  font-weight: 500;
+}
+
+.language-selector .chevron {
+  font-size: 0.9em;
+}
+
+/* Botão */
+.btn-login {
+  background-color: #11D3D3;
+  color: white;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 105px;
+  height: 34px;
+  font-size: 1em;
+}
+
+.btn-login:hover {
+  background-color: #00b7c3;
+}
+.container-header {
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0;
 }
