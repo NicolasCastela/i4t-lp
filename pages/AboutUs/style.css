@@ -10,94 +10,89 @@
 
 body {
     padding: 0;
-     color: #4C666D;
+    color: #4C666D;
 }
 
-.body-container {
+.header-main {
+    padding: 0 156px 0 156px;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.n-container {
-    width: 1128px;
-    padding: 60px 0
-}
-
-.container {
-    padding: 0;
-    width: 100%;
-    background-color: #11D3D3;
-    display: flex;
-    align-items: center;
     justify-content: center;
-
+}
+  
+.containerr {
+  max-width: 1280px;
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0 !important;
 }
 
-.image-banner {
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.header-contentt img {
+    width: 100%;
     height: 514px;
-    width: 1130px;
     object-fit: cover;
 }
 
+/* Primeira section */
 
-.sub-container {
-    padding: 0;
+.first-section {
+    padding: 80px 156px 80px 156px;
     display: flex;
-    width: 100%;
-    flex-direction: row;
-    gap: 80px;
+    justify-content: center;
 }
 
-.sub-container-left {
-    padding: 0;
-    width: 50%;
-
+.first-section-content {
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.sub-container-right {
-    padding: 0;
-    width: 50%;
+.first-section-left,
+.first-section-right {
+    width: 524px;
+    border: 2px solid red;
 }
 
-#sub-first-btn {
+.first-section-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.first-section-right-btn {
+    display: flex;
+    gap: 16px;
+}
+
+.first-section-btn-primary {
     width: 135px;
     height: 48px;
-    padding: 12px 24px 12px 24px;
     border-radius: 10px;
     border: none;
+    padding: 12px 24px 12px 24px;
     background-color: #11D3D3;
     color: #fff;
     font-weight: 700;
     font-size: 1em;
 }
 
-.container-btn {
-    display: flex;
-    justify-content: flex-start;
-    gap: 16px;
-    margin-top: 24px;
-}
-
-#sub-second-btn {
+.first-section-btn-secundary {
     width: 198px;
     height: 48px;
-    padding: 12px 24px 12px 24px;
     border-radius: 10px;
-    border: none;
     border: 1px solid #11D3D3;
-    background: none;
+    padding: 12px 24px 12px 24px;
+    background-color: transparent;
     color: #4C666D;
     font-weight: 700;
     font-size: 1em;
 }
 
-.last-image {
-    max-width: 524px;
-    height: 558px;
-}
+/* Segunda section */
 
-.span-text {
-    line-height: 150%;
-    font-weight: 400;
-}
