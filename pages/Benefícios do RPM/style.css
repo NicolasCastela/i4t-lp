@@ -342,3 +342,96 @@
   object-fit: cover;
 }
 
+/* SECTION beneficios-pacientes*/
+
+.beneficios-pacientes {
+  padding: 112px 156px 112px 156px;
+  display: flex;
+  justify-content: center;
+}
+
+.pacientes-items {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+}
+
+.pacientes-content-left,
+.pacientes-content-right {
+  flex: 1 1 500px;
+}
+
+.pacientes-content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.pacientes-content-left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.pacientes-content-left-top h3 {
+  font-size: 2.5em;
+  line-height: 120%;
+  font-weight: 700;
+  color: #4C666D;
+}
+
+.pacientes-content-left-top span {
+  font-size: 1.125em;
+  color: #4C666D;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.pacientes-content-left-bottom .top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-top,
+.card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  gap: 24px;
+}
+
+.box-items {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box-items h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #4C666D;
+}
+
+.box-items span {
+  font-size: 1em;
+  color: #4C666D;
+  line-height: 1.5;
+}
+
+.pacientes-content-right img {
+  width: 100%;
+  height: 558.93px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.pacientes-btn {
+    margin-top: 32px;
+}
+
