@@ -18,7 +18,6 @@
   width: 1128px;
   margin: 0 auto;
   padding: 0 !important;
-  border: 2px solid red;
 }
 
 .header-content {
@@ -113,10 +112,10 @@
 }
 
 .monitoramento-left img {
-    width: 524px;
-    height: 558.93px;
-    object-fit: cover;
-    border-radius: 10px;
+  width: 100%;
+  height: 558.93px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .monitoramento-right {
@@ -165,4 +164,90 @@
 }
 
 /* SECTION beneficios-medicos*/
+
+.beneficios-medicos {
+  padding: 112px 156px 112px 156px;
+  display: flex;
+  justify-content: center;
+}
+
+.medicos-items {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+}
+
+.medicos-content-left,
+.medicos-content-right {
+  flex: 1 1 500px;
+}
+
+.medicos-content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.medicos-content-left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.medicos-content-left-top h3 {
+  font-size: 2.5em;
+  line-height: 120%;
+  font-weight: 700;
+  color: #4C666D;
+}
+
+.medicos-content-left-top span {
+  font-size: 1.125em;
+  color: #4C666D;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.medicos-content-left-bottom .top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-top,
+.card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.box-items {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box-items h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #4C666D;
+}
+
+.box-items span {
+  font-size: 1em;
+  color: #4C666D;
+  line-height: 1.5;
+}
+
+.medicos-content-right img {
+  width: 100%;
+  height: 558.93px;
+  border-radius: 10px;
+  object-fit: cover;
+}
 
