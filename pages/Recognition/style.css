@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    padding: 0;
+     color: #4C666D;
+}
+
+.body-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.n-container {
+    width: 1128px;
+    padding: 60px 0;
+    border: 1px solid #E5E5E5;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 80px;
+
+}
+
+.sub-container-left{
+    width: 50%;
+}
+
+.sub-container-right{
+    width: 50%;
+    
+}
+.class-image{
+    width: 542px;
+}
+.last-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+
+.recipient-btn {
+    margin-top: 32px;
+}
+#header-first-btn {
+    width: 135px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: #11D3D3;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1em;
+    margin-right: 10px;
+    /* Verificar aqui */
+}
+
+#header-second-btn {
+    width: 198px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #11D3D3;
+    background: none;
+    color: #4C666D;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+

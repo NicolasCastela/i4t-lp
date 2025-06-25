@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmitech Health</title>
+    <link rel="shortcut icon" href="../../assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../components/style-components.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch('../../components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+    </script>
+    <section class="body-container">
+
+       <div class="n-container">
+            <div class="sub-container">
+                <div class="sub-container-left">
+                    <h1>Benefícios do RPM (Monitoramento Remoto de Pacientes)</h1>
+                      <p>O Monitoramento Remoto de Pacientes (RPM) está no centro da
+                        nossa missão de tornar os cuidados de saúde mais acessíveis,
+                        eficientes e proativos. Ao oferecer uma visão clara e em
+                        tempo real da saúde dos pacientes, médicos e enfermeiros
+                        podem tomar decisões baseadas em dados, melhorando os
+                        resultados clínicos e otimizando os recursos. Com o RPM,
+                        os pacientes recebem cuidados de qualidade no conforto
+                        de suas casas, reduzindo a pressão sobre hospitais e
+                        clínicas. É o próximo passo na evolução da saúde,
+                        conectando pessoas e profissionais de forma eficiente,
+                        independentemente da distância ou condição física.</p>
+                        <div class="recipient-btn">
+                        <button id="header-first-btn">
+                            Saiba Mais
+                        </button>
+                        <button id="header-second-btn">
+                            Agende uma Visita
+                        </button>
+                    </div>
+                </div>
+                <div class="sub-container-right">
+                    <div class="last-image">
+                        <img  class="class-image" src="assets/first-image-section.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="n-container">
+            <h1>aqui vai um carrossel</h1>
+        </div>
+
+          <div class="n-container">
+            <h1>terminando o do Benefits consegue dar ctrl c + ctrl v</h1>
+        </div>
+
+         <div class="n-container">
+            <h1>Carrossel</h1>
+        </div>
+         <div class="n-container">
+            <h1>terminando o do Benefits consegue dar ctrl c + ctrl v</h1>
+        </div>
+
+       
+    </section>
+
+
+
+
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('../../components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
