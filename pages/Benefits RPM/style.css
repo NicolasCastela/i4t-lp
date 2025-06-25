@@ -116,4 +116,23 @@ body {
     border: 1px solid blue
 }
 
+.image-thrid-section {
+    width: 538px;
+    height: 574px;
+    object-fit: cover;
+}
+
+.last-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+.image-fourth-section {
+    width: 524px;
+    height: 349px;
+    object-fit: cover;
+}
+
+
 /*  */
