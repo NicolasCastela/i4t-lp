@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmitech Health</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../components/style-components.css">
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon.png" />
 </head>
 <body>
-
+  <!-- IMPORT HEADER -->
+    <div id="header-placeholder"></div>
+    <script>
+        fetch('../../components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+    </script>
+    <!-- ------------------------ -->
     <header class="header">
         <div class="container header-content">
             <div class="header-items">
@@ -278,5 +288,15 @@
         </div>
     </section>
     
+    <!-- IMPORT FOOTER -->
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('../../components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+    <!-- ------------------------------------ -->
 </body>
 </html>
