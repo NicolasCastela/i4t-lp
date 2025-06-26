@@ -21,9 +21,9 @@ body {
   
 .containerr {
   max-width: 1280px;
-  width: 1128px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 !important;
+  padding: 0 20px;
 }
 
 .first-section-content {
@@ -45,6 +45,16 @@ body {
     justify-content: center;
     min-height: 510px;
 }
+
+.first-section-left h1 {
+    font-size: 3.5em;
+    line-height: 120%;
+  }
+
+  .first-section-right p {
+    font-size: 1.125em;
+    line-height: 150%;
+  }
 
 .first-section-content {
     display: flex;
@@ -104,16 +114,29 @@ body {
     min-height: 656px;
 }
 
+.second-section-left h2 {
+    font-size: 3em;
+    line-height: 120%;
+    color: #fff;
+}
+
+.second-section-right p {
+    font-size: 1.125em;
+    line-height: 150%;
+    color: #fff;
+}
+
 .second-section-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .second-section-left,
 .second-section-right {
     width: 524px;
-    min-height: 432px;
+    height: auto;
 }
 
 .second-section-right {
@@ -169,6 +192,7 @@ body {
 
 .third-section-left {
     width: 50%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -189,6 +213,6 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 10px;
 }
