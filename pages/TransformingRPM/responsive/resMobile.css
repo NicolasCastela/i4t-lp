@@ -123,6 +123,10 @@
         align-items: center;
     }
 
+    .monitoramento-items {
+        flex-direction: column-reverse;
+    }
+
     .monitoramento-right h3,
     .medicos-content-left-top h3,
     .hospitais-content-left-top h3,
