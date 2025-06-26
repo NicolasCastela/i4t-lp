@@ -46,6 +46,16 @@ body {
     min-height: 510px;
 }
 
+.first-section-left h1 {
+    font-size: 3.5em;
+    line-height: 120%;
+  }
+
+  .first-section-right p {
+    font-size: 1.125em;
+    line-height: 150%;
+  }
+
 .first-section-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,16 +114,29 @@ body {
     min-height: 656px;
 }
 
+.second-section-left h2 {
+    font-size: 3em;
+    line-height: 120%;
+    color: #fff;
+}
+
+.second-section-right p {
+    font-size: 1.125em;
+    line-height: 150%;
+    color: #fff;
+}
+
 .second-section-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .second-section-left,
 .second-section-right {
     width: 524px;
-    min-height: 432px;
+    height: auto;
 }
 
 .second-section-right {
