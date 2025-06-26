@@ -4,7 +4,6 @@
   .third-section,
   .header-main {
     padding: 80px 50px 80px 50px;
-    border: 2px solid red;
   }
   
     .first-section-content {
@@ -51,7 +50,6 @@
     .third-section-content {
         flex-wrap: wrap;
         justify-content: center;
-        border: 2px solid red;
     }
 
     .third-section-left,
