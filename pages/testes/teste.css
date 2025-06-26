@@ -130,7 +130,7 @@ body {
   background: #4C666D;
 }
 
-.teste-1 {
+.sub-container-carousel{
   display: flex;
   align-items: flex-start;
   flex-direction: column;

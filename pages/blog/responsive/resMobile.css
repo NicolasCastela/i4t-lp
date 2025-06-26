@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+
+    .body-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.n-container {
+    width: 100%;
+    padding: 0 12px;
+}
+
+.sub-container-cards{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cards-content{
+box-shadow:  0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cards-content img{
+    border-radius: 8px 8px 0 0;
+}
+.div-texts-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 12px;
+}
+
+.card-link{
+    margin-top: 15px;
+}
+}
