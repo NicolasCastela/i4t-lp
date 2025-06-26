@@ -26,7 +26,7 @@ body {
   padding: 0 !important;
 }
 
-.header-content {
+.first-section-content {
     display: flex;
     justify-content: center;
 }
@@ -43,10 +43,10 @@ body {
     padding: 80px 156px 80px 156px;
     display: flex;
     justify-content: center;
+    min-height: 510px;
 }
 
 .first-section-content {
-    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -55,7 +55,6 @@ body {
 .first-section-left,
 .first-section-right {
     width: 524px;
-    border: 2px solid red;
 }
 
 .first-section-right {
@@ -96,3 +95,67 @@ body {
 
 /* Segunda section */
 
+.second-section {
+    padding: 112px 156px 112px 156px;
+    display: flex;
+    justify-content: center;
+    background-color: #11D3D3;
+    min-height: 656px;
+}
+
+.second-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.second-section-left,
+.second-section-right {
+    width: 524px;
+    min-height: 432px;
+}
+
+.second-section-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.second-section-right-btn {
+    display: flex;
+    gap: 16px;
+}
+
+.second-section-btn-primary {
+    width: 135px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 24px 12px 24px;
+    background-color: #11D3D3;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.second-section-btn-secundary {
+    width: 198px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #11D3D3;
+    padding: 12px 24px 12px 24px;
+    background-color: transparent;
+    color: #4C666D;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+/* Terceira section */
+
+.third-section {
+    padding: 112px 156px 112px 156px;
+    display: flex;
+    justify-content: center;
+    min-height: 656px;
+}
