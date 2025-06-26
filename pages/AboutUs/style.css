@@ -184,6 +184,16 @@ body {
     min-height: 656px;
 }
 
+.third-section-left h2 {
+    font-size: 3em;
+    line-height: 120%;
+}
+
+.third-section-left p {
+    font-size: 1.125em;
+    line-height-step: 150%;
+}
+
 .third-section-content {
     display: flex;
     gap: 40px;

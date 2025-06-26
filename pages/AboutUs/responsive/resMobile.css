@@ -138,7 +138,8 @@
     line-height: 120%;
     text-align: center;
 }
-  .second-section-right p {
+  .second-section-right p,
+  .third-section-left p {
     font-size: 1em;
     line-height: 150%;
     text-align: center;
