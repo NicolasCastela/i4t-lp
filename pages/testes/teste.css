@@ -37,24 +37,31 @@ body {
 
 .carousel-track {
   display: flex;
+  transition: transform 0.5s cubic-bezier(.77, 0, .18, 1);
+  will-change: transform;
 }
-
+.carousel-stars{
+  font-size: 1.5em;
+  margin-bottom: 16px;
+}
 .carousel-item {
   min-width: 100%;
-  display: none;
+  height: 350px;
+  flex-shrink: 0;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  opacity: 0.5;
+  pointer-events: none;
+  transition: opacity 0.3s;
 }
 
 .carousel-item.active {
-  display: flex;
-}
-
-.carousel-stars {
+  opacity: 1;
+  pointer-events: auto;
   color: #4C666D;
-  font-size: 2em;
   margin-bottom: 16px;
 }
 
@@ -110,8 +117,8 @@ body {
 }
 
 .carousel-dot {
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   background: #cfd8dc;
   border-radius: 50%;
   display: inline-block;
@@ -123,13 +130,14 @@ body {
   background: #4C666D;
 }
 
-.teste-1{
+.teste-1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 0;
   margin: 0;
 }
+
 .carousel-btn {
   position: absolute;
   top: 50%;
@@ -160,5 +168,10 @@ body {
   transform: rotate(180deg);
 }
 
-.carousel-btn.prev { left: 24px; }
-.carousel-btn.next { right: 24px; }
+.carousel-btn.prev {
+  left: 24px;
+}
+
+.carousel-btn.next {
+  right: 24px;
+}
