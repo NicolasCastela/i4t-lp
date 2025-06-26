@@ -34,8 +34,12 @@ body {
 }
 
 .sub-container-left {
-    min-width: 524px;
+    min-width: 510px;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
 }
 
 .sub-container-right {
@@ -125,12 +129,38 @@ body {
     padding: 0;
 }
 
+.sub-col img {
+    max-width: 402px;
+    height: 100%;
+}
+
 .sub-division-text {
     display: flex;
     flex-direction: row;
     flex: 1 1 0;
     border: 1px solid green;
     gap: 16px;
+    max-height: 160px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.sub-division-text h2 {
+    font-size: 1.25em;
+}
+
+.sub-division-text p {
+    line-height: 150%;
+}
+
+.sub-division-text .left-box,
+.sub-division-text .right-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 243px;
+    gap: 16px;
+    border: 2px solid red;
+    justify-content: center;
 }
 
 .image-thrid-section {
@@ -152,7 +182,11 @@ body {
 }
 
 
-/*  */
+/*financeiras*/
+
+.financeiras {
+    padding: 112px 156px 112px 156px;
+}
 
 .sub-col-items {
     display: flex;
