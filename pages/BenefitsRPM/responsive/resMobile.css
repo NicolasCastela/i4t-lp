@@ -1,4 +1,16 @@
 @media (max-width: 768px) {
+  
+    .body-container,
+    .monitoramento-remoto,
+    .financeiras,
+    .agendamento {
+        padding: 80px 20px;
+    }
+
+    .first-section {
+      flex-wrap: wrap;
+    }
+  
   .header-content {
     flex-wrap: wrap;
     gap: 16px;
@@ -97,4 +109,75 @@
     font-size: 14px;
     gap: 4px;
   }
+
+  /*PRIMEIRA SEÇÃO*/
+
+      .header-container-left h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .sub-container-right p {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .recipient-btn {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+        /* Monitoramento remoto */
+
+    .sub-container-mid h2 {
+        font-size: 2.2em;
+    }
+
+    .sub-container-mid p {
+        font-size: 1em;
+    }
+
+    .sub-col-items {
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+        padding: 25px;
+        border-radius: 10px;
+    }
+    
+    .sub-col-items h3 {
+        font-size: 1.2em;
+    }
+
+    .sub-col-items p {
+        font-size: 0.9em;
+    }
+
+
+ /*Financeiras*/
+
+.financeiras-content {
+    flex-direction: column;
+}
+
+.sub-container-left h2 {
+    font-size: 1.5em;
+    line-height: 120%;
+}
+
+.sub-container-left p {
+    font-size: 0.9em;
+    line-height: 150%;
+}
+
+.left-box h3,
+.right-box h3 {
+    font-size: 1em;
+}
+
+.left-box p,
+.right-box p {
+    font-size: 0.9em;
+    line-height: 150%;
+}
 }
