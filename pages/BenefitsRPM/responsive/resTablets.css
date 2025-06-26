@@ -22,8 +22,13 @@
         font-size: 1em;
     }
 
+    .cols-4 {
+      display: flex;
+      flex-direction: column;
+    }
+
     .sub-col {
-        justify-content: space-between;
+        flex-direction: row;
     }
 
     .sub-col-items-left,

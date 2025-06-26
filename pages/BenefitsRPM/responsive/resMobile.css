@@ -154,6 +154,11 @@
         font-size: 0.9em;
     }
 
+    .cols-4 {
+      display: flex;
+      flex-direction: column;
+    }
+
 
  /*Financeiras*/
 
@@ -189,6 +194,7 @@
 
 .agendamento-content {
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .sub-container-left h2 {

@@ -266,7 +266,6 @@ body {
 
 .agendamento-content {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .sub-container-left,
