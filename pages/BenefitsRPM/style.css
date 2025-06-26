@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-
 }
 
 body {
@@ -17,93 +14,115 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 112px 156px 0px 156px;
+    padding: 112px 156px 112px 156px;
+    width: 100%;
 }
 
 .n-container {
-    width: 1128px;
-    border: 2px solid red;
+    width: 100%;
+    max-width: 1128px;
 }
 
 .sub-container {
-    padding: 0;
     display: flex;
-    flex-direction: row;
-    border: 1px solid;
-    gap: 80px;
+    flex-wrap: wrap;
+    gap: 5vw;
 }
 
-.sub-container-left {
-    min-width: 510px;
-    border: 1px solid red;
+.header-container-left,
+.sub-container-left,
+.sub-container-right {
+    flex: 1 1 300px;
     display: flex;
     flex-direction: column;
     gap: 32px;
-    justify-content: center;
 }
 
-.sub-container-right {
-    min-width: 524px;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
+.sub-container-left{
+    justify-content: center;
 }
 
 .recipient-btn {
     margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#header-first-btn,
+#header-second-btn {
+    flex: 1 1 200px;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #header-first-btn {
-    width: 135px;
-    height: 48px;
-    padding: 12px 24px 12px 24px;
-    border-radius: 10px;
-    border: none;
     background-color: #11D3D3;
     color: #fff;
-    font-weight: 700;
-    font-size: 1em;
-    margin-right: 10px;
-    cursor: pointer;
-    /* Verificar aqui */
+    border: none;
+}
+
+#header-first-btn:hover {
+    background-color: #00b7c3;
 }
 
 #header-second-btn {
-    width: 198px;
-    height: 48px;
-    padding: 12px 24px 12px 24px;
-    border-radius: 10px;
-    border: none;
-    border: 1px solid #11D3D3;
     background: none;
+    border: 1px solid #11D3D3;
     color: #4C666D;
-    font-weight: 700;
-    font-size: 1em;
-    cursor: pointer;
+}
+
+#header-second-btn:hover {
+    background-color: #235f74;
+    color: #fff;
 }
 
 .imagem-banner {
-    width: 100%;
-    height: 514px;
-    object-fit: cover;
     margin-top: 80px;
+    width: 100%;
+    max-height: 634px;
 }
 
-/*monitoramento-remoto*/
+.image-thrid-section {
+    width: 100%;
+    max-width: 100%;
+    height: 574px;
+    object-fit: cover;
+    margin-top: 5%;
+}
 
-.monitoramento-remoto {
+.image-fourth-section {
+    width: 100%;
+    height: 349.33px;
+    object-fit: cover;
+}
+
+/* Monitoramento remoto */
+.monitoramento-remoto,
+.financeiras {
     padding: 112px 156px 112px 156px;
+    
+}
+
+.agendamento {
+    padding: 0px 156px 112px 156px;
 }
 
 .sub-container-mid {
-    width: 768px;
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 16px;
     margin-bottom: 24px;
 }
-
 
 .container-person {
     width: 100%;
@@ -113,36 +132,32 @@ body {
 
 .cols-4 {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding: 0;;
-    border: 1px solid red;
+    flex-wrap: wrap;
+    gap: 32px;
     justify-content: space-between;
 }
 
 .sub-col {
+    flex: 1 1 250px;
     display: flex;
     flex-direction: column;
     gap: 64px;
-    flex: 1 1 0;
-    max-width: 315px;
     padding: 0;
+    max-width: 100%;
 }
 
 .sub-col img {
-    max-width: 402px;
+    width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .sub-division-text {
     display: flex;
-    flex-direction: row;
-    flex: 1 1 0;
-    border: 1px solid green;
+    flex-wrap: wrap;
     gap: 16px;
-    max-height: 160px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    width: 100%;
+    padding: 8px 0;
 }
 
 .sub-division-text h2 {
@@ -155,37 +170,17 @@ body {
 
 .sub-division-text .left-box,
 .sub-division-text .right-box {
+    flex: 1 1 250px;
     display: flex;
     flex-direction: column;
-    min-width: 243px;
     gap: 16px;
-    border: 2px solid red;
     justify-content: center;
-}
-
-.image-thrid-section {
-    width: 538px;
-    height: 574px;
-    object-fit: cover;
 }
 
 .last-image {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end
-}
-
-.image-fourth-section {
-    width: 524px;
-    height: 349px;
-    object-fit: cover;
-}
-
-
-/*financeiras*/
-
-.financeiras {
-    padding: 112px 156px 112px 156px;
+    justify-content: center;
+    align-items: center;
 }
 
 .sub-col-items {
@@ -202,6 +197,6 @@ body {
 }
 
 .vector-box {
-    width: 36px;
-    object-fit: cover;
+    width: 36px !important;
+    object-fit: contain;
 }
