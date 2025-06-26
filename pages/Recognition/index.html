@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../../assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../components/style-components.css">
+    <link rel="stylesheet" href="../../components/carrossel.css">
 </head>
 
 <body>
@@ -21,11 +22,11 @@
     </script>
     <section class="body-container">
 
-       <div class="n-container">
+        <div class="n-container">
             <div class="sub-container">
                 <div class="sub-container-left">
                     <h1>Benefícios do RPM (Monitoramento Remoto de Pacientes)</h1>
-                      <p>O Monitoramento Remoto de Pacientes (RPM) está no centro da
+                    <p>O Monitoramento Remoto de Pacientes (RPM) está no centro da
                         nossa missão de tornar os cuidados de saúde mais acessíveis,
                         eficientes e proativos. Ao oferecer uma visão clara e em
                         tempo real da saúde dos pacientes, médicos e enfermeiros
@@ -36,7 +37,7 @@
                         clínicas. É o próximo passo na evolução da saúde,
                         conectando pessoas e profissionais de forma eficiente,
                         independentemente da distância ou condição física.</p>
-                        <div class="recipient-btn">
+                    <div class="recipient-btn">
                         <button id="header-first-btn">
                             Saiba Mais
                         </button>
@@ -47,29 +48,38 @@
                 </div>
                 <div class="sub-container-right">
                     <div class="last-image">
-                        <img  class="class-image" src="assets/first-image-section.jpg" alt="">
+                        <img class="class-image" src="assets/first-image-section.jpg" alt="">
                     </div>
-                    
+
                 </div>
             </div>
         </div>
 
         <div class="n-container">
-            <h1>aqui vai um carrossel</h1>
+            <div id="carrossel"></div>
+            <script>
+                fetch('../../components/carrossel.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('carrossel').innerHTML = data;
+                        const script = document.createElement('script');
+                        script.src = '../../services/carrossel.js';
+                        document.body.appendChild(script);
+                    });
+            </script>
         </div>
 
-          <div class="n-container">
+        <div class="n-container">
             <h1>terminando o do Benefits consegue dar ctrl c + ctrl v</h1>
         </div>
 
-         <div class="n-container">
-            <h1>Carrossel</h1>
-        </div>
-         <div class="n-container">
-            <h1>terminando o do Benefits consegue dar ctrl c + ctrl v</h1>
+        <div class="n-container">
+            <!-- Carrossel -->
+            <h1>Aqui vai outro carrossel </h1>
+
         </div>
 
-       
+
     </section>
 
 
@@ -83,6 +93,7 @@
             .then(data => {
                 document.getElementById('footer-placeholder').innerHTML = data;
             });
+
     </script>
 </body>
 

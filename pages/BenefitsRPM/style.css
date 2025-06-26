@@ -43,6 +43,7 @@ body {
 }
 
 .recipient-btn {
+    background-color: red;
     margin-top: 32px;
     display: flex;
     flex-wrap: wrap;
