@@ -21,9 +21,9 @@ body {
   
 .containerr {
   max-width: 1280px;
-  width: 1128px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 !important;
+  padding: 0 20px;
 }
 
 .first-section-content {
@@ -192,6 +192,7 @@ body {
 
 .third-section-left {
     width: 50%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -212,6 +213,6 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 10px;
 }

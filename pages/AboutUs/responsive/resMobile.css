@@ -102,8 +102,8 @@
   .second-section,
   .third-section,
   .header-main {
-    padding: 80px 20px 80px 20px;
-  }
+    padding: 80px 20px;
+}
 
 
   /*First-section*/
@@ -145,9 +145,28 @@
   }
 
     .second-section-content {
-    justify-content: center !important;
+    justify-content: center;
     align-items: center;
-    gap: 0 !important;
-    margin: 0 !important;
   }
+
+    .third-section-content {
+        flex-wrap: wrap;
+    }
+
+    .third-section-left,
+    .third-section-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .third-section-right-img {
+      max-width: 324px;
+      max-height: 456px;
+      width: 100%;
+      height: auto;
+      object-fit: cover !important;
+    }
 }
