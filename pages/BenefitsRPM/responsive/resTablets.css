@@ -22,7 +22,12 @@
         font-size: 1em;
     }
 
-    .sub-col-items {
+    .sub-col {
+        justify-content: space-between;
+    }
+
+    .sub-col-items-left,
+    .sub-col-items-right {
         box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
         padding: 25px;
         border-radius: 10px;
@@ -60,5 +65,11 @@
 .left-box p {
     font-size: 1em;
     line-height: 150%;
+}
+
+ /*agendamento*/
+
+.agendamento-content {
+    gap: 32px;
 }
 }

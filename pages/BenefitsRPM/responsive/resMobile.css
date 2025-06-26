@@ -139,7 +139,8 @@
         font-size: 1em;
     }
 
-    .sub-col-items {
+     .sub-col-items-left,
+     .sub-col-items-right {
         box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
         padding: 25px;
         border-radius: 10px;
@@ -160,19 +161,22 @@
     flex-direction: column;
 }
 
-.sub-container-left h2 {
-    font-size: 1.5em;
+.financeiras-container-left h2 {
+    font-size: 2em;
     line-height: 120%;
+    text-align: center;
 }
 
-.sub-container-left p {
-    font-size: 0.9em;
+.financeiras-container-left p {
+    font-size: 1em;
     line-height: 150%;
+    text-align: center;
 }
 
 .left-box h3,
 .right-box h3 {
     font-size: 1em;
+    text-align: center;
 }
 
 .left-box p,
@@ -180,4 +184,21 @@
     font-size: 0.9em;
     line-height: 150%;
 }
+
+ /*agendamento*/
+
+.agendamento-content {
+    gap: 32px;
+}
+
+.sub-container-left h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.sub-container-left p {
+  font-size: 1em;
+  text-align: center;
+}
+
 }

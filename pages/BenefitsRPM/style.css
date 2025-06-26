@@ -162,6 +162,8 @@ body {
     gap: 64px;
     padding: 0;
     max-width: 100%;
+    border: 2px solid red;
+    justify-content: center;
 }
 
 .sub-col img {
@@ -192,8 +194,24 @@ body {
     align-items: center;
 }
 
+.sub-col {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
 .sub-col-items {
     display: flex;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.sub-col-items-left,
+.sub-col-items-right {
+    display: flex;
+    max-width: 315px;
+    width: 100%;
+    height: auto;
     flex-direction: column;
     object-fit: cover;
     align-items: center;
@@ -242,6 +260,26 @@ body {
 }
 
 .left-box p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+.agendamento-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub-container-left,
+.sub-container-right {
+    flex: 1 1 400px;
+}
+
+.sub-container-left h2 {
+    font-size: 3em;
+    line-height: 120%;
+}
+
+.sub-container-left p {
     font-size: 1.125em;
     line-height: 150%;
 }
