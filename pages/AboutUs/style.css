@@ -159,3 +159,35 @@ body {
     justify-content: center;
     min-height: 656px;
 }
+
+.third-section-content {
+    display: flex;
+    gap: 40px;
+    min-height: 749px;
+}
+
+.third-section-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.third-section-right {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-section-right-img {
+  max-width: 524px;
+  max-height: 556px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 10px;
+}
