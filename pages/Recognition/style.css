@@ -92,7 +92,6 @@ body {
   border-radius: 12px;
   padding: 40px 32px 32px 32px;
   overflow: hidden;
-  border: 2px solid red;
 }
 
 .carousel-track {
@@ -236,11 +235,97 @@ body {
   right: 24px;
 }
 
+@media (max-width: 1024px) {
+  .carousel {
+    padding: 32px 24px 24px 24px;
+  }
+
+  .carousel blockquote {
+    font-size: 1.1em;
+    padding: 0 12px;
+  }
+
+  .carousel-profile {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .carousel-logo {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    padding: 24px 16px;
+  }
+
+  .carousel blockquote {
+    font-size: 1em;
+  }
+
+  .carousel-item {
+    height: auto;
+    padding: 24px 8px;
+  }
+
+  .carousel-stars {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+  }
+
+  .carousel-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1.5em;
+  }
+
+  .carousel-btn img.arrow-svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  .carousel-btn.prev {
+    left: 12px;
+  }
+
+  .carousel-btn.next {
+    right: 12px;
+  }
+
+  .carousel-indicators {
+    margin-top: 16px;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel blockquote {
+    font-size: 0.95em;
+    padding: 0 8px;
+  }
+
+  .carousel-profile strong,
+  .carousel-profile span {
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .carousel-dot {
+    width: 6px;
+    height: 6px;
+  }
+}
+
 /* Monitoramento remoto */
-.monitoramento-remoto {
-  display: flex;
-  justify-content: center;
-      padding: 112px 156px 112px 156px;
+.monitoramento-remoto,
+.financeiras {
+    padding: 112px 156px 112px 156px;
     
 }
 
@@ -252,6 +337,12 @@ body {
 .sub-container-right p {
     font-size: 1.125em;
     line-height: 150%;
+}
+
+.agendamento {
+    padding: 112px 156px 112px 156px;
+    display: flex;
+    justify-content: center;
 }
 
 .sub-container-mid {
@@ -305,10 +396,32 @@ body {
     border-radius: 10px;
 }
 
+.sub-division-text {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.sub-division-text .left-box,
+.sub-division-text .right-box {
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
 .sub-col {
     display: flex;
     justify-content: center; 
     align-items: center;
+}
+
+.sub-col-items {
+    display: flex;
+    object-fit: cover;
+    border: 2px solid black;
 }
 
 .sub-col-items-left,
@@ -324,7 +437,40 @@ body {
     text-align: center;
 }
 
+.sub-col-items h3 {
+    font-size: 1.5em;
+}
+
 .vector-box {
     width: 36px !important;
     object-fit: contain;
+}
+
+.left-box h3 {
+    font-size: 1.25em;
+}
+
+.left-box p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+.agendamento-content {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container-left,
+.sub-container-right {
+    flex: 1 1 400px;
+}
+
+.sub-container-left h2 {
+    font-size: 3em;
+    line-height: 120%;
+}
+
+.sub-container-left p {
+    font-size: 1.125em;
+    line-height: 150%;
 }
