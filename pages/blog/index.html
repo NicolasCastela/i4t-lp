@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmitech Health</title>
+    <title>Emmitec Health</title>
     <link rel="shortcut icon" href="../../assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../components/style-components.css">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div id="header-placeholder"></div>
+    <!-- <div id="header-placeholder"></div> -->
     <script>
         fetch('../../components/header.html')
             .then(response => response.text())
@@ -84,7 +84,9 @@
                     </div>
                 </div>
                 <div class="button-center">
-                    <button>Ver todos</button>
+                    <a href="#seeAllPost" class="button-link">
+                        <button>Ver todos</button>
+                    </a>
                 </div>
             </div>
 
@@ -309,7 +311,7 @@
                             </div>
                         </div>
 
-                        <button onclick="mostrarBanner('musica')">Música</button>
+                        <button onclick="mostrarBanner('musicas')">Música</button>
                     </div>
                 </div>
             </div>
@@ -318,7 +320,7 @@
 
         <!-- ...existing code... -->
         <section>
-            <div class="n-container">
+            <div id="seeAllPost" class="n-container">
 
                 <section class="blog-hero">
                     <p class="blog-label">Blog</p>
@@ -345,7 +347,17 @@
                         <a href="#" class="blog-card-link">Leia mais <span>&rarr;</span></a>
                     </div>
                     <div class="blog-card">
-                        <img src="assets/teste-image.jpg" alt="">
+                        <img src="assets/allPost-image-soup.jpg" alt="">
+                        <div class="blog-card-meta">
+                            <span class="blog-card-tag">Categoria</span>
+                            <span class="blog-card-time">5 min leitura</span>
+                        </div>
+                        <h3 class="blog-card-title">Alimentação balanceada para todos</h3>
+                        <p class="blog-card-desc">Dicas para uma dieta saudável e equilibrada.</p>
+                        <a href="#" class="blog-card-link">Leia mais <span>&rarr;</span></a>
+                    </div>
+                    <div class="blog-card">
+                        <img src="assets/allPost-image-academy.jpg  " alt="">
                         <div class="blog-card-meta">
                             <span class="blog-card-tag">Categoria</span>
                             <span class="blog-card-time">5 min leitura</span>
@@ -354,8 +366,28 @@
                         <p class="blog-card-desc">Entenda como cuidar da sua saúde mental é essencial.</p>
                         <a href="#" class="blog-card-link">Leia mais <span>&rarr;</span></a>
                     </div>
-                    <div class="blog-card">
-                        <img src="assets/teste-image.jpg" alt="">
+                     <div class="blog-card">
+                        <img src="assets/allPost-image.papaya.jpg  " alt="">
+                        <div class="blog-card-meta">
+                            <span class="blog-card-tag">Categoria</span>
+                            <span class="blog-card-time">5 min leitura</span>
+                        </div>
+                        <h3 class="blog-card-title">A importância da saúde mental</h3>
+                        <p class="blog-card-desc">Entenda como cuidar da sua saúde mental é essencial.</p>
+                        <a href="#" class="blog-card-link">Leia mais <span>&rarr;</span></a>
+                    </div>
+                     <div class="blog-card">
+                        <img src="assets/allPost-image-walk.jpg  " alt="">
+                        <div class="blog-card-meta">
+                            <span class="blog-card-tag">Categoria</span>
+                            <span class="blog-card-time">5 min leitura</span>
+                        </div>
+                        <h3 class="blog-card-title">A importância da saúde mental</h3>
+                        <p class="blog-card-desc">Entenda como cuidar da sua saúde mental é essencial.</p>
+                        <a href="#" class="blog-card-link">Leia mais <span>&rarr;</span></a>
+                    </div>
+                     <div class="blog-card">
+                        <img src="assets/allPost-image-berrys.jpg  " alt="">
                         <div class="blog-card-meta">
                             <span class="blog-card-tag">Categoria</span>
                             <span class="blog-card-time">5 min leitura</span>
@@ -382,53 +414,10 @@
                 document.getElementById('footer-placeholder').innerHTML = data;
             });
     </script>
+
+    <script src="../../services/blog-service.js"></script>
 </body>
 
 
-
-
-
-<script>
-    function mostrarBanner(tipo) {
-        // Esconde todos
-        document.querySelectorAll('.card-banner-section').forEach(function (banner) {
-            banner.style.display = 'none';
-        });
-        // Mostra todos que têm o data-banner igual ao tipo
-        document.querySelectorAll('.card-banner-section[data-banner="' + tipo + '"]').forEach(function (banner) {
-            banner.style.display = 'flex'; // ou 'block'
-        });
-
-
-    }
-
-
-    document.addEventListener('DOMContentLoaded', function () {
-        const searchBtn = document.querySelector('.search-box button');
-        const searchInput = document.querySelector('.search-box input');
-        if (searchInput) {
-            searchInput.addEventListener('keydown', function (e) {
-                if (e.key === 'Enter') {
-                    searchBtn.click();
-                }
-            });
-        }
-        if (searchBtn) {
-            searchBtn.addEventListener('click', function (e) {
-                e.preventDefault();
-                const valor = document.querySelector('.search-box input').value.trim().toLowerCase();
-                document.querySelectorAll('.card-banner-section').forEach(function (banner) {
-                    const tipo = (banner.getAttribute('data-banner') || '').toLowerCase();
-                    if (tipo.includes(valor) || valor === '') {
-                        banner.style.display = 'flex';
-                    } else {
-                        banner.style.display = 'none';
-                    }
-                });
-            });
-        }
-    });
-
-</script>
 
 </html>
