@@ -81,3 +81,42 @@
     }
 });
 
+   document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                // Remove active de todos
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                // Adiciona active ao clicado
+                this.classList.add('active');
+                // Rola até o #seeAllPost
+                document.getElementById('seeAllPost').scrollIntoView({ behavior: 'smooth' });
+                // Aqui você pode filtrar os cards se quiser
+            });
+        });
+
+
+         document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', function () {
+        // Remove active de todos
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        // Adiciona active ao clicado
+        this.classList.add('active');
+        // Rola até o #seeAllPost
+        document.getElementById('seeAllPost').scrollIntoView({ behavior: 'smooth' });
+
+        // Filtro dos cards
+        const categoria = this.getAttribute('data-button');
+        document.querySelectorAll('.blog-card').forEach(card => {
+            // Se for "todos", mostra tudo
+            if (categoria === 'todos') {
+                card.style.display = '';
+            } else {
+                // Mostra só se o data-card for igual ao data-button
+                if (card.getAttribute('data-card') === categoria) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            }
+        });
+    });
+});
