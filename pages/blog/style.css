@@ -419,7 +419,6 @@ body button {
 .blog-hero {
   text-align: center;
   margin-bottom: 32px;
-  border: 1px solid black;
 }
 .blog-label {
   color: #4C666D;
@@ -463,9 +462,7 @@ body button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
-  max-width: 1100px;
   margin: 0 auto;
-  border: 1px solid blue;
 }
 .blog-card {
     border: 10px solid red;

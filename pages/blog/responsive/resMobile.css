@@ -8,7 +8,7 @@
 
 .n-container {
     width: 100%;
-    padding: 0 12px;
+    padding: 0 8px;
 }
 
 .sub-container-cards{
@@ -33,4 +33,14 @@ box-shadow:  0px 4px 6px rgba(0, 0, 0, 0.1);
 .card-link{
     margin-top: 15px;
 }
+
+.container-centered{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sub-container-right, 
+.sub-container-left{
+    width: 100%;}
+
 }
