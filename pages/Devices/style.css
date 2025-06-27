@@ -13,7 +13,8 @@ body {
      color: #4C666D;
 }
 
-.devices-header {
+.devices-header,
+.monitor {
     width: 100%;
     display: flex;
     align-items: center;
@@ -30,6 +31,7 @@ body {
 .n-container {
     width: 100%;
     max-width: 1128px;
+    border: 2px solid red;
 }
 
 
@@ -99,3 +101,67 @@ body {
     font-size: 1.125em;
     line-height: 150%;
 }
+
+
+/* MONITOR*/
+
+.monitor {
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+.monitor-tittle {
+    margin-bottom: 80px;
+}
+
+.monitor-tittle h2 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 2.5em;
+}
+
+
+.monitor-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  gap: 32px;
+
+}
+
+.produtos-item {
+  text-align: center;
+  max-width: 296px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.produtos-item img {
+  width: 100%;
+  min-height: 364.8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.produtos-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.produtos-item h3 {
+    font-size: 1.125em;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.produtos-item p {
+    font-size: 0.875em;
+    margin-bottom: 16px;
+}
+
+
+/* TERMÔMETRO */
+
+
