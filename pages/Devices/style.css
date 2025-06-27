@@ -13,13 +13,89 @@ body {
      color: #4C666D;
 }
 
-.body-container {
+.devices-header {
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.body-container {
+    display: flex;
     flex-direction: column;
+    padding: 112px 156px 112px 156px;
+    width: 100%;
 }
 
 .n-container {
-    width: 1128px;
-    padding: 60px 0;
+    width: 100%;
+    max-width: 1128px;
+}
+
+
+.first-section {
+    display: flex;
+    gap: 80px;
+}
+.header-container-left,
+.header-container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 524px;
+    width: 100%;
+}
+
+.sub-container-left{
+    justify-content: center;
+}
+
+.recipient-btn {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#header-first-btn,
+#header-second-btn {
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#header-first-btn {
+    width: 135px;
+    background-color: #11D3D3;
+    color: #fff;
+    border: none;
+}
+
+#header-first-btn:hover {
+    background-color: #00b7c3;
+}
+
+#header-second-btn {
+    width: 198px;
+    background: none;
+    border: 1px solid #11D3D3;
+    color: #4C666D;
+}
+
+#header-second-btn:hover {
+    background-color: #235f74;
+    color: #fff;
+}
+
+.header-container-left h1 {
+    font-size: 3.5em;
+}
+
+.header-container-right p {
+    font-size: 1.125em;
+    line-height: 150%;
 }
