@@ -92,6 +92,7 @@ body {
   border-radius: 12px;
   padding: 40px 32px 32px 32px;
   overflow: hidden;
+  border: 2px solid red;
 }
 
 .carousel-track {
@@ -235,3 +236,95 @@ body {
   right: 24px;
 }
 
+/* Monitoramento remoto */
+.monitoramento-remoto {
+  display: flex;
+  justify-content: center;
+      padding: 112px 156px 112px 156px;
+    
+}
+
+.header-container-left h1 {
+    font-size: 3.5em;
+    line-height: 120%;
+}
+
+.sub-container-right p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+.sub-container-mid {
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.sub-container-mid h2 {
+    font-size: 2.5em;
+    line-height: 120%;
+}
+
+.sub-container-mid p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+.container-person {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cols-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.sub-col {
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.sub-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sub-col {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.sub-col-items-left,
+.sub-col-items-right {
+    display: flex;
+    max-width: 315px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    object-fit: cover;
+    align-items: center;
+    gap: 21.33px;
+    text-align: center;
+}
+
+.vector-box {
+    width: 36px !important;
+    object-fit: contain;
+}
