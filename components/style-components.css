@@ -36,7 +36,16 @@
 .header-nav a:hover{
   color: #11D3D3;
 }
-
+.arrow-icon:hover{
+  color: #11D3D3
+  ;
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
+.sobre-nos-link:hover .arrow-icon {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
 .header-nav a {
   color: #4C666D;
   text-decoration: none;
@@ -397,4 +406,10 @@
 
 .nav-item-dropdown:hover .dropdown-menu {
   display: flex;
+}
+
+.nav-item-dropdown:hover .arrow-icon {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+  color: #11D3D3;
 }
