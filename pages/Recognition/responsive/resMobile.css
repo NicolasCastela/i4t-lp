@@ -1,14 +1,14 @@
-@media (max-width: 768px) {
-  
-    .body-container,
-    .monitoramento-remoto,
-    .financeiras,
-    .agendamento {
-        padding: 80px 20px;
-    }
+@media (max-width: 793px) {
 
-    .first-section {
-      flex-wrap: wrap;
+
+  .carousel {
+    display: none;
+  }
+  
+    .monitoramento-remoto,
+    .agendamento,
+    .recognition-header {
+        padding: 80px 20px;
     }
   
   .header-content {
@@ -110,24 +110,18 @@
     gap: 4px;
   }
 
-  /*PRIMEIRA SEÇÃO*/
 
-      .header-container-left h1 {
-        font-size: 2em;
-        text-align: center;
-    }
+        /* Header */
 
-    .sub-container-right p {
-        font-size: 0.9em;
-        text-align: center;
-    }
+  .r-header-content-left h1 {
+    font-size: 2em;
+    text-align: center;
+  }
 
-    .recipient-btn {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
+   .r-header-content-left p {
+    font-size: 0.9em;
+    text-align: center;
+   }
 
         /* Monitoramento remoto */
 
@@ -136,7 +130,7 @@
     }
 
     .sub-container-mid p {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
      .sub-col-items-left,
@@ -158,38 +152,7 @@
       display: flex;
       flex-direction: column;
     }
-
-
- /*Financeiras*/
-
-.financeiras-content {
-    flex-direction: column;
-}
-
-.financeiras-container-left h2 {
-    font-size: 1.8em;
-    line-height: 120%;
-    text-align: center;
-}
-
-.financeiras-container-left p {
-    font-size: 1em;
-    line-height: 150%;
-    text-align: center;
-}
-
-.left-box h3,
-.right-box h3 {
-    font-size: 1em;
-    text-align: center;
-}
-
-.left-box p,
-.right-box p {
-    font-size: 0.9em;
-    line-height: 150%;
-}
-
+ 
  /*agendamento*/
 
 .agendamento-content {
@@ -203,8 +166,25 @@
 }
 
 .sub-container-left p {
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: center;
 }
 
+.sub-container-left {
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.recipient-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.last-image {
+  aspect-ratio: 0;
+}
 }

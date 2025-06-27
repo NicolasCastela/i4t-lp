@@ -1,0 +1,144 @@
+@media (min-width: 794px) and (max-width: 1023px) {
+
+  .carousel {
+    padding: 24px 16px;
+  }
+
+  .carousel blockquote {
+    font-size: 1em;
+  }
+
+  .carousel-item {
+    height: auto;
+    padding: 24px 8px;
+  }
+
+  .carousel-stars {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+  }
+
+  .carousel-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1.5em;
+  }
+
+  .carousel-btn img.arrow-svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  .carousel-btn.prev {
+    left: 12px;
+  }
+
+  .carousel-btn.next {
+    right: 12px;
+  }
+
+  .carousel-indicators {
+    margin-top: 16px;
+    gap: 8px;
+  }
+
+
+    .body-container,
+    .monitoramento-remoto,
+    .financeiras,
+    .agendamento {
+        padding: 80px 20px;
+    }
+
+    .first-section {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .header-container-left h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .recipient-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    /* Monitoramento remoto */
+
+    .sub-container-mid h2 {
+        font-size: 2.2em;
+    }
+
+    .sub-container-mid p {
+        font-size: 1em;
+    }
+
+    .cols-4 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sub-col {
+        flex-direction: row;
+    }
+
+    .sub-col-items-left,
+    .sub-col-items-right {
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+        padding: 25px;
+        border-radius: 10px;
+    }
+    
+    .sub-col-items h3 {
+        font-size: 1.2em;
+    }
+
+    .sub-col-items p {
+        font-size: 0.9em;
+    }
+
+    #mid-img {
+        max-width: 524px;
+        width: 100%;
+    }
+
+
+    /*financeiras*/
+
+.financeiras-content {
+    flex-wrap: wrap;
+}
+
+.sub-container-left h2 {
+    font-size: 2em;
+    line-height: 120%;
+}
+
+.sub-container-left p {
+    font-size: 1em;
+    line-height: 150%;
+}
+
+.left-box h3 {
+    font-size: 1.1em;
+}
+
+.left-box p {
+    font-size: 1em;
+    line-height: 150%;
+}
+
+ /*agendamento*/
+
+.agendamento-content {
+    gap: 32px;
+}
+}

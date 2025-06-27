@@ -44,10 +44,8 @@ body {
 }
 
 .n-container {
-  max-width: 1128px;
-  width: 100%;
-  padding: 60px 16px;
-  box-sizing: border-box;
+    width: 100%;
+    max-width: 1128px;
 }
 
 .sub-container{
@@ -91,12 +89,9 @@ body {
   max-width: 524px;
   aspect-ratio: 1 / 1;
   overflow: hidden;
+  border-radius: 10px;
 }
 
-
-.recipient-btn {
-    margin-top: 32px;
-}
 #header-first-btn {
     width: 135px;
     height: 48px;
@@ -107,7 +102,6 @@ body {
     color: #fff;
     font-weight: 700;
     font-size: 1em;
-    margin-right: 10px;
     /* Verificar aqui */
 }
 
@@ -160,6 +154,7 @@ body {
 }
 
 .carousel-item.active {
+  margin-top: 112px;
   opacity: 1;
   pointer-events: auto;
   color: #4C666D;
@@ -277,92 +272,6 @@ body {
   right: 24px;
 }
 
-@media (max-width: 1024px) {
-  .carousel {
-    padding: 32px 24px 24px 24px;
-  }
-
-  .carousel blockquote {
-    font-size: 1.1em;
-    padding: 0 12px;
-  }
-
-  .carousel-profile {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .carousel-logo {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .carousel {
-    padding: 24px 16px;
-  }
-
-  .carousel blockquote {
-    font-size: 1em;
-  }
-
-  .carousel-item {
-    height: auto;
-    padding: 24px 8px;
-  }
-
-  .carousel-stars {
-    font-size: 1.2em;
-    margin-bottom: 12px;
-  }
-
-  .carousel-avatar {
-    width: 40px;
-    height: 40px;
-  }
-
-  .carousel-btn {
-    width: 36px;
-    height: 36px;
-    font-size: 1.5em;
-  }
-
-  .carousel-btn img.arrow-svg {
-    width: 12px;
-    height: 12px;
-  }
-
-  .carousel-btn.prev {
-    left: 12px;
-  }
-
-  .carousel-btn.next {
-    right: 12px;
-  }
-
-  .carousel-indicators {
-    margin-top: 16px;
-    gap: 8px;
-  }
-}
-
-@media (max-width: 480px) {
-  .carousel blockquote {
-    font-size: 0.95em;
-    padding: 0 8px;
-  }
-
-  .carousel-profile strong,
-  .carousel-profile span {
-    font-size: 0.9em;
-    text-align: center;
-  }
-
-  .carousel-dot {
-    width: 6px;
-    height: 6px;
-  }
-}
 
 /* Monitoramento remoto */
 .monitoramento-remoto,
@@ -394,7 +303,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 16px;
+    gap: 32px;
     margin-bottom: 24px;
 }
 
@@ -505,6 +414,7 @@ body {
 .sub-container-left,
 .sub-container-right {
     flex: 1 1 400px;
+    height: 349.33px;
 }
 
 .sub-container-left h2 {
@@ -515,4 +425,16 @@ body {
 .sub-container-left p {
     font-size: 1.125em;
     line-height: 150%;
+}
+
+.sub-container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-fourth-section {
+    width: 100%;
+    height: 349.33px;
+    object-fit: cover;
 }
