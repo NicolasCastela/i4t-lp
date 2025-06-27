@@ -126,7 +126,7 @@
                                 </div>
                             </div>
                         </div>
-                         <div data-banner="musica" class="card-banner-section">
+                        <div data-banner="musica" class="card-banner-section">
                             <img class="second-container-image" src="assets/second-container-banner-two.jpg" alt="">
                             <div class="second-container-content">
                                 <div class="div-texts-cards">
@@ -158,7 +158,7 @@
                                 </div>
                             </div>
                         </div>
-                         <div data-banner="musica" class="card-banner-section">
+                        <div data-banner="musica" class="card-banner-section">
                             <img class="second-container-image" src="assets/second-container-banner-three.jpg" alt="">
                             <div class="second-container-content">
                                 <div class="div-texts-cards">
@@ -189,7 +189,8 @@
                                     <a style="color: #11D3D3;" href="#" class="card-link">CONTINUE LENDO...</a>
                                 </div>
                             </div>
-                        </div> <div data-banner="musica" class="card-banner-section">
+                        </div>
+                        <div data-banner="musica" class="card-banner-section">
                             <img class="second-container-image" src="assets/second-container-banner-four.jpg" alt="">
                             <div class="second-container-content">
                                 <div class="div-texts-cards">
@@ -344,7 +345,37 @@
         document.querySelectorAll('.card-banner-section[data-banner="' + tipo + '"]').forEach(function (banner) {
             banner.style.display = 'flex'; // ou 'block'
         });
+
+        // ...existing code..
+        // ...existing code...
     }
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchBtn = document.querySelector('.search-box button');
+        const searchInput = document.querySelector('.search-box input');
+        if (searchInput) {
+            searchInput.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter') {
+                    searchBtn.click();
+                }
+            });
+        }
+        if (searchBtn) {
+            searchBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                const valor = document.querySelector('.search-box input').value.trim().toLowerCase();
+                document.querySelectorAll('.card-banner-section').forEach(function (banner) {
+                    const tipo = (banner.getAttribute('data-banner') || '').toLowerCase();
+                    if (tipo.includes(valor) || valor === '') {
+                        banner.style.display = 'flex';
+                    } else {
+                        banner.style.display = 'none';
+                    }
+                });
+            });
+        }
+    });
 
 </script>
 
