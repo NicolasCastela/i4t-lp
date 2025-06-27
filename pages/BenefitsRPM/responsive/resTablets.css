@@ -6,10 +6,20 @@
     .agendamento {
         padding: 80px 20px;
     }
+
+    .first-section {
+        flex-wrap: wrap;
+        text-align: center;
+    }
     
     .header-container-left h1 {
         font-size: 2.5em;
         text-align: center;
+    }
+
+    .recipient-btn {
+        display: flex;
+        justify-content: center;
     }
 
     /* Monitoramento remoto */
@@ -44,6 +54,11 @@
 
     .sub-col-items p {
         font-size: 0.9em;
+    }
+
+    #mid-img {
+        max-width: 524px;
+        width: 100%;
     }
 
 
