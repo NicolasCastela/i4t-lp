@@ -21,7 +21,6 @@
             });
     </script>
     <section class="body-container">
-
         <div class="n-container">
             <div class="sub-container">
                 <div class="sub-container-left">
@@ -56,18 +55,80 @@
         </div>
 
         <div class="n-container">
-            <div id="carrossel"></div>
-            <script>
-                fetch('../../components/carrossel.html')
-                    .then(response => response.text())
-                    .then(data => {
-                        document.getElementById('carrossel').innerHTML = data;
-                        const script = document.createElement('script');
-                        script.src = '../../services/carrossel.js';
-                        document.body.appendChild(script);
-                    });
-            </script>
+      <div class="carousel">
+        <button class="carousel-btn prev" aria-label="Anterior">
+          <img src="../../assets/utils/arrow-left-carrossel.svg" alt="Anterior" style="width: 13px; height: 14px;">
+        </button>
+        <div class="carousel-track">
+          <div class="carousel-item active">
+            <div class="carousel-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <blockquote>
+              "Through EmmiTec. Health, we have the ability to expand our service offerings to the network of providers,
+              enhancing their capacity to telemonitor patients with solutions outside traditional care centers. We
+              wholeheartedly recommend EmmiTec. Health to other healthcare institutions, both for the solution they have
+              developed and for the team that supports this company."
+            </blockquote>
+            <div class="carousel-profile">
+              <img class="carousel-avatar" src="../../components/assets/avatar-carrossel-1.jpg" alt="Sebastian B.">
+              <div class="teste-1">
+                <strong>Sebastian B.</strong>
+                <span>Distributor in Chile, Peru, and Ecuador</span>
+              </div>
+              <img class="carousel-logo" src="../../components/assets/logo-web-flow.png" alt="Webflow logo">
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <div class="carousel-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <blockquote>
+              Outro depoimento aqui... 2
+            </blockquote>
+            <div class="carousel-profile">
+              <!-- <img class="carousel-avatar" src="assets/avatar2.jpg" alt="Nome"> -->
+              <div>
+                <strong>Nome</strong><br>
+                <span>Cargo</span>
+              </div>
+              <!-- <img class="carousel-logo" src="assets/webflow-logo.png" alt="Webflow logo"> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <blockquote>
+              "enhancing their capacity to telemonitor. Health to other healthcare institutions, both for the solution
+              they have developed and for the team that supports this company."
+            </blockquote>
+            <div class="carousel-profile">
+              <img class="carousel-avatar" src="../../components/assets/avatar-carrossel-1.jpg" alt="Sebastian B.">
+              <div class="sub-container-carousel">
+                <strong>Sebastian B.</strong>
+                <span>Distributor in Chile, Peru, and Ecuador</span>
+              </div>
+              <img class="carousel-logo" src="../../components/assets/logo-web-flow.png" alt="Webflow logo">
+            </div>
+          </div>
         </div>
+        <div class="carousel-indicators">
+          <span class="carousel-dot active"></span>
+          <span class="carousel-dot"></span>
+          <span class="carousel-dot"></span>
+        </div>
+        <button class="carousel-btn next" aria-label="Próximo">
+          <img src="../../assets/utils/arrow-right-carrossel.svg" alt="Próximo" style="width: 13px; height: 14px;">
+        </button>
+      </div>
+
+
+    </div>
+  </section>
+
+<script src="../../services/carrossel.js"></script>
 
         <div class="n-container">
             <!-- <h1>terminando o do Benefits consegue dar ctrl c + ctrl v</h1> -->
