@@ -14,7 +14,8 @@ body {
 }
 
 .devices-header,
-.monitor {
+.monitor,
+.termometro {
     width: 100%;
     display: flex;
     align-items: center;
@@ -104,31 +105,36 @@ body {
 
 
 /* MONITOR*/
+/* TERMÔMETRO */
 
-.monitor {
+.monitor,
+.termometro {
     padding-top: 112px;
-    padding-bottom: 112px;
 }
 
-.monitor-tittle {
+.monitor-tittle,
+.termo-tittle {
     margin-bottom: 80px;
 }
 
-.monitor-tittle h2 {
+.monitor-tittle h2,
+.termo-tittle h2 {
     margin-top: 24px;
     margin-bottom: 24px;
     font-size: 2.5em;
 }
 
 
-.monitor-produtos {
+.monitor-produtos,
+.termometro-produtos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   gap: 32px;
 
 }
 
-.produtos-item {
+.produtos-item,
+.termo-item {
   text-align: center;
   max-width: 296px;
   border-radius: 10px;
@@ -137,7 +143,14 @@ body {
   border: 1px solid;
 }
 
-.produtos-item img {
+.produtos-item:hover,
+.termo-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.produtos-item img,
+.termo-item img {
   width: 100%;
   min-height: 364.8px;
   border-top-left-radius: 10px;
@@ -145,23 +158,25 @@ body {
   object-fit: cover;
 }
 
-.produtos-item a {
+.produtos-item a,
+.termo-item a {
     text-decoration: none;
     color: #000;
 }
 
-.produtos-item h3 {
+.produtos-item h3,
+.termo-item h3 {
     font-size: 1.125em;
     margin-top: 16px;
     margin-bottom: 8px;
 }
 
-.produtos-item p {
+.produtos-item p,
+.termo-item p {
     font-size: 0.875em;
     margin-bottom: 16px;
 }
 
 
 /* TERMÔMETRO */
-
 
