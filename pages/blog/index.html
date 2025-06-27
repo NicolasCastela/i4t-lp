@@ -268,14 +268,18 @@
 
                         </div>
                         <div class="sidebar-card">
-
+                            <!-- Categorias -->
                             <div class="sidebar-section">
                                 <h3 class="sidebar-title">Categorias</h3>
                                 <ul class="sidebar-categories">
-                                    <li data-button="bem-estar" >Bem-estar <img src="assets/arrow-right-green.svg" alt="Seta"></li>
-                                    <li data-button="nutricao-saudavel">Nutrição <img src="assets/arrow-right-green.svg" alt="Seta"></li>
-                                    <li data-button="saude-mental">Saúde <img src="assets/arrow-right-green.svg" alt="Seta"></li>
-                                    <li data-button="tecnologia">Tecnologia <img src="assets/arrow-right-green.svg" alt="Seta"></li>
+                                    <li data-button="bem-estar">Bem-estar <img src="assets/arrow-right-green.svg"
+                                            alt="Seta"></li>
+                                    <li data-button="nutricao-saudavel">Nutrição <img src="assets/arrow-right-green.svg"
+                                            alt="Seta"></li>
+                                    <li data-button="saude-mental">Saúde <img src="assets/arrow-right-green.svg"
+                                            alt="Seta"></li>
+                                    <li data-button="tecnologia">Tecnologia <img src="assets/arrow-right-green.svg"
+                                            alt="Seta"></li>
                                     <li data-button="rpm">RPM <img src="assets/arrow-right-green.svg  " alt="Seta"></li>
                                 </ul>
                             </div>
@@ -317,8 +321,7 @@
 
         </section>
 
-        <!-- ...existing code... -->
-        <section>   
+        <section>
             <div id="seeAllPost" class="n-container">
 
                 <section class="blog-hero">
@@ -396,9 +399,7 @@
                         <a href="#" class="blog-card-link">Leia mais <span>&rarr;</span></a>
                     </div>
 
-                    <!-- Repita para os outros cards -->
                 </section>
-                <!-- ...existing code... -->
             </div>
         </section>
     </section>
@@ -418,15 +419,13 @@
 
     <script>
         document.querySelectorAll('.sidebar-categories li[data-button]').forEach(li => {
-    li.addEventListener('click', function() {
-        const categoria = this.getAttribute('data-button');
-        // Ativa o botão de filtro correspondente
-        const btn = document.querySelector('.filter-btn[data-button="' + categoria + '"]');
-        if (btn) btn.click();
-        // Rola até os posts (caso queira garantir)
-        document.getElementById('seeAllPost').scrollIntoView({ behavior: 'smooth' });
-    });
-});
+            li.addEventListener('click', function () {
+                const categoria = this.getAttribute('data-button');
+                const btn = document.querySelector('.filter-btn[data-button="' + categoria + '"]');
+                if (btn) btn.click();
+                document.getElementById('seeAllPost').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
     </script>
 
 </body>
