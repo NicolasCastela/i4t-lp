@@ -272,15 +272,14 @@
                             <div class="sidebar-section">
                                 <h3 class="sidebar-title">Categorias</h3>
                                 <ul class="sidebar-categories">
-                                    <li>Bem-estar <img src="assets/arrow-right-green.svg" alt="Seta"></li>
-                                    <li>Nutrição <img src="assets/arrow-right-green.svg" alt="Seta"></li>
-                                    <li>Saúde <img src="assets/arrow-right-green.svg" alt="Seta"></li>
-                                    <li>Tecnologia <img src="assets/arrow-right-green.svg" alt="Seta"></li>
-                                    <li>RPM <img src="assets/arrow-right-green.svg  " alt="Seta"></li>
+                                    <li data-button="bem-estar" >Bem-estar <img src="assets/arrow-right-green.svg" alt="Seta"></li>
+                                    <li data-button="nutricao-saudavel">Nutrição <img src="assets/arrow-right-green.svg" alt="Seta"></li>
+                                    <li data-button="saude-mental">Saúde <img src="assets/arrow-right-green.svg" alt="Seta"></li>
+                                    <li data-button="tecnologia">Tecnologia <img src="assets/arrow-right-green.svg" alt="Seta"></li>
+                                    <li data-button="rpm">RPM <img src="assets/arrow-right-green.svg  " alt="Seta"></li>
                                 </ul>
                             </div>
                         </div>
-
                         <!-- Galeria -->
                         <div class="sidebar-card gallery">
                             <div class="sidebar-section-gallery">
@@ -319,7 +318,7 @@
         </section>
 
         <!-- ...existing code... -->
-        <section>
+        <section>   
             <div id="seeAllPost" class="n-container">
 
                 <section class="blog-hero">
@@ -417,6 +416,18 @@
 
     <script src="../../services/blog-service.js"></script>
 
+    <script>
+        document.querySelectorAll('.sidebar-categories li[data-button]').forEach(li => {
+    li.addEventListener('click', function() {
+        const categoria = this.getAttribute('data-button');
+        // Ativa o botão de filtro correspondente
+        const btn = document.querySelector('.filter-btn[data-button="' + categoria + '"]');
+        if (btn) btn.click();
+        // Rola até os posts (caso queira garantir)
+        document.getElementById('seeAllPost').scrollIntoView({ behavior: 'smooth' });
+    });
+});
+    </script>
 
 </body>
 
