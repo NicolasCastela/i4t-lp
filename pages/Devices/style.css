@@ -15,7 +15,8 @@ body {
 
 .devices-header,
 .monitor,
-.termometro {
+.termometro,
+.medidor {
     width: 100%;
     display: flex;
     align-items: center;
@@ -25,7 +26,7 @@ body {
 .body-container {
     display: flex;
     flex-direction: column;
-    padding: 112px 156px 112px 156px;
+    padding: 112px 64px 112px 64px;
     width: 100%;
 }
 
@@ -104,37 +105,40 @@ body {
 }
 
 
-/* MONITOR*/
+/* MONITOR */
 /* TERMÔMETRO */
+/* MEDIDOR */
 
-.monitor,
-.termometro {
+.monitor {
     padding-top: 112px;
 }
 
-.monitor-tittle,
-.termo-tittle {
+.main-devices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.produtos-tittle {
     margin-bottom: 80px;
 }
 
-.monitor-tittle h2,
-.termo-tittle h2 {
+.produtos-tittle h2 {
     margin-top: 24px;
     margin-bottom: 24px;
     font-size: 2.5em;
 }
 
 
-.monitor-produtos,
-.termometro-produtos {
+.produtos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   gap: 32px;
-
 }
 
-.produtos-item,
-.termo-item {
+.produtos .item{
   text-align: center;
   max-width: 296px;
   border-radius: 10px;
@@ -143,14 +147,12 @@ body {
   border: 1px solid;
 }
 
-.produtos-item:hover,
-.termo-item:hover {
+.produtos .item:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-.produtos-item img,
-.termo-item img {
+.produtos .item img {
   width: 100%;
   min-height: 364.8px;
   border-top-left-radius: 10px;
@@ -158,25 +160,35 @@ body {
   object-fit: cover;
 }
 
-.produtos-item a,
-.termo-item a {
+.produtos .item a{
     text-decoration: none;
     color: #000;
 }
 
-.produtos-item h3,
-.termo-item h3 {
+.produtos .item h3{
     font-size: 1.125em;
     margin-top: 16px;
     margin-bottom: 8px;
 }
 
-.produtos-item p,
-.termo-item p {
+.produtos .item p{
     font-size: 0.875em;
     margin-bottom: 16px;
 }
 
+.medidor .produtos {
+    display: flex;
+    justify-items: start;
+    flex-wrap: wrap;
+}
 
-/* TERMÔMETRO */
-
+.ver-todos-btn {
+    width: 138px;
+    height: 34px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #11D3D3;
+    color: #fff;
+    font-weight: 700;
+}
