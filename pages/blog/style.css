@@ -513,7 +513,7 @@ body button {
   margin: 0 18px 18px 18px;
 }
 .blog-card-link {
-  color: #11D3D3;
+  color: #4C666D;
   font-weight: 600;
   text-decoration: none;
   margin-left: 18px;
@@ -522,6 +522,11 @@ body button {
   gap: 4px;
   font-size: 1em;
 }
+.blog-card-link:hover{
+    color: #11D3D3;
+}
+
+
 .blog-card-link span {
   font-size: 1.2em;
   transition: transform 0.2s;
