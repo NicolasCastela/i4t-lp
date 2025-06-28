@@ -217,7 +217,7 @@ body {
 .discovery-pos-banner .container {
   display: flex;
   flex-direction: row;
-  width: 1280px;
+  width: 1128px;
   height: auto;
   padding: 0;
 }
@@ -336,7 +336,6 @@ body {
 
 .banner-content {
   height: 402px;
-  border: 1px solid #000000;
   padding: 60px;
   display: flex;
   flex-direction: column;
@@ -462,11 +461,12 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1128px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+
 }
 
 .footer-section {
