@@ -48,12 +48,4 @@
         font-size: 1em;
     }
 
-    /* medido */
-
-        .medidor .produtos{
-      display: flex;
-      flex-wrap: wrap !important;
-      justify-content: center;
-    }
-
 }

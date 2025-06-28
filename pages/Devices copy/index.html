@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmitech Health</title>
+    <link rel="shortcut icon" href="../../assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../components/style-components.css">
+    <link rel="stylesheet" href="responsive/resDesktop.css">
+    <link rel="stylesheet" href="responsive/resTablets.css">
+    <link rel="stylesheet" href="responsive/resMobile.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch('../../components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+    </script>
+    <section class="body-container">
+        <header class="devices-header">
+            <div class="n-container">
+                <div class="first-section">
+                <div class="header-container-left">
+                    <h1>Equipamentos Integrados</h1>
+                </div>
+                <div class="header-container-right">
+                    <p>
+                        Na plataforma de monitoramento <strong>EmmiTec.Health</strong> trabalhamos apenas com dispositivos e equipamentos que atendem aos mais altos padrões de qualidade e segurança, e que são homologados pelas entidades certificadoras regionais. Todos os produtos homologados foram testados, validados e são totalmente compatíveis com nossa <strong>plataforma de Monitoramento Remoto de Pacientes (RPM),</strong> garantindo desempenho, precisão e integração perfeita com sua rotina clínica.</p>
+
+                    <div class="recipient-btn">
+                        <button id="header-first-btn">
+                            Saiba Mais
+                        </button>
+                        <button id="header-second-btn">
+                            Agende uma Visita
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </header>
+
+
+        <main class="main-devices">
+            <section class="monitor">
+                <div class="n-container">
+                    <div class="produtos-content">
+                        <div class="produtos-tittle">
+                            <h2>
+                                Monitor de Pressão Arterial
+                            </h2>
+                        </div>
+
+                        <div class="produtos">
+
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/termômetro/termo-item-01.png" alt="">
+                                    <h3>TD-3128</h3>
+                                    <p>Monitor de pressão arterial</p>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/oximetro/item-1.png" alt="">
+                                    <h3>TD-3140</h3>
+                                    <p>Monitor de pressão arterial</p>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/monitor preção/item-01.png" alt="">
+                                    <h3>AND-651BLE</h3>
+                                    <p>Monitor de pressão arterial</p>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/monitor preção/item-02.png" alt="">
+                                    <h3>Omron BP7000</h3>
+                                    <p>Monitor de pressão arterial</p>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/monitor preção/item-03.png" alt="">
+                                    <h3>UAM-820</h3>
+                                    <p>Monitor de pressão arterial</p>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/monitor preção/item-04.png" alt="">
+                                    <h3>Omron BP7000</h3>
+                                    <p>Monitor de pressão arterial</p>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/monitor preção/item-05.png" alt="">
+                                    <h3>Omron BP7000</h3>
+                                    <p>Monitor de pressão arterial</p>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/medidores/medidor-item-01.png" alt="">
+                                    <h3>Omron BP7000</h3>
+                                    <p>Monitor de pressão arterial</p>
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <button class="ver-todos-btn">
+                Ver todos
+            </button>
+
+
+            <section class="last-section">
+                <div class="n-container">
+                    <div class="last-section-content">
+                        <div class="last-section-left">
+                            <div class="top">
+                                <h2>
+                                    Termômetro TD-1242 : Acompanhe em tempo real, a temperatura do seu paciente.
+                                </h2>
+
+                                <li>Tecnologia infravermelha.</li>
+                                <li>Conversão C/F.</li>
+                                <li>30 memórias.</li>
+                                <li>Retroiluminação de duas cores.</li>
+                                <li>Modos de medição de testa (escolha de crianças e adultos) e superfície.</li>
+                                <li>BLE 5.0 (Conectividade Bluetooth de Baixa Energia).</li>
+                            </div>
+                            <div class="bottom">
+                                <h3>
+                                    Tecnologia Avançada
+                                </h3>
+                                <p>
+                                    Um termômetro sem fio que registra e rastreia automaticamente as medições através do aplicativo móvel Sanitas Remota™ e do aplicativo web Sanitas Remota™.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="last-section-right">
+                            <img src="assets/termômetro/termo-item-01.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+        </main>
+    </section>
+
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('../../components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
