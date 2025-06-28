@@ -21,6 +21,7 @@ body {
 
 .n-container {
     width: 1128px;
+    border: 2px solid blue;
 }
 
 
@@ -86,4 +87,108 @@ body {
 .appli-header-btn {
     width: 100%;
     max-width: 543px;
+}
+
+
+
+/* ......................... */
+
+
+.first-section {
+    padding: 112px 156px 112px 156px;
+}
+
+.first-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+}
+
+.first-section-tittle h2 {
+    font-size: 2.5em;
+    line-height: 120%;
+    text-align: center;
+}
+
+.first-section-cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    width: 100%;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 344px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: 209px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-span {
+    width: 100%;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    height: 48px;
+}
+
+.card span {
+    font-size: 1em;
+    line-height: 150%;
+    text-align: center;
+    width: 100%;
+    max-width: 344px;
+}
+
+/* ........................... */
+
+
+.second-section {
+    padding: 0px 156px 112px 156px;
+}
+
+.second-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+}
+
+.second-section-tittle {
+    padding: 24px;
+}
+
+.second-section-tittle h2 {
+    font-size: 2.5em;
+    line-height: 120%;
+    text-align: center;
+}
+
+.second-section-cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    width: 100%;
+}
+
+.card-icon img{
+    width: 56px;
+    height: auto;
+    object-fit: fill;
 }
