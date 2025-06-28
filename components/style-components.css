@@ -431,9 +431,8 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 100%;
-    left: 0;
     right: 0;
+    top: 140px;
     width: 100vw;
     background: #fff;
     padding: 20px;
@@ -445,6 +444,7 @@
   .header-nav.active {
     display: flex;
   }
+
 
   .header-nav a {
     padding: 15px 0;

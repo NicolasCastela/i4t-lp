@@ -28,7 +28,6 @@
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header-placeholder').innerHTML = data;
-                // Carrega o script do header após o HTML ser inserido
                 const script = document.createElement('script');
                 script.src = 'components/header.js';
                 document.head.appendChild(script);
