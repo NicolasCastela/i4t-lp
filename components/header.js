@@ -3,14 +3,58 @@ fetch('../../components/header.html')
   .then(data => {
     document.getElementById('header-placeholder').innerHTML = data;
 
-    setTimeout(() => {
-      const hamburgerBtn = document.getElementById('hamburger-btn');
+    // Espera o DOM do header ser injetado
+      const hamburger = document.querySelector('.hamburger');
       const mobileMenu = document.getElementById('mobile-menu');
 
-      if (hamburgerBtn && mobileMenu) {
-        hamburgerBtn.addEventListener('click', () => {
-          mobileMenu.classList.toggle('active');
+      // Função para ajustar os caminhos
+      function adjustPaths() {
+        const currentPath = window.location.pathname;
+        const isRoot = currentPath === '/' || currentPath.endsWith('index.html');
+      
+        const linksToAdjust = document.querySelectorAll('a[href^="../"], a[href^="../../"]');
+        linksToAdjust.forEach(link => {
+          let href = link.getAttribute('href');
+      
+          if (isRoot) {
+            if (href.includes('index.html')) {
+              href = href.replace(/^(\.\.\/)+/, '/pages/');
+            } else {
+              href = href.replace(/^(\.\.\/)+/, '/pages');
+            }
+          } else {
+            if (href.startsWith('../../')) {
+              href = href.replace('../../', '');
+            }
+          }
+      
+          link.setAttribute('href', href);
         });
       }
-    }, 0);
+
+      adjustPaths();
+
+      // Funcionalidade do menu hamburguer
+      if (hamburger && mobileMenu) {
+        hamburger.addEventListener('click', function () {
+          mobileMenu.classList.toggle('active');
+          hamburger.classList.toggle('active');
+        });
+
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+          link.addEventListener('click', function () {
+            mobileMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+          });
+        });
+
+        document.addEventListener('click', function (event) {
+          if (!hamburger.contains(event.target) && !mobileMenu.contains(event.target)) {
+            mobileMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+          }
+        });
+      }
+    
   });

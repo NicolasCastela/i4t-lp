@@ -431,23 +431,27 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 110px;
-    left: 30px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100vw;
     background: #fff;
-    border-radius: 8px;
-    padding: 16px;
+    padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     z-index: 1000;
-    width: 200px;
+    border-top: 1px solid #e5e7eb;
   }
+  
   .header-nav.active {
     display: flex;
   }
 
   .header-nav a {
-    padding: 12px 0;
+    padding: 15px 0;
     font-size: 16px;
     border-bottom: 1px solid #eee;
+    width: 100%;
+    display: block;
   }
 
   .header-nav a:last-child {
