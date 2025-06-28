@@ -9,6 +9,9 @@
 
     .first-section {
       flex-wrap: wrap;
+      border: 1px solid #11D3D3;
+      padding: 25px;
+      border-radius: 10px;
     }
   
   .header-content {
@@ -128,6 +131,9 @@
         justify-content: center;
     }
 
+    .imagem-banner {
+      border-radius: 10px;
+    }
 
         /* Monitoramento remoto */
 

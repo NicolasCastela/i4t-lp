@@ -108,9 +108,13 @@
 
   /*First-section*/
 
+
   .first-section-content {
     justify-content: center;
     align-items: center;
+    border: 1px solid #11D3D3;
+    border-radius: 10px;
+    padding: 25px;
   }
 
   .first-section-left h1 {
