@@ -34,7 +34,6 @@ body {
 .n-container {
     width: 100%;
     max-width: 1128px;
-    border: 2px solid red;
 }
 
 
@@ -145,7 +144,6 @@ body {
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  border: 1px solid;
 }
 
 .produtos .item:hover {
@@ -180,7 +178,6 @@ body {
 .medidor .produtos {
     display: flex;
     justify-items: start;
-    flex-wrap: wrap;
 }
 
 .ver-todos-btn {
@@ -193,6 +190,11 @@ body {
     color: #fff;
     font-weight: 700;
     cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.ver-todos-btn:hover {
+    background-color: #00b3b3;
 }
 
 /*LAST SECTION*/
@@ -235,5 +237,15 @@ body {
 
 .last-section-left .top li {
     font-size: 1.125em;
-    line-height: 150%;
+    padding: 10px;
+}
+
+.last-section-left .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.last-section-left .bottom h3 {
+    font-size: 1.25em;
 }
