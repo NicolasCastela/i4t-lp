@@ -23,6 +23,10 @@
     align-items: flex-start;
   }
 
+  .produtos .item{
+    max-width: 768px;
+  }
+
   .header-nav {
     display: none;
     flex-direction: column;
