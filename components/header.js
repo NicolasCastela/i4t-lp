@@ -3,19 +3,19 @@ fetch('../../components/header.html')
   .then(data => {
     document.getElementById('header-placeholder').innerHTML = data;
 
-    // Espera o DOM do header ser injetado
+    // Garante que o DOM seja atualizado antes de selecionar elementos
+    setTimeout(() => {
       const hamburger = document.querySelector('.hamburger');
       const mobileMenu = document.getElementById('mobile-menu');
 
-      // Função para ajustar os caminhos
       function adjustPaths() {
         const currentPath = window.location.pathname;
         const isRoot = currentPath === '/' || currentPath.endsWith('index.html');
-      
+
         const linksToAdjust = document.querySelectorAll('a[href^="../"], a[href^="../../"]');
         linksToAdjust.forEach(link => {
           let href = link.getAttribute('href');
-      
+
           if (isRoot) {
             if (href.includes('index.html')) {
               href = href.replace(/^(\.\.\/)+/, '/pages/');
@@ -27,14 +27,14 @@ fetch('../../components/header.html')
               href = href.replace('../../', '');
             }
           }
-      
+
           link.setAttribute('href', href);
         });
       }
 
       adjustPaths();
 
-      // Funcionalidade do menu hamburguer
+      // Menu hambúrguer funcional
       if (hamburger && mobileMenu) {
         hamburger.addEventListener('click', function () {
           mobileMenu.classList.toggle('active');
@@ -56,5 +56,5 @@ fetch('../../components/header.html')
           }
         });
       }
-    
+    }, 0); // Garante que DOM esteja atualizado
   });
