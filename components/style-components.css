@@ -416,7 +416,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .header-content {
     flex-wrap: wrap;
     gap: 16px;
@@ -478,6 +478,5 @@
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
-  .header-main {
-    padding: 80px 50px 80px 50px;
-  }}
+  
+  }
