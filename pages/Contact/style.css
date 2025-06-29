@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +10,8 @@
 }
 
 .connect,
-.contact {
+.contact,
+.locate {
     padding: 112px 64px;
     display: flex;
     align-items: center;
@@ -34,7 +36,8 @@ body {
     border: 2px solid red;
 }
 
-.connect-content {
+.connect-content,
+.locate-content {
     display: flex;
     gap: 80px;
 }
@@ -115,18 +118,21 @@ body {
     gap: 48px;
 }
 
-.contact-top {
+.contact-top,
+.locate-top {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.contact-top h2 {
+.contact-top h2,
+.locate-top h2 {
     font-size: 2.5em;
     line-height: 120%;
 }
 
-.contact-top p {
+.contact-top p,
+.locate-top p {
     font-size: 1.125em;
     line-height: 150%;
 }
@@ -214,5 +220,61 @@ body {
 
 .contact-bottom button:hover {
     background-color: #00b7c3;
+}
+
+
+/* .......................... */
+
+.locate-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.locate-bottom {
+    display: flex;
+    gap: 80px;
+}
+
+.locate-left {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    gap: 40px;
+}
+
+.locate-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.locate-item h3 {
+    font-size: 1.25em;
+}
+
+.locate-item a {
+    text-decoration: none;
+    color: #4C666D;
+}
+
+#a-line {
+    text-decoration: underline;
+}
+
+.locate-left,
+.locate-rifht {
+    flex: 1;
+}
+
+.locate-left {
+    max-width: 350px;
+    width: 1005;
+}
+
+.locate-right img {
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    object-fit: cover;
 }
 
