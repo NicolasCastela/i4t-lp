@@ -1,11 +1,15 @@
 @media (min-width: 769px) and (max-width: 1023px) {
-  .first-section,
+
   .second-section,
-  .third-section,
-  .header-main {
-    padding: 80px 50px 80px 50px;
+  .third-section
+ {
+    padding: 80px 20px;
   }
   
+  .first-section{
+    padding: 40px 10px;
+  }
+
     .first-section-content {
     justify-content: center;
     align-items: center;
@@ -20,6 +24,10 @@
     font-size: 1.2em;
     line-height: 150%;
     text-align: center;
+  }
+
+  .container{
+    padding: 0 20px;
   }
 
   .first-section-right-btn {
