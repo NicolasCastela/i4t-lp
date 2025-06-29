@@ -1,13 +1,108 @@
 @media (min-width: 769px) and (max-width: 1023px) {
-    
-    .body-container {
+
+    .n-container {
         padding: 80px 20px;
     }
 
-    .first-section {
-        flex-wrap: wrap;
+    .card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.33);
+    border-radius: 10px;
+    padding: 15px;
+    }
+
+    .card img {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+        .first-section,
+    .last-section {
+      padding: 56px 0px 56px 0px;
+    }
+
+
+    .second-section {
+      padding: 0px 0px 56px 0px;
+    }
+
+    .banner-footer {
+      padding-top: 56px !important;
+    }
+
+
+    /* .......... */
+
+    .appli-header-content {
+        align-items: center;
         text-align: center;
-        justify-content: center;
+        border: 1px solid #11D3D3;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
     }
     
+    .header-appli-tittle h1 {
+        font-size: 3em;
+    }
+
+    .header-appli-tittle p {
+        font-size: 1.125em;
+    }
+
+    /* ......................... */
+
+    .first-section-tittle h2,
+    .second-section-tittle h2 {
+        font-size: 2em;
+    }
+    
+    .first-section-cards,
+    .second-section-cards {
+        gap: 10px;
+    }
+
+    .first-section-content,
+    .second-section-content {
+        gap: 60px;
+    }
+    
+    /* ......................... */
+
+
+.last-section::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle at top right, #11D3D3 -80%, transparent 40%);
+  z-index: 0;
+  pointer-events: none;
+}    
+
+    .last-section-content {
+        gap: 60px;
+    }
+
+    .last-section-left .top h2 {
+        font-size: 2em;
+    }
+
+    .last-section-left .top p {
+        font-size: 1em;
+    }
+
+    .last-section-left .bottom li {
+        font-size: 1em;
+    }
+
+    /* ................... */
+
+    .banner-items h2 {
+        font-size: 2.5em;
+    }
+
+    .banner-items p {
+        font-size: 1em;
+    }
 }

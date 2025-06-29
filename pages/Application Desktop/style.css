@@ -20,13 +20,12 @@ body {
 }
 
 .n-container {
-    width: 1128px;
-    border: 2px solid blue;
+    width: 100%;
+    max-width: 1128px;
 }
 
 
 .appli-header {
-    background-color: red;
     background: linear-gradient(to right, rgba(17, 211, 211, 0.199) 0%, rgba(0, 0, 0, 0.53) 53%)
 , url(assets/header-banner.png);
     background-size: cover;
@@ -68,7 +67,7 @@ body {
 }
 
 .header-appli-tittle p {
-    font-size: 1.125em;
+    font-size: 1.25em;
     line-height: 150%;
     color: #fff;
 }
@@ -93,9 +92,8 @@ body {
 
 /* ......................... */
 
-
 .first-section {
-    padding: 112px 156px 112px 156px;
+    padding: 112px 0 112px 0;
 }
 
 .first-section-content {
@@ -145,7 +143,7 @@ body {
     display: flex;
     justify-content: top;
     align-items: top;
-    height: 48px;
+    height: 100%;
 }
 
 .card span {
@@ -160,13 +158,13 @@ body {
 
 
 .second-section {
-    padding: 0px 156px 112px 156px;
+    padding: 0px 0px 112px 0px;
 }
 
 .second-section-content {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 80px;
     width: 100%;
 }
 
@@ -194,15 +192,23 @@ body {
 }
 
 
-
 /* ............... */
 
 
 .last-section {
     display: flex;
-    flex-direction: column;
-    gap: 80px;
-    padding: 112px 156px 112px 156px;
+    padding: 112px 0px 112px 0px;
+}
+
+.last-section::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle at top right, #11D3D3 -80%, transparent 60%);
+  z-index: 0;
+  pointer-events: none;
 }
 
 .last-section-content {
@@ -227,6 +233,7 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    z-index: 99;
 }
 
 .last-section-left .top h2 {
@@ -290,7 +297,7 @@ body {
   background-position: center;
   width: 100%;
   height: 402px;
-  z-index: 9;
+  z-index: 99;
 }
 
 .banner-items {
@@ -353,3 +360,4 @@ body {
 .btn-secondary:hover {
   background-color: #235f74;
 }
+
