@@ -1,32 +1,18 @@
 @media (min-width: 769px) and (max-width: 1023px) {
 
     .n-container {
-        padding: 80px 20px;
+        padding: 52px 20px;
     }
 
     .card {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.33);
-    border-radius: 10px;
-    padding: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.33);
+        border-radius: 10px;
+        padding: 15px;
     }
 
     .card img {
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
-    }
-
-        .first-section,
-    .last-section {
-      padding: 56px 0px 56px 0px;
-    }
-
-
-    .second-section {
-      padding: 0px 0px 56px 0px;
-    }
-
-    .banner-footer {
-      padding-top: 56px !important;
     }
 
 

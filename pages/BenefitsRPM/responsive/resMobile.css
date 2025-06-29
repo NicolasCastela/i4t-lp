@@ -5,10 +5,8 @@
     }
 
     .n-container {
-    width: 100%;
-    max-width: 1128px;
     padding: 42px 0px;
-}
+    }
 
     .first-section {
       flex-wrap: wrap;

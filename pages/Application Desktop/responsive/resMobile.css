@@ -1,15 +1,10 @@
 @media (max-width: 768px) {
-    .n-container{
-        padding: 40px 10px;
-    }
 
     /* first / second -section */
 
-    .first-section,
-    .last-section {
-      padding: 56px 0px 56px 0px;
+    .n-container {
+        padding: 42px 20px;
     }
-
 
     .second-section {
       padding: 0px 0px 56px 0px;
