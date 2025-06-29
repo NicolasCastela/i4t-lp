@@ -1,0 +1,46 @@
+@media (min-width: 769px) and (max-width: 1023px) {
+    
+    .body-container {
+        padding: 80px 20px;
+    }
+
+    .first-section {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 32px;
+    }
+    
+    .header-container-left h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .header-container-right p {
+        font-size: 1em;
+    }
+
+    .recipient-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .produtos-tittle h2 {
+        font-size: 2em;
+    }
+
+    .produtos .item h3 {
+        font-size: 1em;
+    }
+
+    
+    /* APLICATIVOS */
+    
+    .aplicativos-content h2 {
+        font-size: 1.2em;
+    }
+
+    .aplicativos-content span {
+        font-size: 0.9em;
+    }
+}
