@@ -1,5 +1,9 @@
 @media (min-width: 794px) and (max-width: 1023px) {
 
+  .n-container {
+    padding: 64px 0px;
+}  
+
   .carousel {
     padding: 24px 16px;
   }
@@ -48,10 +52,7 @@
   }
 
 
-    .body-container,
-    .monitoramento-remoto,
-    .financeiras,
-    .agendamento {
+    .body-container {
         padding: 80px 20px;
     }
 
@@ -63,6 +64,11 @@
     .header-container-left h1 {
         font-size: 2.5em;
         text-align: center;
+    }
+
+    .recognition-header-content {
+      flex-direction: column;
+      text-align: center;
     }
 
     .recipient-btn {
@@ -92,7 +98,7 @@
 
     .sub-col-items-left,
     .sub-col-items-right {
-        box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
         padding: 25px;
         border-radius: 10px;
     }
@@ -104,13 +110,7 @@
     .sub-col-items p {
         font-size: 0.9em;
     }
-
-    #mid-img {
-        max-width: 524px;
-        width: 100%;
-    }
-
-
+    
     /*financeiras*/
 
 .financeiras-content {

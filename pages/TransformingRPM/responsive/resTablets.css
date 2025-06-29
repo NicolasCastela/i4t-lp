@@ -1,4 +1,9 @@
 @media (min-width: 769px) and (max-width: 1191px) {
+
+    .body-container {
+        padding: 80px 20px;
+    }
+
     .header-tittle {
         font-size: 2em;
     }

@@ -14,10 +14,12 @@ body {
 }
 
 
-.main-content {
+.body-container {
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 4px solid red;
+    padding: 0px 156px;
 }
 
 .recognition-header {
@@ -29,8 +31,11 @@ body {
 .recognition-header-content {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap !important;
   gap: 80px;
+}
+
+.r-header-content-left {
+  gap: 32px;
 }
 
 .r-header-content-left h1 {
@@ -46,6 +51,7 @@ body {
 .n-container {
     width: 100%;
     max-width: 1128px;
+    padding: 112px 0px;
 }
 
 .sub-container{
@@ -92,10 +98,14 @@ body {
   border-radius: 10px;
 }
 
+.recipient-btn {
+  gap: 16px;
+}
+
 #header-first-btn {
     width: 135px;
     height: 48px;
-    padding: 12px 24px 12px 24px;
+    padding: 12px 24px;
     border-radius: 10px;
     border: none;
     background-color: #11D3D3;
@@ -108,7 +118,7 @@ body {
 #header-second-btn {
     width: 198px;
     height: 48px;
-    padding: 12px 24px 12px 24px;
+    padding: 12px 24px;
     border-radius: 10px;
     border: none;
     border: 1px solid #11D3D3;
@@ -126,7 +136,7 @@ body {
   margin: 0 auto;
   background: #fff;
   border-radius: 12px;
-  padding: 40px 32px 32px 32px;
+  padding: 40px 32px;
   overflow: hidden;
 }
 
@@ -154,7 +164,6 @@ body {
 }
 
 .carousel-item.active {
-  margin-top: 112px;
   opacity: 1;
   pointer-events: auto;
   color: #4C666D;
@@ -274,11 +283,7 @@ body {
 
 
 /* Monitoramento remoto */
-.monitoramento-remoto,
-.financeiras {
-    padding: 112px 156px 112px 156px;
-    
-}
+
 
 .header-container-left h1 {
     font-size: 3.5em;
@@ -291,7 +296,6 @@ body {
 }
 
 .agendamento {
-    padding: 112px 156px 112px 156px;
     display: flex;
     justify-content: center;
 }
@@ -340,7 +344,7 @@ body {
     justify-content: center;
 }
 
-.sub-col img {
+#mid-img {
     width: 100%;
     height: 100%;
     object-fit: cover;

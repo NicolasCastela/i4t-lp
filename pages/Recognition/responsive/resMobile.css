@@ -1,14 +1,21 @@
 @media (max-width: 793px) {
 
 
+    .body-container {
+      padding: 40px 20px;
+    }
+
   .carousel {
     display: none;
   }
-  
-    .monitoramento-remoto,
-    .agendamento,
-    .recognition-header {
-        padding: 80px 20px;
+
+  .n-container {
+    padding: 64px 0px;
+}
+
+    .recognition-header-content {
+      flex-direction: column;
+      text-align: center;
     }
 
   .hamburger {
@@ -64,6 +71,16 @@
 
         /* Header */
 
+    .r-header-content-left {
+      border: 1px solid #11D3D3;
+      border-radius: 10px;
+      padding: 15px;
+    }
+
+    .class-image {
+        height: 524px;
+    }
+
   .r-header-content-left h1 {
     font-size: 2em;
     text-align: center;
@@ -86,7 +103,7 @@
 
      .sub-col-items-left,
      .sub-col-items-right {
-        box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
         padding: 25px;
         border-radius: 10px;
     }
@@ -99,9 +116,21 @@
         font-size: 0.9em;
     }
 
+    .sub-col {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      justify-content: center;
+    }
+
     .cols-4 {
       display: flex;
       flex-direction: column;
+    }
+
+    #mid-img {
+      height: 540px;
+      max-width: 100%;
     }
  
  /*agendamento*/

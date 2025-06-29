@@ -12,17 +12,24 @@ body {
     color: #4C666D;
 }
 
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 64px;
+    width: 100%;  
+}
+
 .header-main {
-    padding: 112px 156px 112px 156px;
     display: flex;
     justify-content: center;
 }
   
 .container {
   max-width: 1280px;
-  width: 1128px;
-  margin: 0 auto;
-  padding: 0 !important;
+  width: 100%;
+  padding: 112px 0px;
 }
 
 .header-content {
@@ -57,7 +64,7 @@ body {
     cursor: pointer;
     width: 135px;
     height: 48px;
-    padding: 12px 24px 12px 24px;
+    padding: 12px 24px;
     border-radius: 10px;
     border: none;
     background-color: #11D3D3;
@@ -81,7 +88,7 @@ body {
     cursor: pointer;
     width: 198px;
     height: 48px;
-    padding: 12px 24px 12px 24px;
+    padding: 12px 24px;
     border-radius: 10px;
     border: none;
     border: 1px solid #11D3D3;
@@ -100,7 +107,6 @@ body {
 /* SECTION beneficios-monitoramento*/
 
 .beneficios-monitoramento {
-    padding: 112px 156px 112px 156px;
     display: flex;
     justify-content: center;
 }
@@ -184,7 +190,6 @@ body {
 /* SECTION beneficios-medicos*/
 
 .beneficios-medicos {
-  padding: 112px 156px 112px 156px;
   display: flex;
   justify-content: center;
 }
@@ -273,7 +278,6 @@ body {
 /* SECTION beneficios-hospitais*/
 
 .beneficios-hospitais {
-  padding: 112px 156px 112px 156px;
   display: flex;
   justify-content: center;
 }
@@ -363,7 +367,6 @@ body {
 /* SECTION beneficios-pacientes*/
 
 .beneficios-pacientes {
-  padding: 112px 156px 112px 156px;
   display: flex;
   justify-content: center;
 }
