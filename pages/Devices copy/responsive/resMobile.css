@@ -13,11 +13,21 @@
     border-radius: 10px;
     }
   
+  .header-content {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
   .hamburger {
     display: flex;
     align-items: flex-start;
   }
 
+  .produtos .item{
+    max-width: 768px;
+  }
+
+ 
 
   .banner-home-index {
     padding: 40px 20px;
@@ -51,7 +61,6 @@
     text-align: center;
   }
 
-  
 
   .btn-login {
     width: 100px;

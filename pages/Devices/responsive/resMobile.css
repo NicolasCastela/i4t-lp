@@ -4,14 +4,14 @@
         padding: 80px 20px;
     }
 
-    .first-section {
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-            border: 1px solid #11D3D3;
+  .first-section {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #11D3D3;
     padding: 25px;
     border-radius: 10px;
-    }
+  }
   
   .header-content {
     flex-wrap: wrap;

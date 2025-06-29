@@ -4,11 +4,8 @@
         padding: 40px 20px;
     }
 
-    .connect,
-    .contact,
-    .locate,
-    .second-locate {
-            padding: 52px 32px;
+    .n-container {
+            padding: 52px 0px;
     }
 
     .connect-left h1 {

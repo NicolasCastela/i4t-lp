@@ -13,7 +13,6 @@
 .contact,
 .locate,
 .second-locate {
-    padding: 112px 64px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,11 +28,13 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 112px 64px;
 }
 
 .n-container {
     width: 1128px !important;
     width: 100%;
+    padding: 112px 0px;
 }
 
 .connect-content,
