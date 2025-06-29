@@ -8,6 +8,15 @@
 
 }
 
+.connect,
+.contact {
+    padding: 112px 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 body {
     padding: 0;
      color: #4C666D;
@@ -20,6 +29,190 @@ body {
 }
 
 .n-container {
-    width: 1128px;
-    padding: 60px 0;
+    width: 1128px !important;
+    width: 100%;
+    border: 2px solid red;
 }
+
+.connect-content {
+    display: flex;
+    gap: 80px;
+}
+
+.connect-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 524px;
+    width: 100%;
+}
+
+.connect-left h1 {
+    font-size: 3.5em;
+    line-height: 120%;
+}
+
+.connect-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 524px;
+    width: 100%;
+}
+
+.connect-right p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+.recipient-btn {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#header-first-btn,
+#header-second-btn {
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#header-first-btn {
+    width: 135px;
+    background-color: #11D3D3;
+    color: #fff;
+    border: none;
+}
+
+#header-first-btn:hover {
+    background-color: #00b7c3;
+}
+
+#header-second-btn {
+    width: 198px;
+    background: none;
+    border: 1px solid #11D3D3;
+    color: #4C666D;
+}
+
+#header-second-btn:hover {
+    background-color: #235f74;
+    color: #fff;
+}
+
+
+/* ..................... */
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.contact-top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-top h2 {
+    font-size: 2.5em;
+    line-height: 120%;
+}
+
+.contact-top p {
+    font-size: 1.125em;
+    line-height: 150%;
+}
+
+
+
+.contact-bottom {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-item input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #11D3D3;
+}
+
+.contact-item textarea {
+    max-width: 100%;
+    max-height: 180px;
+    border: 1px solid #11D3D3;
+    padding: 12px;
+    color: #00000099;
+    font-size: 1em;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .checkbox-container label {
+    font-size: 0.9em;
+  }
+
+  .checkbox-container input[type="checkbox"] {
+    display: none;
+  }
+
+  .custom-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    margin-right: 8px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .checkbox-container input:checked + .custom-checkbox::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #11D3D3;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.contact-bottom button {
+    cursor: pointer;
+    width: 99px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 24px;
+    background-color: #11D3D3;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+.contact-bottom button:hover {
+    background-color: #00b7c3;
+}
+
