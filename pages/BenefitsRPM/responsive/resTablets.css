@@ -1,15 +1,21 @@
 @media (min-width: 769px) and (max-width: 1023px) {
     
-    .body-container,
-    .monitoramento-remoto,
-    .financeiras,
-    .agendamento {
+    .body-container {
         padding: 80px 20px;
     }
+
+    .n-container {
+    width: 100%;
+    max-width: 1128px;
+    padding: 52px 0px;
+}
 
     .first-section {
         flex-wrap: wrap;
         text-align: center;
+        border: 1px solid #11D3D3;
+        padding: 15px;
+        border-radius: 10px;
     }
     
     .header-container-left h1 {
@@ -39,6 +45,7 @@
 
     .sub-col {
         flex-direction: row;
+        gap: 32px;
     }
 
     .sub-col-items-left,

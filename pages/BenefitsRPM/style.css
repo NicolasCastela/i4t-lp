@@ -14,13 +14,14 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 112px 156px 112px 156px;
+    padding: 0px 156px;
     width: 100%;
 }
 
 .n-container {
     width: 100%;
     max-width: 1128px;
+    padding: 112px 0px;
 }
 
 .first-section {
@@ -104,11 +105,6 @@ body {
 }
 
 /* Monitoramento remoto */
-.monitoramento-remoto,
-.financeiras {
-    padding: 112px 156px 112px 156px;
-    
-}
 
 .header-container-left h1 {
     font-size: 3.5em;
@@ -118,10 +114,6 @@ body {
 .sub-container-right p {
     font-size: 1.125em;
     line-height: 150%;
-}
-
-.agendamento {
-    padding: 0px 156px 112px 156px;
 }
 
 .sub-container-mid {
