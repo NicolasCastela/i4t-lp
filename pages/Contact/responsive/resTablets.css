@@ -1,46 +1,45 @@
 @media (min-width: 769px) and (max-width: 1023px) {
     
     .body-container {
-        padding: 80px 20px;
+        padding: 40px 20px;
     }
 
-    .first-section {
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-        gap: 32px;
-    }
-    
-    .header-container-left h1 {
-        font-size: 2.5em;
-        text-align: center;
+    .connect,
+    .contact,
+    .locate,
+    .second-locate {
+            padding: 52px 32px;
     }
 
-    .header-container-right p {
-        font-size: 1em;
+    .connect-left h1 {
+        font-size: 3em;
     }
 
-    .recipient-btn {
-        display: flex;
-        justify-content: center;
-    }
-
-    .produtos-tittle h2 {
+    .contact-top h2,
+    .locate-top h2,
+    .second-locate-left h2 {
         font-size: 2em;
     }
 
-    .produtos .item h3 {
+    .contact-top p,
+    .locate-top p,
+    .second-locate-left p {
         font-size: 1em;
     }
 
-    
-    /* APLICATIVOS */
-    
-    .aplicativos-content h2 {
-        font-size: 1.2em;
+    .contact-bottom button {
+      margin-top: 16px;
+    }    
+
+    .contact-item {
+        font-size: 1em;
     }
 
-    .aplicativos-content span {
+    .locate-item a,
+    .locate-item p,
+    .second-locate-item a,
+    .second-locate-item p {
         font-size: 0.9em;
     }
+
 }

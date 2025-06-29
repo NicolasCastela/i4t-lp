@@ -11,7 +11,8 @@
 
 .connect,
 .contact,
-.locate {
+.locate,
+.second-locate {
     padding: 112px 64px;
     display: flex;
     align-items: center;
@@ -33,7 +34,6 @@ body {
 .n-container {
     width: 1128px !important;
     width: 100%;
-    border: 2px solid red;
 }
 
 .connect-content,
@@ -126,13 +126,15 @@ body {
 }
 
 .contact-top h2,
-.locate-top h2 {
+.locate-top h2,
+.second-locate-left h2 {
     font-size: 2.5em;
     line-height: 120%;
 }
 
 .contact-top p,
-.locate-top p {
+.locate-top p,
+.second-locate-top p {
     font-size: 1.125em;
     line-height: 150%;
 }
@@ -216,6 +218,7 @@ body {
     font-weight: 700;
     font-size: 1em;
     transition: background 0.3s ease;
+    margin-top: 16px;
 }
 
 .contact-bottom button:hover {
@@ -230,7 +233,8 @@ body {
     flex-direction: column;
 }
 
-.locate-bottom {
+.locate-bottom,
+.second-locate-content {
     display: flex;
     gap: 80px;
 }
@@ -238,21 +242,23 @@ body {
 .locate-left {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     gap: 40px;
 }
 
-.locate-item {
+.locate-item,
+.second-locate-item {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.locate-item h3 {
+.locate-item h3,
+.second-locate-item h3 {
     font-size: 1.25em;
 }
 
-.locate-item a {
+.locate-item a,
+.second-locate-item a {
     text-decoration: none;
     color: #4C666D;
 }
@@ -262,11 +268,17 @@ body {
 }
 
 .locate-left,
-.locate-rifht {
+.locate-right {
     flex: 1;
 }
 
-.locate-left {
+.second-locate-left,
+.second-locate-right {
+    flex: 1;
+}
+
+.locate-left,
+.second-locate-right {
     max-width: 350px;
     width: 1005;
 }
@@ -276,5 +288,15 @@ body {
     max-width: 700px;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
+.second-locate-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.second-locate-content {
+    flex-wrap: wrap;
+}
