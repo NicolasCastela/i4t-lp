@@ -11,7 +11,7 @@
     
   
     .banner-home-index {
-      padding: 40px 20px;
+      padding: 40px 10px;
       justify-content: center;
       text-align: center;
       display: flex;
@@ -62,7 +62,8 @@
     /* Seção Discovery */
     .discovery-pos-banner {
       height: auto;
-      padding: 40px 16px;
+      padding: 40px 10px;
+      margin-top: 0;
     }
   
     .captions {
@@ -139,7 +140,7 @@
       text-align: center;
       position: relative;
       z-index: 1;
-      padding: 15px;
+      padding: 10px;
     }
   
     .children-section-left h3, p {

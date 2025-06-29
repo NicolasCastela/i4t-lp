@@ -39,19 +39,23 @@
     height: 34px;
     padding: 5px 15px;
   }
+  .container{
+    padding: 0 10px;
+  }
 
   .language-selector {
     font-size: 14px;
     gap: 4px;
   }
-
-  .first-section,
   .second-section,
-  .third-section,
-  .header-main {
-    padding: 80px 20px;
+  .third-section
+   {
+    padding: 40px 0 !important;;
 }
 
+.first-section{
+  padding: 40px 10px;
+}
 
   /*First-section*/
 
@@ -61,7 +65,8 @@
     align-items: center;
     border: 1px solid #11D3D3;
     border-radius: 10px;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .first-section-left h1 {
@@ -115,8 +120,8 @@
 
 
     .third-section-right-img {
-      max-width: 324px;
-      max-height: 456px;
+      max-width: 768px;
+      max-height: auto;
       width: 100%;
       height: auto;
       object-fit: cover !important;
