@@ -18,5 +18,20 @@
   .carousel-logo {
     margin-left: 0;
   }
+  .carousel-logo.car1 {
+    margin-left: 24px;
+  }
 
+  .carousel-profile.car1 {
+  flex-direction: row;
+  gap: 16px;
+  
+}
+.logo-container {
+  border-left: 1px solid black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 }
