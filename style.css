@@ -777,3 +777,17 @@ body {
   object-position: right;
   border-radius: 12px;
 }
+.blog-card-link {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1em;
+}
+
+.blog-card-link:hover {
+    color: #11D3D3;
+}
