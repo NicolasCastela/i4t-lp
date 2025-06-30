@@ -443,3 +443,17 @@ body {
     height: 349.33px;
     object-fit: cover;
 }
+.carousel-controls-mobile {
+  display: none!important;
+}
+
+.carousel-controls-mobile {
+  display: none !important;
+}
+
+
+@media (min-width: 769px) and (max-width: 1150px) {
+  .carousel blockquote{
+    max-width: 500px;
+  }
+}

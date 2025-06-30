@@ -2,55 +2,57 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Emmitec Health </title>
-    <link rel="shortcut icon" href="../../assets/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../../components/style-components.css">
-    <link rel="stylesheet" href="../testes/teste.css">
-    <link rel="stylesheet" href="responsive/resDesktop.css">
-    <link rel="stylesheet" href="responsive/resMobile.css">
-    <link rel="stylesheet" href="responsive/resTablets.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Emmitec Health </title>
+  <link rel="shortcut icon" href="../../assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../components/style-components.css">
+  <link rel="stylesheet" href="responsive/resDesktop.css">
+  <link rel="stylesheet" href="responsive/resMobile.css">
+  <link rel="stylesheet" href="responsive/resTablets.css">
 </head>
 
 <body>
-    <div id="header-placeholder"></div>
-    <script>
-        fetch('../../components/header.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header-placeholder').innerHTML = data;
-            });
-    </script>
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('../../components/header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      });
+  </script>
 
-  <section class="body-container"> 
+  <section class="body-container">
     <header class="recognition-header">
-        <div class="n-container">
-            <div class="recognition-header-content">
-                <div class="r-header-content-left">
-                    <h1>Reconhecimentos que Inspiram Confiança</h1>
-                    <p>Na EmmiTec, nosso compromisso com a inovação e a excelência nos cuidados de saúde é refletido nos depoimentos de nossos parceiros e nos prêmios que recebemos. Cada conquista reforça nossa missão de transformar vidas por meio do Monitoramento Remoto de Pacientes (RPM). Explore as histórias de sucesso e os reconhecimentos que comprovam o impacto positivo de nossas soluções no setor de saúde.</p>
-                    <div class="recipient-btn">
-                        <button id="header-first-btn">
-                            Saiba Mais
-                        </button>
-                        <button id="header-second-btn">
-                            Agende uma Visita
-                        </button>
-                    </div>
-                </div>
-                <div class="r-header-content-right">
-                    <div class="last-image">
-                        <img class="class-image" src="assets/first-image-section.jpg" alt="">
-                    </div>
-
-                </div>
+      <div class="n-container">
+        <div class="recognition-header-content">
+          <div class="r-header-content-left">
+            <h1>Reconhecimentos que Inspiram Confiança</h1>
+            <p>Na EmmiTec, nosso compromisso com a inovação e a excelência nos cuidados de saúde é refletido nos
+              depoimentos de nossos parceiros e nos prêmios que recebemos. Cada conquista reforça nossa missão de
+              transformar vidas por meio do Monitoramento Remoto de Pacientes (RPM). Explore as histórias de sucesso e
+              os reconhecimentos que comprovam o impacto positivo de nossas soluções no setor de saúde.</p>
+            <div class="recipient-btn">
+              <button id="header-first-btn">
+                Saiba Mais
+              </button>
+              <button id="header-second-btn">
+                Agende uma Visita
+              </button>
             </div>
-        </div>
-</header>
+          </div>
+          <div class="r-header-content-right">
+            <div class="last-image">
+              <img class="class-image" src="assets/first-image-section.jpg" alt="">
+            </div>
 
-        <div class="n-container">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="n-container">
       <div class="carousel">
         <button class="carousel-btn prev" aria-label="Anterior">
           <img src="../../assets/utils/arrow-left-carrossel.svg" alt="Anterior" style="width: 13px; height: 14px;">
@@ -110,6 +112,19 @@
             </div>
           </div>
         </div>
+        <div class="carousel-controls-mobile">
+          <button class="carousel-btn prev" aria-label="Anterior">
+            <img src="../../assets/utils/arrow-left-carrossel.svg" alt="Anterior" style="width: 13px; height: 14px;">
+          </button>
+          <div class="carousel-indicators">
+            <span class="carousel-dot active"></span>
+            <span class="carousel-dot"></span>
+            <span class="carousel-dot"></span>
+          </div>
+          <button class="carousel-btn next" aria-label="Próximo">
+            <img src="../../assets/utils/arrow-right-carrossel.svg" alt="Próximo" style="width: 13px; height: 14px;">
+          </button>
+        </div>
         <div class="carousel-indicators">
           <span class="carousel-dot active"></span>
           <span class="carousel-dot"></span>
@@ -123,154 +138,179 @@
 
     </div>
 
-<script src="../../services/carrossel.js"></script>
+    <script src="../../services/carrossel.js"></script>
 
     <section class="monitoramento-remoto">
-        <div class="n-container">
-            <div class="container-person">
-                <div class="sub-container-mid">
-                    <h2>Como o Monitoramento Remoto de Pacientes Melhora a Saúde e a Eficiência</h2>
-                    <p>O <strong>Monitoramento Remoto de Pacientes (RPM)</strong> é uma solução inovadora que transforma os cuidados médicos, permitindo o acompanhamento contínuo e personalizado de pacientes. Essa abordagem proativa melhora a saúde, reduz complicações e aumenta a eficiência hospitalar, promovendo maior segurança e satisfação.</p>
-                </div>
-            </div>
-            <div class="cols-4">
-                <div class="sub-col">
-                    <div class="sub-col-items-left">
-                        <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
-                        <h3>Saúde Cardiovascular</h3>
-                        <p>O <strong>RPM</strong> monitora dispositivos cardíacos, como <strong>marcapassos,</strong> e identifica anormalidades em tempo real. Estudos mostram que essa tecnologia reduz a pressão arterial e diminui admissões hospitalares relacionadas à insuficiência cardíaca.</p>
-                    </div>
-                    <div class="sub-col-items-left">
-                        <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
-                        <h3>Cuidados Pós-Operatórios</h3>
-                        <p>Monitorar sinais vitais após cirurgias ajuda a <strong>prevenir complicações</strong> e readmissões. Pacientes relatam menos dor, maior segurança e uma recuperação mais tranquila no período crítico pós-operatório.</p>
-                    </div>
-                </div>
-                <div class="sub-col">
-                    <img id="mid-img" src="assets/thirs-image-section.jpg" alt="">
-                </div>
-                <div class="sub-col">
-                    <div class="sub-col-items-right">
-                        <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
-                        <h3>Monitoramento de Diabetes</h3>
-                        <p>Dispositivos conectados acompanham <strong>níveis de glicose e pressão arterial,</strong> alertando sobre alterações e oferecendo orientações personalizadas. 
-Isso garante um controle eficaz e melhora a qualidade de vida.</p>
-                    </div>
-                    <div class="sub-col-items-right">
-                        <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
-                        <h3>Tratamento do Câncer</h3>
-                        <p>O <strong>RPM</strong> permite o acompanhamento próximo do progresso do tratamento e sinais vitais, promovendo suporte contínuo. Essa abordagem melhora o cuidado e proporciona mais <strong>conforto aos pacientes com câncer.</strong></p>
-                    </div>
-                </div>
-
-            </div>
+      <div class="n-container">
+        <div class="container-person">
+          <div class="sub-container-mid">
+            <h2>Como o Monitoramento Remoto de Pacientes Melhora a Saúde e a Eficiência</h2>
+            <p>O <strong>Monitoramento Remoto de Pacientes (RPM)</strong> é uma solução inovadora que transforma os
+              cuidados médicos, permitindo o acompanhamento contínuo e personalizado de pacientes. Essa abordagem
+              proativa melhora a saúde, reduz complicações e aumenta a eficiência hospitalar, promovendo maior segurança
+              e satisfação.</p>
+          </div>
         </div>
+        <div class="cols-4">
+          <div class="sub-col">
+            <div class="sub-col-items-left">
+              <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
+              <h3>Saúde Cardiovascular</h3>
+              <p>O <strong>RPM</strong> monitora dispositivos cardíacos, como <strong>marcapassos,</strong> e identifica
+                anormalidades em tempo real. Estudos mostram que essa tecnologia reduz a pressão arterial e diminui
+                admissões hospitalares relacionadas à insuficiência cardíaca.</p>
+            </div>
+            <div class="sub-col-items-left">
+              <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
+              <h3>Cuidados Pós-Operatórios</h3>
+              <p>Monitorar sinais vitais após cirurgias ajuda a <strong>prevenir complicações</strong> e readmissões.
+                Pacientes relatam menos dor, maior segurança e uma recuperação mais tranquila no período crítico
+                pós-operatório.</p>
+            </div>
+          </div>
+          <div class="sub-col">
+            <img id="mid-img" src="assets/thirs-image-section.jpg" alt="">
+          </div>
+          <div class="sub-col">
+            <div class="sub-col-items-right">
+              <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
+              <h3>Monitoramento de Diabetes</h3>
+              <p>Dispositivos conectados acompanham <strong>níveis de glicose e pressão arterial,</strong> alertando
+                sobre alterações e oferecendo orientações personalizadas.
+                Isso garante um controle eficaz e melhora a qualidade de vida.</p>
+            </div>
+            <div class="sub-col-items-right">
+              <img class="vector-box" src="../../assets/utils/vector-box.png" alt="">
+              <h3>Tratamento do Câncer</h3>
+              <p>O <strong>RPM</strong> permite o acompanhamento próximo do progresso do tratamento e sinais vitais,
+                promovendo suporte contínuo. Essa abordagem melhora o cuidado e proporciona mais <strong>conforto aos
+                  pacientes com câncer.</strong></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
 
-        <div class="n-container">
+    <div class="n-container">
 
-            <div class="carousel">
-  <button class="carousel-btn prev" aria-label="Anterior">
-    <img src="../../assets/utils/arrow-left-carrossel.svg" alt="Anterior" style="width: 13px; height: 14px;">
-  </button>
+      <div class="carousel">
+        <button class="carousel-btn prev" aria-label="Anterior">
+          <img src="../../assets/utils/arrow-left-carrossel.svg" alt="Anterior" style="width: 13px; height: 14px;">
+        </button>
 
-  <div class="carousel-track">
-    <div class="carousel-item active">
-      <div class="carousel-stars">
-        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-      </div>
-      <blockquote>
-        Nosso sucesso em garantir contratos significativos no Brasil, incluindo com Judicemed e Curitiba City, nos permite impactar mais de 30.000 pacientes crônicos. 
-        Essa conquista reforça nosso compromisso de ampliar o acesso a cuidados personalizados, com planos de estender nosso alcance para 135.000 pacientes até o primeiro trimestre de 2025.
-      </blockquote>
-      <div class="carousel-profile">
-        <div class="teste-1">
-          <span>BRAZILIAN SUCCESS</span>
+        <div class="carousel-track">
+          <div class="carousel-item active">
+            <div class="carousel-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <blockquote>
+              Nosso sucesso em garantir contratos significativos no Brasil, incluindo com Judicemed e Curitiba City, nos
+              permite impactar mais de 30.000 pacientes crônicos.
+              Essa conquista reforça nosso compromisso de ampliar o acesso a cuidados personalizados, com planos de
+              estender nosso alcance para 135.000 pacientes até o primeiro trimestre de 2025.
+            </blockquote>
+            <div class="carousel-profile">
+              <div class="teste-1">
+                <span>BRAZILIAN SUCCESS</span>
+              </div>
+              <img class="carousel-logo" src="../../components/assets/logo-web-flow.png" alt="Webflow logo">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <blockquote>
+              Outro depoimento aqui... 2
+            </blockquote>
+            <div class="carousel-profile">
+              <div class="sub-container-carousel">
+                <span>BRAZILIAN SUCCESS</span>
+              </div>
+              <img class="carousel-logo" src="../../components/assets/logo-web-flow.png" alt="Webflow logo">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <blockquote>
+              "enhancing their capacity to telemonitor..."
+            </blockquote>
+            <div class="carousel-profile">
+              <div class="sub-container-carousel">
+                <span>BRAZILIAN SUCCESS</span>
+              </div>
+              <img class="carousel-logo" src="../../components/assets/logo-web-flow.png" alt="Webflow logo">
+            </div>
+          </div>
         </div>
-        <img class="carousel-logo" src="../../components/assets/logo-web-flow.png" alt="Webflow logo">
+        <div class="carousel-controls-mobile">
+          <button class="carousel-btn prev" aria-label="Anterior">
+            <img src="../../assets/utils/arrow-left-carrossel.svg" alt="Anterior" style="width: 13px; height: 14px;">
+          </button>
+          <div class="carousel-indicators">
+            <span class="carousel-dot active"></span>
+            <span class="carousel-dot"></span>
+            <span class="carousel-dot"></span>
+          </div>
+          <button class="carousel-btn next" aria-label="Próximo">
+            <img src="../../assets/utils/arrow-right-carrossel.svg" alt="Próximo" style="width: 13px; height: 14px;">
+          </button>
+        </div>
+        <div class="carousel-indicators">
+          <span class="carousel-dot active"></span>
+          <span class="carousel-dot"></span>
+          <span class="carousel-dot"></span>
+        </div>
+
+        <button class="carousel-btn next" aria-label="Próximo">
+          <img src="../../assets/utils/arrow-right-carrossel.svg" alt="Próximo" style="width: 13px; height: 14px;">
+        </button>
       </div>
+
     </div>
-
-    <div class="carousel-item">
-      <div class="carousel-stars">
-        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-      </div>
-      <blockquote>
-        Outro depoimento aqui... 2
-      </blockquote>
-      <div class="carousel-profile">
-        <div class="sub-container-carousel">
-          <span>BRAZILIAN SUCCESS</span>
-        </div>
-        <img class="carousel-logo" src="../../components/assets/logo-web-flow.png" alt="Webflow logo">
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="carousel-stars">
-        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-      </div>
-      <blockquote>
-        "enhancing their capacity to telemonitor..."
-      </blockquote>
-      <div class="carousel-profile">
-        <div class="sub-container-carousel">
-          <span>BRAZILIAN SUCCESS</span>
-        </div>
-        <img class="carousel-logo" src="../../components/assets/logo-web-flow.png" alt="Webflow logo">
-      </div>
-    </div>
-  </div>
-
-  <div class="carousel-indicators">
-    <span class="carousel-dot active"></span>
-    <span class="carousel-dot"></span>
-    <span class="carousel-dot"></span>
-  </div>
-
-  <button class="carousel-btn next" aria-label="Próximo">
-    <img src="../../assets/utils/arrow-right-carrossel.svg" alt="Próximo" style="width: 13px; height: 14px;">
-  </button>
-</div>
-
-        </div>
 
     <section class="agendamento">
-        <div class="n-container">
-            <div class="agendamento-content">
-                <div class="sub-container-left">
-                    <h2>Agende sua demonstração personalizada</h2>
-                    <p>Invista em um futuro de cuidados personalizados para cada paciente, em seus próprios termos. </p>
-                    <div class="recipient-btn">
-                        <button id="header-first-btn">
-                            Saiba Mais
-                        </button>
-                        <button id="header-second-btn">
-                            Agende uma Visita
-                        </button>
-                    </div>
-                </div>
-                <div class="sub-container-right last-image">
-                    <img class="image-fourth-section" src="assets/last-image.jpg" alt="">
-                </div>
+      <div class="n-container">
+        <div class="agendamento-content">
+          <div class="sub-container-left">
+            <h2>Agende sua demonstração personalizada</h2>
+            <p>Invista em um futuro de cuidados personalizados para cada paciente, em seus próprios termos. </p>
+            <div class="recipient-btn">
+              <button id="header-first-btn">
+                Saiba Mais
+              </button>
+              <button id="header-second-btn">
+                Agende uma Visita
+              </button>
             </div>
+          </div>
+          <div class="sub-container-right last-image">
+            <img class="image-fourth-section" src="assets/last-image.jpg" alt="">
+          </div>
         </div>
+      </div>
     </section>
-</section>
+  </section>
 
 
 
-    <div id="footer-placeholder"></div>
-    <script>
-        fetch('../../components/footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer-placeholder').innerHTML = data;
-            });
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('../../components/footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
 
-            </script>
-    <script src="../../components/header.js"></script>
+  </script>
+  <script src="../../components/header.js"></script>
 
 </body>
-  <script src="../../services/carrossel.js"></script>
+<script src="../../services/carrossel.js"></script>
+
 </html>
