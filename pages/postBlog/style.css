@@ -34,6 +34,7 @@ body {
 .s-blog-content {
     display: flex;
     gap: 80px;
+    align-items: center;
 }
 
 .item-left {
@@ -95,6 +96,7 @@ body {
     height: 450px;
     object-fit: cover;
     display: block;
+    border-radius: 10px;
 }
 
 .s-blog-content .item-left,
@@ -393,6 +395,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    width: 100%;
 }
 
 .comp-tittle {
@@ -431,6 +434,7 @@ body {
     font-size: 1em;
     color: #fff;
     cursor: pointer;
+    transition: brackground 0.3 ease;
 }
 
 #btn-right {
@@ -445,6 +449,15 @@ body {
     color: #fff;  
     cursor: pointer;  
     border: 1px solid #11D3D3;
+    transition: brackground 0.3 ease;
+}
+
+#btn-left:hover {
+    background-color: #4C666D;
+}
+
+#btn-right:hover {
+    background-color: #4C666D;
 }
 
 
