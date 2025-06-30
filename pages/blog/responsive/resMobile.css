@@ -1,5 +1,10 @@
 @media (max-width: 768px) {
 
+    h1 {
+        font-size: 1.6em;
+        line-height: 120%;
+    }
+
     .body-container {
         display: flex;
         align-items: center;
@@ -25,11 +30,16 @@
         border-radius: 8px 8px 0 0;
     }
 
+    .blog-cards-grid{
+        margin-bottom: 30px;
+    }
+
     .div-texts-cards {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         padding: 0 12px;
+        margin-bottom: 10px;
     }
 
     .card-link {
@@ -60,7 +70,7 @@
         gap: 0;
     }
 
-    .sub-container-right{
+    .sub-container-right {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -72,5 +82,12 @@
 
     .sub-container-left {
         width: 100%;
+    }
+
+    .card-banner-section{
+        height: auto;
+    }
+    .sidebar-card.gallery{
+        height: auto;
     }
 }

@@ -480,3 +480,12 @@
 @media (min-width: 769px) and (max-width: 1023px) {
   
   }
+
+
+  @media (max-width: 652px) {
+
+    .newsletter-form{
+display: flex;
+      flex-direction: column;
+    }
+  }
