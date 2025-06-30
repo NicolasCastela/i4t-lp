@@ -18,7 +18,6 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 4px solid red;
     padding: 0px 156px;
 }
 
@@ -32,6 +31,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 80px;
+  padding-top: 32px;
 }
 
 .r-header-content-left {
@@ -51,7 +51,7 @@ body {
 .n-container {
     width: 100%;
     max-width: 1128px;
-    padding: 112px 0px;
+    padding: 62px 0px;
 }
 
 .sub-container{
@@ -298,6 +298,7 @@ body {
 .agendamento {
     display: flex;
     justify-content: center;
+    padding-bottom: 32px;
 }
 
 .sub-container-mid {
