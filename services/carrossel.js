@@ -54,7 +54,7 @@ if (isMobile && firstCarousel.querySelector('.carousel-controls-mobile')) {
   });
 
   showItem(current);
-   if (window.innerWidth > 2000) {
+   if (window.innerWidth > 768) {
       intervalId = setInterval(() => {
         current = (current + 1) % items.length;
         showItem(current);
