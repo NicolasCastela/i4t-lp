@@ -15,7 +15,6 @@ body {
 
 .body-container {
     display: flex;
-    align-items: center;
     flex-direction: column;
     padding: 0px 156px;
 }
@@ -25,6 +24,8 @@ body {
     max-width: 1128px;
     padding: 112px 0px;
     border: 1px solid blue;
+    display: flex;
+    justify-content: center;
 }
 
 .sub-blog-header {
@@ -40,12 +41,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    width: 100%;
     max-width: 420px;
 }
 
 .item-right {
-    width: 100%;
     max-width: 628px;
 }
 
@@ -107,6 +106,14 @@ body {
 
 
 /* .................. */
+
+.introduction,
+.sub-blog-header,
+.depoimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .intro-content {
     display: flex;
@@ -284,4 +291,86 @@ body {
 /* ................ */
 
 
+.depo-content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.depo-cards {
+    display: flex;
+    gap: 64px;
+    width: 100%;
+}
+
+.depo-card {
+    width: 100%;
+}
+
+
+.depo-tittle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 768px;
+    gap: 24px;
+}
+
+.depo-tittle h2 {
+    font-size: 3em;
+}
+
+.depo-tittle p {
+    font-size: 1.125em;
+}
+
+.depo-card {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.depo-card p {
+    font-size: 2em;
+}
+
+.depo-card span {
+    font-size: 1.25em;
+}
+
+.card-perfil {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.card-left {
+    display: flex;
+    gap: 20px;
+}
+
+.card-info span {
+    font-weight: 600;
+}
+
+.card-info span,
+.card-info p  {
+    font-size: 1em;
+}
+
+.card-left img {
+    width: 56px;
+}
+
+.card-right {
+    border-left: 1px solid #4C666D;
+}
+
+.card-right img {
+    width: 116px;
+    height: auto;
+    margin-left: 20px;
+}
 
