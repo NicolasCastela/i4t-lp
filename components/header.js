@@ -21,6 +21,7 @@ fetch('../../components/header.html')
               href = href.replace(/^(\.\.\/)+/, '/pages/');
             } else {
               href = href.replace(/^(\.\.\/)+/, '/pages/');
+              // tirar barra do final
             }
           } else {
             if (href.startsWith('../../')) {
