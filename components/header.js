@@ -20,7 +20,7 @@ fetch('../../components/header.html')
             if (href.includes('index.html')) {
               href = href.replace(/^(\.\.\/)+/, '/pages/');
             } else {
-              href = href.replace(/^(\.\.\/)+/, '/pages');
+              href = href.replace(/^(\.\.\/)+/, '/pages/');
             }
           } else {
             if (href.startsWith('../../')) {
