@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="responsive/resMobile.css">
     <link rel="stylesheet" href="responsive/resTablets.css">
     <title> Emmitec Health </title>
+    <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@2.2.0/i18nextHttpBackend.min.js"></script>
 </head>
 
 <body>
@@ -33,13 +35,13 @@
     <section class="first-section">
         <div class="container first-section-content">
             <div class="first-section-left">
-                <h1>
+                <h1 data-i18n="title">
                     Conheça a EmmiTec: Transformando Vidas com Saúde
                 </h1>
             </div>
 
             <div class="first-section-right">
-                <p>
+                <p data-i18n="p-first-section-right">
                     <strong>Emilio Machado</strong> fundou a <strong>EmmiTec</strong> inspirado pela jornada de sua mãe
                     contra o câncer em 2017. Enfrentando desafios como visitas médicas constantes e registros dispersos,
                     ele criou um registro digital para centralizar informações e melhorar os cuidados, mesmo à
@@ -48,29 +50,37 @@
                     desfechos clínicos e a qualidade do cuidado ao paciente, transformando o cuidado médico globalmente.
                 </p>
 
-                <div class="first-section-right-btn">
+                <!-- <div class="first-section-right-btn">
                     <button class="first-section-btn-primary">
                         Saiba Mais
                     </button>
                     <button class="first-section-btn-secundary">
                         Agende uma Visita
                     </button>
-                </div>
+                </div> -->
+                <div class="recipient-btn first-section-right-btn">
+                        <button id="header-first-btn" data-i18n="learn_more" id="header-first-btn">
+                            Saiba Mais
+                        </button>
+                        <button data-i18n="schedule_visit" id="header-second-btn">
+                            Agende uma Visita
+                        </button>
+                    </div>
 
             </div>
         </div>
     </section>
 
-    <section class="second-section">
-        <div class="container second-section-content">
+    <section id="learn_more_red" class="second-section">
+        <div  class="container second-section-content">
             <div class="second-section-left">
-                <h2>
+                <h2 data-i18n="h2-second-section-left">
                     Nossa Missão e Visão na EmmiTec
                 </h2>
             </div>
 
             <div class="second-section-right">
-                <p>
+                <p data-i18n="p-second-section-right">
                     Na EmmiTec, acreditamos que a saúde vai além de um serviço – é um direito essencial, pertencente a
                     todos, independentemente de onde estejam. Sonhamos com um mundo onde distância, circunstâncias ou
                     recursos não definam a qualidade do cuidado recebido. <br>
@@ -91,11 +101,11 @@
     <section class="third-section">
         <div class="container third-section-content">
             <div class="third-section-left">
-                <h2>
+                <h2 data-i18n="h2-third-section-left">
                     A Jornada da EmmiTec
                 </h2>
 
-                <p>
+                <p data-i18n="p-third-section-left">
                     A jornada da <strong>EmmiTec começou em 2006,</strong> desenvolvendo tecnologia de ponta para
                     setores como finanças e varejo, em parceria com grandes inovadores como a Apple. Porém, em 2017,
                     nossa história mudou para algo mais pessoal e profundo.
@@ -135,8 +145,16 @@
     <!-- ------------------------------------ -->
     <script src="../../components/header.js"></script>
 
-  
-    
+    <script src="../../services/i18n.js"></script>
+    <script>
+        document.getElementById('header-first-btn').addEventListener('click', function () {
+            const target = document.getElementById('learn_more_red');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    </script>
+
 </body>
 
 </html>

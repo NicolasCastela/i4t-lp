@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../components/style-components.css">
     <link rel="stylesheet" href="responsive/resMobile.css">
+      <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@2.2.0/i18nextHttpBackend.min.js"></script>
 </head>
 
 <body>
@@ -26,7 +28,7 @@
             <div class="n-container">
                 <div class="div-texts-center">
                     <p>Blog</p>
-                    <h1>Últimas Postagens do Blog</h1>
+                    <h1 data-i18n="title">Últimas Postagens do Blog</h1>
                     <p>Fique por dentro das novidades em saúde.</p>
 
                 </div>
@@ -447,7 +449,7 @@
     </script>
 
     <script src="../../components/header.js"></script>
-
+    <script src="../../services/i18n.js"></script>
 </body>
 
 

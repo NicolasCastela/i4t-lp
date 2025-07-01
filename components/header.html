@@ -3,46 +3,44 @@
     <div class="header-logo">
       <a href="/">
 
-        <img  src="../../assets/utils/Logo-Emmitec-Horizontal.png" alt="Logo Emmitec Health" />
+        <img src="../../assets/utils/Logo-Emmitec-Horizontal.png" alt="Logo Emmitec Health" />
       </a>
     </div>
 
     <div class="header-content-right">
-      <nav class="header-nav nav-desktop" >
+      <nav class="header-nav nav-desktop">
         <div class="nav-item-dropdown">
-          
-          <a href="#" class="sobre-nos-link">
+
+          <a data-i18n="about_us" href="#" class="sobre-nos-link">
             Sobre Nós
-            <img style="object-fit: cover; height: 6px;  width: auto;" src="../../assets/utils/vector-arrow-bottom.png" alt="ícone local" class="arrow-icon" />
           </a>
+            <img style="object-fit: cover; height: 6px;  width: auto;" src="../../assets/utils/vector-arrow-bottom.png"
+              alt="ícone local" class="arrow-icon" />
           <div class="dropdown-menu">
-            <a href="../AboutUs/">Nossa História</a>
-            <a href="../BenefitsRPM/">Oque é RPM</a>
-            <a href="../TransformingRPM/">Beneficios do RPM</a>
-            <a href="../Recognition/">História de Sucesso</a>
+            <a data-i18n="our_story" href="../AboutUs/">Nossa História</a>
+            <a data-i18n="what_is_rpm" href="../BenefitsRPM/">Oque é RPM</a>
+            <a data-i18n="rpm_benefits" href="../TransformingRPM/">Beneficios do RPM</a>
+            <a data-i18n="success_story" href="../Recognition/">História de Sucesso</a>
             <!-- <a href="../Devices/">Dispositivos</a> -->
             <!-- <a href="../DevicesCopy/">Dispositivos BKP</a> -->
-            <a href="../Web application/">Aplicativos</a>
+            <a data-i18n="applications" href="../Web application/">Aplicativos</a>
             <!-- <a href="../Application Desktop/">Aplicativos 2</a> -->
           </div>
-          </div>
-          <!-- <a href="#">Sobre Nós</a> -->
-          <a href="../blog/">Blog</a>
-          <a href="../Devices/">Equipamentos Integrados</a>
+        </div>
+        <!-- <a href="#">Sobre Nós</a> -->
+        <a data-i18n="blog" href="../blog/">Blog</a>
+        <a data-i18n="integrated_devices" href="../Devices/">Equipamentos Integrados</a>
       </nav>
 
 
       <nav class="header-nav nav-mobile" id="mobile-menu">
-        <a href="../AboutUs/">Nossa História</a>
-            <a href="../BenefitsRPM/">Oque é RPM</a>
-            <a href="../TransformingRPM/">Beneficios do RPM</a>
-            <a href="../Recognition/">História de Sucesso</a>
-            <!-- <a href="../Devices/">Dispositivos</a> -->
-            <!-- <a href="../DevicesCopy/">Dispositivos BKP</a> -->
-            <a href="../Web application/">Aplicativos</a>
-            <!-- <a href="../Application Desktop/">Aplicativos 2</a> -->
-            <a href="../blog/">Blog</a>
-            <a href="../Devices/">Equipamentos Integrados</a>
+        <a data-i18n="our_story" href="../AboutUs/">Nossa História</a>
+        <a data-i18n="what_is_rpm" href="../BenefitsRPM/">Oque é RPM</a>
+        <a data-i18n="rpm_benefits" href="../TransformingRPM/">Beneficios do RPM</a>
+        <a data-i18n="success_story" href="../Recognition/">História de Sucesso</a>
+        <a data-i18n="applications" href="../Web application/">Aplicativos</a>
+        <a data-i18n="blog" href="../blog/">Blog</a>
+        <a data-i18n="integrated_devices" href="../Devices/">Equipamentos Integrados</a>
       </nav>
 
       <div class="header-actions">
@@ -57,8 +55,18 @@
           <div class="language-selector">
             <img src="../../assets/utils/vector-location.png" alt="ícone local" />
 
-            <span>Brasil</span>
-            <img src="../../assets/utils/vector-arrow-bottom.png" alt="ícone local" />
+            <div class="nav-item-dropdown">
+              <a data-i18n="selected-language">
+                Brasil    
+              </a>
+              <img style="object-fit: cover; height: 6px; width: auto;"
+                  src="../../assets/utils/vector-arrow-bottom.png" alt="ícone local" class="arrow-icon" />
+              <div class="dropdown-menu">
+                <button onclick="changeLang('pt')" data-lang="pt">br Português</button>
+                <button onclick="changeLang('es')" href="#" data-lang="es">es Español</button>
+                <button onclick="changeLang('en')" data-lang="en">us English</button>
+              </div>
+            </div>
           </div>
           <button class="btn-login">Login</button>
         </div>

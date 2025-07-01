@@ -183,7 +183,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .last-image {
@@ -292,3 +292,4 @@ body {
 }
 
 
+/* Adicione ao seu style.css ou style-components.css */

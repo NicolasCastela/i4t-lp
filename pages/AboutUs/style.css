@@ -80,16 +80,51 @@ body {
     gap: 16px;
 }
 
+
+#header-first-btn,
+#header-second-btn {
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#header-first-btn {
+    width: 135px;
+    background-color: #11D3D3;
+    color: #fff;
+    border: none;
+}
+
+#header-first-btn:hover {
+    background-color: #00b7c3;
+}
+
+#header-second-btn {
+    width: 198px;
+    background: none;
+    border: 1px solid #11D3D3;
+    color: #4C666D;
+}
+
+#header-second-btn:hover {
+    background-color: #235f74;
+    color: #fff;
+}
+
 .first-section-btn-primary {
     width: 135px;
     height: 48px;
     border-radius: 10px;
-    border: none;
     padding: 12px 24px 12px 24px;
     background-color: #11D3D3;
     color: #fff;
     font-weight: 700;
     font-size: 1em;
+    
 }
 
 .first-section-btn-secundary {
