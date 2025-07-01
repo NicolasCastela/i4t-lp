@@ -258,7 +258,7 @@
 
   .carousel-btn {
     background: #fff;
-    border: none;
+    border: 1px solid;
     background-color: transparent;
     border-radius: 50%;
     width: 36px;
@@ -269,11 +269,6 @@
     box-shadow: 0 1px 4px rgba(17,211,211,0.08);
     cursor: pointer;
     transition: background 0.2s;
-  }
-
-  .carousel-btn:hover {
-    background-color: transparent;
-    border: 1px solid #4C666D;
   }
   
   .carousel-btn img {
