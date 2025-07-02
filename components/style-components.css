@@ -548,13 +548,6 @@ display: flex;
   outline: none;
 }
 
-.lang-dropdown li:hover,
-.lang-dropdown li:focus {
-  background: #f0f4f8;
-  color: #00796b;
-  font-weight: 600;
-  border-radius: 4px;
-}
 
 .li-links-footer{
    display: flex; flex-direction: row;

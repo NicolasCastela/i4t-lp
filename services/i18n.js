@@ -22,24 +22,24 @@ if (savedLang !== 'pt') {
         const key = el.getAttribute('data-i18n');
         el.innerHTML = i18next.t(key);
       });
+      updateFlagIcon();
     });
+} else {
+  updateFlagIcon();
 }
-
-// Preciso ver oq fazer com isso.
-// if (savedLang !== 'pt') {
-//   fetch(`../../lang/components/${savedLang}-header.json`)
-//     .then(res => res.json())
-//     .then(data => {
-//       document.querySelectorAll('[data-i18n]').forEach(el => {
-//         const key = el.getAttribute('data-i18n');
-//         if (data[key]) el.innerHTML = data[key];
-//       });
-//     });
-// }
 
 function changeLang(lang) {
   localStorage.setItem('language', lang);
   location.reload();
 }
 
-
+function updateFlagIcon() {
+  const flagIcon = document.getElementById("flag-icon-ry");
+  const flagMap = {
+    es: "../../assets/spain.png",
+    en: "../../assets/united-states.png"
+  };
+  if (flagIcon && flagMap[savedLang]) {
+    flagIcon.src = flagMap[savedLang];
+  }
+}
