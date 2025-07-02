@@ -66,52 +66,46 @@
 
                         <div id="learn_more_red" class="produtos">
 
-                            <div class="item">
-                                <a href="#">
+                            <div class="item" data-img="assets/monitor preção/item-01.png" 
+                            data-tittle="TD-3128">
                                     <img src="assets/monitor preção/item-01.png" alt="">
                                     <h3>TD-3128</h3>
                                     <p>Monitor de pressão arterial</p>
-                                </a>
                             </div>
 
-                            <div class="item">
-                                <a href="#">
+                            <div class="item" data-img="assets/monitor preção/item-02.png"
+                            data-tittle="TD-3140">
                                     <img src="assets/monitor preção/item-02.png" alt="">
                                     <h3>TD-3140</h3>
                                     <p>Monitor de pressão arterial</p>
-                                </a>
                             </div>
 
-                            <div class="item">
-                                <a href="#">
+                            <div class="item" data-img="assets/monitor preção/item-03.png"
+                            data-tittle="AND-651BLE">
                                     <img src="assets/monitor preção/item-03.png" alt="">
                                     <h3>AND-651BLE</h3>
                                     <p>Monitor de pressão arterial</p>
-                                </a>
                             </div>
 
-                            <div class="item">
-                                <a href="#">
+                            <div class="item" data-img="assets/monitor preção/item-04.png"
+                            data-tittle="Omron  BP7000">
                                     <img src="assets/monitor preção/item-04.png" alt="">
                                     <h3>Omron BP7000</h3>
                                     <p>Monitor de pressão arterial</p>
-                                </a>
                             </div>
 
-                            <div class="item">
-                                <a href="#">
+                            <div class="item" data-img="assets/monitor preção/item-05.png"
+                            data-tittle="UAM-820">
                                     <img src="assets/monitor preção/item-05.png" alt="">
                                     <h3>UAM-820</h3>
                                     <p>Monitor de pressão arterial</p>
-                                </a>
                             </div>
 
-                            <div class="item">
-                                <a href="#">
+                            <div class="item" data-img="assets/monitor preção/item-06.png"
+                            data-tittle="Omron BP7000">
                                     <img src="assets/monitor preção/item-06.png" alt="">
                                     <h3>Omron BP7000</h3>
                                     <p>Monitor de pressão arterial</p>
-                                </a>
                             </div>
 
                         </div>
@@ -127,12 +121,11 @@
                         </div>
 
                         <div class="produtos">
-                            <div class="item">
-                                <a href="#">
+                            <div class="item" data-img="assets/termômetro/termo-item-01.png"
+                            data-tittle="TD-1242">
                                     <img src="assets/termômetro/termo-item-01.png" alt="">
                                     <h3>TD-1242</h3>
                                     <p>Termômetro</p>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -147,19 +140,17 @@
                         </div>
 
                         <div class="produtos">
-                            <div class="item">
-                                <a href="#">
+                            <div class="item" data-img="assets/medidores/medidor-item-01.png"
+                            data-tittle="Accu-Chek Guide">
                                     <img src="assets/medidores/medidor-item-01.png" alt="">
                                     <h3>Accu-Chek Guide</h3>
                                     <p>Medidor de glicose no sangue</p>
-                                </a>
                             </div>
-                            <div class="item">
-                                <a href="#">
+                            <div class="item" data-img="assets/medidores/medidor-item-02.png"
+                            data-tittle="Accu-Chek Guide">
                                     <img src="assets/medidores/medidor-item-02.png" alt="">
                                     <h3>Accu-Chek Guide</h3>
                                     <p>Medidor de glicose no sangue</p>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -171,12 +162,12 @@
             </button>
 
 
-            <section class="last-section">
+            <section class="last-section" id="last_saction">
                 <div class="n-container">
                     <div class="last-section-content">
                         <div class="last-section-left">
                             <div class="top">
-                                <h2>
+                                <h2 id="last_tittle">
                                     Termômetro TD-1242 : Acompanhe em tempo real, a temperatura do seu paciente.
                                 </h2>
 
@@ -191,7 +182,7 @@
                                 <h3>
                                     Tecnologia Avançada
                                 </h3>
-                                <p>
+                                <p id="last_tittle">
                                     Um termômetro sem fio que registra e rastreia automaticamente as medições através do
                                     aplicativo móvel Sanitas Remota™ e do aplicativo web Sanitas Remota™.
                                 </p>
@@ -199,7 +190,7 @@
                         </div>
 
                         <div class="last-section-right">
-                            <img src="assets/termômetro/termo-item-01.png" alt="">
+                            <img src="assets/termômetro/termo-item-01.png" id="last_section_img" alt="">
                         </div>
                     </div>
                 </div>
@@ -230,6 +221,26 @@
             }
         });
     </script>
+
+
+<script>
+    const items = document.querySelectorAll('.item')
+
+    items.forEach(function(item) {
+        item.addEventListener('click', function () {
+            const roll = document.getElementById('last_saction');
+            if (roll) {
+                roll.scrollIntoView({behavior: 'smooth'})
+            }
+
+            const img = item.getAttribute('data-img');
+            const tittle = item.getAttribute('data-tittle');
+            
+            document.getElementById('last_tittle').textContent = tittle;
+            document.getElementById('last_section_img').src = img;
+        })
+    })
+</script>
   <script src="../../services/i18n.js"></script>
 
 </body>
