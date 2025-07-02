@@ -14,8 +14,8 @@
           <a data-i18n="about_us" href="#" class="sobre-nos-link">
             Sobre Nós
           </a>
-            <img style="object-fit: cover; height: 6px;  width: auto;" src="../../assets/utils/vector-arrow-bottom.png"
-              alt="ícone local" class="arrow-icon" />
+          <img style="object-fit: cover; height: 6px;  width: auto;" src="../../assets/utils/vector-arrow-bottom.png"
+            alt="ícone local" class="arrow-icon" />
           <div class="dropdown-menu">
             <a data-i18n="our_story" href="../AboutUs/">Nossa História</a>
             <a data-i18n="what_is_rpm" href="../BenefitsRPM/">Oque é RPM</a>
@@ -51,25 +51,35 @@
             <span></span>
           </button>
         </div>
-        <div class="header-actions-right">
-          <div class="language-selector">
-            <!-- <img src="../../assets/utils/vector-location.png" alt="ícone local" /> -->
-          <img id="flag-icon-ry" style="width: 15px;" src="../../assets/brazil.png" alt="ícone local" />
-            <div class="nav-item-dropdown">
-              <a data-i18n="selected-language">
-                Brasil
-              </a>
-              <img style="object-fit: cover; height: 6px; width: auto;"
-                  src="../../assets/utils/vector-arrow-bottom.png" alt="ícone local" class="arrow-icon" />
-              <div class="dropdown-menu">
-                <button class="lang-btn-ry" onclick="changeLang('pt')" data-lang="pt">br Português</button>
-                <button class="lang-btn-ry" onclick="changeLang('es')" href="#" data-lang="es">es Español</button>
-                <button class="lang-btn-ry" onclick="changeLang('en')" data-lang="en">us English</button>
-              </div>
-            </div>
-          </div>
-          <button class="btn-login">Login</button>
-        </div>
+      <div class="header-actions-right-ry">
+  <div class="language-selector-ry">
+    <img id="flag-icon-ry" style="width: 15px;" src="../../assets/brazil.png" alt="ícone local" />
+    
+    <div class="dropdown-wrapper-ry">
+      <a data-i18n="selected-language">Brasil</a>
+      <img style="object-fit: cover; height: 6px; width: auto;" src="../../assets/utils/vector-arrow-bottom.png"
+        alt="ícone seta" class="arrow-icon-ry" />
+
+      <div class="dropdown-lang-ry">
+        <button class="lang-btn-ry" onclick="changeLang('pt')" data-lang="pt">
+          <img src="../../assets/brazil-quadrado.png" alt="Português" class="lang-flag-ry" />
+          Português
+        </button>
+        <button class="lang-btn-ry" onclick="changeLang('es')" data-lang="es">
+          <img src="../../assets/spain-quadrado.png" alt="Español" class="lang-flag-ry" />
+          Español
+        </button>
+        <button class="lang-btn-ry" onclick="changeLang('en')" data-lang="en">
+          <img src="../../assets/usa-quadrado.png" alt="English" class="lang-flag-ry" />
+          English
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn-login">Login</button>
+</div>
+
       </div>
     </div>
   </div>

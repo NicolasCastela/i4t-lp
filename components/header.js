@@ -57,6 +57,7 @@ fetch('../../components/header.html')
           }
         });
       }
+
     }, 0); // Garante que DOM esteja atualizado
   });
 
