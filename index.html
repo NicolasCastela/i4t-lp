@@ -46,14 +46,14 @@
         saúde com nossas soluções.
       </p>
       <div class="buttons-index">
-        <a data-i18n="learn_more" href="#" class="btn-index btn-primary-index">Saiba Mais</a>
-        <a data-i18n="schedule_demo" href="#" class="btn-index btn-secondary-index">Agende uma Demonstração</a>
+        <button data-i18n="learn_more" id="header-first-btn" class="btn-index btn-primary-index">Saiba Mais</button>
+        <button data-i18n="schedule_demo" class="btn-index btn-secondary-index">Agende uma Demonstração</button>
       </div>
     </div>
   </section>
 
   <section class="discovery-pos-banner">
-    <div class="container">
+    <div id="learn_more_red" class="container">
       <div class="captions">
         <h3 data-i18n="h3-discovery-pos-banner">
           Descubra como a EmmiTec está transformando a saúde com inovação e
@@ -336,6 +336,16 @@
       });
   </script>
   <script src="../../services/i18n.js"></script>
+
+  <script>
+        document.getElementById('header-first-btn').addEventListener('click', function () {
+            const target = document.getElementById('learn_more_red');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    </script>
+
 </body>
 
 

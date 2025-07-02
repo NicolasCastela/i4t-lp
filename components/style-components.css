@@ -68,12 +68,13 @@
 }
 
 /* Idioma */
-.language-selector {
+.language-selector-ry {
   display: flex;
   align-items: center;
   gap: 12px;
   color: #4C666D;
   font-size: 1em;
+  
 }
 
 .language-selector span {
@@ -554,15 +555,70 @@ display: flex;
    gap: 5px;
 }
 
+/* Container do dropdown */
+/* Container pai */
+.header-actions-right-ry {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.language-selector-ry {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Dropdown wrapper */
+.dropdown-wrapper-ry {
+  position: relative;
+  display: inline-block;
+}
+
+/* Estilo do menu dropdown */
+.dropdown-lang-ry {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 0;
+  min-width: 160px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+/* Mostra o menu ao passar o mouse */
+.dropdown-wrapper-ry:hover .dropdown-lang-ry {
+  display: block;
+}
+
+/* Botões de idioma */
 .lang-btn-ry {
-  width: 100%;
-  padding: 10px 14px;
-  text-align: left;
-  background: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  background: transparent;
   border: none;
+  width: 100%;
   font-size: 14px;
   color: #333;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-weight: 500;
 }
+
+.lang-btn-ry:hover {
+  background-color: #4c666d0d;
+}
+
+/* Bandeiras */
+.lang-flag-ry {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Botão Login */

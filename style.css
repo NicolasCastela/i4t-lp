@@ -706,6 +706,9 @@ body {
 .btn-primary-index {
   background-color: #0bc5ea;
   color: #fff;
+  border: none;
+  cursor: pointer;
+  
 }
 
 .btn-primary-index:hover {
@@ -716,6 +719,7 @@ body {
   background-color: transparent;
   color: #fff;
   border: 1px solid #0bc5ea;
+  cursor: pointer;
 }
 
 .btn-secondary-index:hover {
