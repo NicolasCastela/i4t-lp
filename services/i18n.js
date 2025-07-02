@@ -25,3 +25,21 @@
   }
 
   // Exemplo de script para o header
+if (savedLang !== 'pt') {
+  fetch(`../../lang/components/${savedLang}-header.json`)
+    .then(res => res.json())
+    .then(data => {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (data[key]) el.innerHTML = data[key];
+      });
+    });
+}
+
+    function changeLang(lang) {
+        localStorage.setItem('language', lang);
+        location.reload();
+    }
+
+
+  
