@@ -48,7 +48,7 @@
 
 
         <main class="main-devices">
-            <section class="monitor">
+            <section  class="monitor">
                 <div class="n-container">
                     <div class="produtos-content">
                         <div class="produtos-tittle">
@@ -57,7 +57,7 @@
                             </h2>
                         </div>
 
-                        <div class="produtos">
+                        <div id="learn_more_red" class="produtos">
 
                             <div class="item">
                                 <a href="#">
@@ -119,7 +119,7 @@
                             <h2>Termômetro</h2>
                         </div>
 
-                        <div class="produtos">
+                        <div  class="produtos">
                             <div class="item">
                                 <a href="#">
                                     <img src="assets/termômetro/termo-item-01.png" alt="">
@@ -214,6 +214,14 @@
             });
     </script>
      <script src="../../components/header.js"></script>
+     <script>
+        document.getElementById('header-first-btn').addEventListener('click', function () {
+            const target = document.getElementById('learn_more_red');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    </script>
 </body>
 
 </html>

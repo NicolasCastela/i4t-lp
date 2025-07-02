@@ -55,7 +55,7 @@
         <section class="contact">
             <div class="n-container">
                 <div class="contact-content">
-                    <div class="contact-top">
+                    <div id="learn_more_red" class="contact-top">
                         <span>
                             <strong>Contato</strong>
                         </span>
@@ -69,7 +69,7 @@
                         </p>
                     </div>
 
-                    <div class="contact-bottom">
+                    <div   class="contact-bottom">
 
                         <div class="contact-item">
                         <label for="name">Nome</label>
@@ -106,7 +106,7 @@
 
         <section class="locate">
             <div class="n-container">
-                <div class="locate-content">
+                <div  class="locate-content">
                     <div class="locate-top">
                         <span>
                             <strong>Localizações</strong>
@@ -229,6 +229,15 @@
             .then(data => {
                 document.getElementById('footer-placeholder').innerHTML = data;
             });
+    </script>
+
+     <script>
+        document.getElementById('header-first-btn').addEventListener('click', function () {
+            const target = document.getElementById('learn_more_red');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
     </script>
 </body>
 

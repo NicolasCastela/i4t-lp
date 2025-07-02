@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +11,12 @@
     <link rel="stylesheet" href="responsive/resDesktop.css">
     <link rel="stylesheet" href="responsive/resMobile.css">
     <link rel="stylesheet" href="responsive/resTablets.css">
+    <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@2.2.0/i18nextHttpBackend.min.js"></script>
 </head>
+
 <body>
-  <!-- IMPORT HEADER -->
+    <!-- IMPORT HEADER -->
     <div id="header-placeholder"></div>
     <script>
         fetch('../../components/header.html')
@@ -22,278 +26,305 @@
             });
     </script>
     <!-- ------------------------ -->
-     <section class="body-container">
-    <header class="header-main">
-        <div class="container header-content">
-            <div class="header-items">
+    <section class="body-container">
+        <header class="header-main">
+            <div class="container header-content">
+                <div class="header-items">
 
-            <h2 class="header-tittle">
-                Transformando Cuidados com RPM
-            </h2>
-            <span>
-                Descubra <strong>como o RPM melhora a saúde de pacientes</strong> e a eficiência de hospitais.
-            </span>
-
-            <div class="header-btn">
-                <button id="header-first-btn">
-                    Saiba Mais
-                </button>
-                <button id="header-second-btn">
-                    Agende uma Visita
-                </button>
-            </div>
-
-            </div>
-        </div>
-    </header>
-
-    <section class="beneficios-monitoramento">
-        <div class="container monitoramento-content">
-            <div class="monitoramento-items">
-                <div class="monitoramento-left">
-                    <img src="../../assets/beneficios-rpm/beneficios-monitoramento.jpg" alt="">
-                </div>
-                
-                <div class="monitoramento-right">
-                    <h3>
-                        Benefícios do Monitoramento Remoto de Pacientes (RPM)
-                    </h3>
-                    <span>
-                        O <strong>Monitoramento Remoto de Pacientes (RPM)</strong> está no centro da inovação em saúde, tornando os cuidados mais acessíveis, proativos e baseados em dados. Com o <strong>RPM</strong>, médicos e enfermeiros têm acesso a <strong>informações em tempo real</strong>, permitindo diagnósticos mais precisos e intervenções oportunas. Essa tecnologia não só melhora os resultados para os pacientes, mas também otimiza a eficiência dos serviços de saúde, reduzindo custos e simplificando os processos.
+                    <h2 class="header-tittle" data-i18n="title" >
+                        Transformando Cuidados com RPM
+                    </h2>
+                    <span data-i18n="span-header-main" >
+                        Descubra <strong>como o RPM melhora a saúde de pacientes</strong> e a eficiência de hospitais.
                     </span>
-                    <div class="monitoramento-right-bottom">
-                        <div class="left">
-                            <h4>
-                                Acessibilidade
-                            </h4>
+
+                    <div class="header-btn">
+                        <button data-i18n="learn_more" id="header-first-btn">
+                            Saiba Mais
+                        </button>
+                        <button data-i18n="schedule_visit" id="header-second-btn">
+                            Agende uma Visita
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <section id="learn_more_red" class="beneficios-monitoramento">
+            <div class="container monitoramento-content">
+                <div class="monitoramento-items">
+                    <div class="monitoramento-left">
+                        <img src="../../assets/beneficios-rpm/beneficios-monitoramento.jpg" alt="">
+                    </div>
+
+                    <div class="monitoramento-right">
+                        <h3 data-i18n="h3-monitoramento-right">
+                            Benefícios do Monitoramento Remoto de Pacientes (RPM)
+                        </h3>
+                        <span data-i18n="span-monitoramento-right">
+                            O <strong>Monitoramento Remoto de Pacientes (RPM)</strong> está no centro da inovação em
+                            saúde, tornando os cuidados mais acessíveis, proativos e baseados em dados. Com o
+                            <strong>RPM</strong>, médicos e enfermeiros têm acesso a <strong>informações em tempo
+                                real</strong>, permitindo diagnósticos mais precisos e intervenções oportunas. Essa
+                            tecnologia não só melhora os resultados para os pacientes, mas também otimiza a eficiência
+                            dos serviços de saúde, reduzindo custos e simplificando os processos.
+                        </span>
+                        <div class="monitoramento-right-bottom">
+                            <div class="left">
+                                <h4 data-i18n="h4-monitoramento-right-bottom" >
+                                    Acessibilidade
+                                </h4>
+                                <span data-i18n="span-monitoramento-right-bottom">
+                                    Cuidados de qualidade entregues <strong>diretamente no conforto do lar</strong>,
+                                    eliminando barreiras físicas e geográficas.
+                                </span>
+                            </div>
+
+                            <div class="right">
+                                <h4>
+                                    Cuidados Proativos
+                                </h4>
+                                <span>
+                                    Dados em tempo real permitem <strong>intervenções rápidas e precisas</strong>,
+                                    garantindo a continuidade no cuidado.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficios-medicos">
+            <div class="container medicos-content">
+                <div class="medicos-items">
+                    <div class="medicos-content-left">
+                        <div class="medicos-content-left-top">
+                            <h3>
+                                Benefícios do RPM para Médicos e Enfermeiros
+                            </h3>
+
                             <span>
-                                Cuidados de qualidade entregues <strong>diretamente no conforto do lar</strong>, eliminando barreiras físicas e geográficas.
+                                O <strong>RPM transforma a prática médica</strong>, oferecendo dados detalhados e
+                                históricos clínicos completos em uma única plataforma. Isso permite que <strong>médicos
+                                    e enfermeiros</strong> gerenciem pacientes de forma mais eficiente, com menos
+                                consultas presenciais e mais foco em cuidados preventivos.
                             </span>
                         </div>
+                        <div class="medicos-content-left-bottom">
+                            <div class="top">
+                                <div class="card-top">
+                                    <div class="box-items">
+                                        <h4>
+                                            Informações em Tempo Real:
+                                        </h4>
+                                        <span>
+                                            Acompanhe a <strong>progressão da condição</strong> dos pacientes com dados
+                                            atualizados diariamente.
+                                        </span>
+                                    </div>
+                                    <div class="box-items">
+                                        <h4>
+                                            Suporte a Doenças Crônicas:
+                                        </h4>
 
-                        <div class="right">
-                            <h4>
-                                Cuidados Proativos
-                            </h4>
+                                        <span>
+                                            Melhore o tratamento de condições como <strong>diabetes, hipertensão e
+                                                doenças cardíacas.</strong>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="box-items">
+                                        <h4>
+                                            Alertas Inteligentes:
+                                        </h4>
+                                        <span>
+                                            Identifique <strong>sinais vitais anormais</strong> e intervenha antes que
+                                            complicações ocorram.
+                                        </span>
+                                    </div>
+                                    <div class="box-items">
+                                        <h4>
+                                            Gerenciamento Eficiente:
+                                        </h4>
+
+                                        <span>
+                                            Menos visitas desnecessárias e <strong>maior capacidade</strong> para
+                                            fornecer cuidados personalizados.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="medicos-content-right">
+                        <img src="../../assets/beneficios-rpm/beneficios-medicos.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficios-hospitais">
+            <div class="container hospitais-content">
+                <div class="hospitais-items">
+                    <div class="hospitais-content-left">
+                        <div class="hospitais-content-left-top">
+                            <h3>
+                                Benefícios do RPM para Hospitais e Clínicas
+                            </h3>
+
                             <span>
-                                Dados em tempo real permitem <strong>intervenções rápidas e precisas</strong>, garantindo a continuidade no cuidado.
+                                <strong>O <strong>RPM</strong> é essencial para aliviar a carga sobre <strong>hospitais
+                                        e clínicas</strong>, permitindo que os recursos sejam direcionados para os
+                                    pacientes mais críticos. Com essa tecnologia, as instituições de saúde podem
+                                    <strong>reduzir custos, otimizar fluxos de trabalho</strong> e melhorar os
+                                    resultados gerais para os pacientes.</strong>
                             </span>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <div class="hospitais-content-left-bottom">
+                            <div class="top">
+                                <div class="card-top">
+                                    <div class="box-items">
+                                        <h4>
+                                            Redução de Reingressos:
+                                        </h4>
+                                        <span>
+                                            <strong>Menos readmissões</strong> hospitalares e melhores resultados para
+                                            os pacientes.
+                                        </span>
+                                    </div>
+                                    <div class="box-items">
+                                        <h4>
+                                            Corte de Custos:
+                                        </h4>
 
-    <section class="beneficios-medicos">
-        <div class="container medicos-content">
-            <div class="medicos-items">
-                <div class="medicos-content-left">
-                    <div class="medicos-content-left-top">
-                        <h3>
-                            Benefícios do RPM para Médicos e Enfermeiros
-                        </h3>
-
-                        <span>
-                            O <strong>RPM transforma a prática médica</strong>, oferecendo dados detalhados e históricos clínicos completos em uma única plataforma. Isso permite que <strong>médicos e enfermeiros</strong> gerenciem pacientes de forma mais eficiente, com menos consultas presenciais e mais foco em cuidados preventivos.
-                        </span>
-                    </div>
-                    <div class="medicos-content-left-bottom">
-                        <div class="top">
-                            <div class="card-top">
-                                <div class="box-items">
-                                    <h4>
-                                        Informações em Tempo Real:
-                                    </h4>
-                                    <span>
-                                        Acompanhe a <strong>progressão da condição</strong> dos pacientes com dados atualizados diariamente.
-                                    </span>
+                                        <span>
+                                            <strong>Reduza os custos</strong> em até 65% enquanto mantém a qualidade do
+                                            atendimento.
+                                        </span>
+                                    </div>
                                 </div>
-                                <div class="box-items">
-                                    <h4>
-                                        Suporte a Doenças Crônicas:
-                                    </h4>
+                                <div class="card-bottom">
+                                    <div class="box-items">
+                                        <h4>
+                                            Maior Eficiência:
+                                        </h4>
+                                        <span>
+                                            <strong>Libere leitos hospitalares</strong> e recursos críticos, combatendo
+                                            a escassez de pessoal clínico.
+                                        </span>
+                                    </div>
+                                    <div class="box-items">
+                                        <h4>
+                                            Monitoramento Remoto:
+                                        </h4>
 
-                                    <span>
-                                        Melhore o tratamento de condições como <strong>diabetes, hipertensão e doenças cardíacas.</strong>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="card-bottom">
-                                <div class="box-items">
-                                    <h4>
-                                        Alertas Inteligentes:
-                                    </h4>
-                                    <span>
-                                        Identifique <strong>sinais vitais anormais</strong> e intervenha antes que complicações ocorram.
-                                    </span>
-                                </div>
-                                <div class="box-items">
-                                    <h4>
-                                        Gerenciamento Eficiente:
-                                    </h4>
-
-                                    <span>
-                                        Menos visitas desnecessárias e <strong>maior capacidade</strong> para fornecer cuidados personalizados.
-                                    </span>
+                                        <span>
+                                            Permite o <strong>acompanhamento de múltiplos pacientes</strong> à
+                                            distância, otimizando o uso de recursos.
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
 
-                <div class="medicos-content-right">
-                    <img src="../../assets/beneficios-rpm/beneficios-medicos.jpg" alt="">
+                    <div class="hospitais-content-right">
+                        <img src="../../assets/beneficios-rpm/beneficios-hospitais.jpg" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="beneficios-hospitais">
-        <div class="container hospitais-content">
-            <div class="hospitais-items">
-                <div class="hospitais-content-left">
-                    <div class="hospitais-content-left-top">
-                        <h3>
-                            Benefícios do RPM para Hospitais e Clínicas
-                        </h3>
+        <section class="beneficios-pacientes">
+            <div class="container pacientes-content">
+                <div class="pacientes-items">
+                    <div class="pacientes-content-left">
+                        <div class="pacientes-content-left-top">
+                            <h3>
+                                Benefícios do RPM para Pacientes
+                            </h3>
 
-                        <span>
-                            <strong>O <strong>RPM</strong> é essencial para aliviar a carga sobre <strong>hospitais e clínicas</strong>, permitindo que os recursos sejam direcionados para os pacientes mais críticos. Com essa tecnologia, as instituições de saúde podem <strong>reduzir custos, otimizar fluxos de trabalho</strong> e melhorar os resultados gerais para os pacientes.</strong>
-                        </span>
-                    </div>
-                    <div class="hospitais-content-left-bottom">
-                        <div class="top">
-                            <div class="card-top">
-                                <div class="box-items">
-                                    <h4>
-                                        Redução de Reingressos:
-                                    </h4>
-                                    <span>
-                                        <strong>Menos readmissões</strong> hospitalares e melhores resultados para os pacientes.
-                                    </span>
-                                </div>
-                                <div class="box-items">
-                                    <h4>
-                                        Corte de Custos:
-                                    </h4>
-
-                                    <span>
-                                        <strong>Reduza os custos</strong> em até 65% enquanto mantém a qualidade do atendimento.
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="card-bottom">
-                                <div class="box-items">
-                                    <h4>
-                                        Maior Eficiência:
-                                    </h4>
-                                    <span>
-                                        <strong>Libere leitos hospitalares</strong> e recursos críticos, combatendo a escassez de pessoal clínico.
-                                    </span>
-                                </div>
-                                <div class="box-items">
-                                    <h4>
-                                        Monitoramento Remoto:
-                                    </h4>
-
-                                    <span>
-                                        Permite o <strong>acompanhamento de múltiplos pacientes</strong> à distância, otimizando o uso de recursos.
-                                    </span>
-                                </div>
-                            </div>
+                            <span>
+                                O <strong>RPM empodera os pacientes,</strong> oferecendo mais controle sobre sua saúde e
+                                <strong>melhorando sua qualidade de vida.</strong>
+                                Essa tecnologia <strong>reduz a necessidade de visitas frequentes</strong>
+                                ao hospital e garante <strong>cuidados personalizados</strong> no conforto
+                                de casa.
+                            </span>
                         </div>
-                    </div>
-                </div>
+                        <div class="pacientes-content-left-bottom">
+                            <div class="top">
+                                <div class="card-top">
+                                    <div class="box-items">
+                                        <h4>
+                                            Detecção Precoce:
+                                        </h4>
+                                        <span>
+                                            <strong>Identifique sinais de alerta</strong> antes que a saúde se
+                                            deteriore, permitindo intervenções rápidas.
+                                        </span>
+                                    </div>
+                                    <div class="box-items">
+                                        <h4>
+                                            Redução de Custos:
+                                        </h4>
 
-
-                <div class="hospitais-content-right">
-                    <img src="../../assets/beneficios-rpm/beneficios-hospitais.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="beneficios-pacientes">
-        <div class="container pacientes-content">
-            <div class="pacientes-items">
-                <div class="pacientes-content-left">
-                    <div class="pacientes-content-left-top">
-                        <h3>
-                            Benefícios do RPM para Pacientes
-                        </h3>
-
-                        <span>
-                            O <strong>RPM empodera os pacientes,</strong> oferecendo mais controle sobre sua saúde e <strong>melhorando sua qualidade de vida.</strong> 
-                            Essa tecnologia <strong>reduz a necessidade de visitas frequentes</strong> 
-                            ao hospital e garante <strong>cuidados personalizados</strong> no conforto 
-                            de casa.
-                        </span>
-                    </div>
-                    <div class="pacientes-content-left-bottom">
-                        <div class="top">
-                            <div class="card-top">
-                                <div class="box-items">
-                                    <h4>
-                                        Detecção Precoce:
-                                    </h4>
-                                    <span>
-                                        <strong>Identifique sinais de alerta</strong> antes que a saúde se deteriore, permitindo intervenções rápidas.
-                                    </span>
+                                        <span>
+                                            <strong>Menos visitas ao hospital,</strong> estadias mais curtas e prevenção
+                                            de reingressos.
+                                        </span>
+                                    </div>
                                 </div>
-                                <div class="box-items">
-                                    <h4>
-                                        Redução de Custos:
-                                    </h4>
+                                <div class="card-bottom">
+                                    <div class="box-items">
+                                        <h4>
+                                            Cuidado Pós Cirúrgico
+                                        </h4>
+                                        <span>
+                                            <strong>Monitore a recuperação</strong> para evitar complicações e garantir
+                                            um retorno seguro à rotina.
+                                        </span>
+                                    </div>
+                                    <div class="box-items">
+                                        <h4>
+                                            Inclusão:
+                                        </h4>
 
-                                    <span>
-                                        <strong>Menos visitas ao hospital,</strong> estadias mais curtas e prevenção de reingressos.
-                                    </span>
+                                        <span>
+                                            Atenda <strong>populações carentes e pacientes idosos</strong> que precisam
+                                            de monitoramento contínuo.
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card-bottom">
-                                <div class="box-items">
-                                    <h4>
-                                        Cuidado Pós Cirúrgico
-                                    </h4>
-                                    <span>
-                                        <strong>Monitore a recuperação</strong> para evitar complicações e garantir um retorno seguro à rotina.
-                                    </span>
-                                </div>
-                                <div class="box-items">
-                                    <h4>
-                                        Inclusão:
-                                    </h4>
 
-                                    <span>
-                                        Atenda <strong>populações carentes e pacientes idosos</strong> que precisam de monitoramento contínuo.
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pacientes-btn">
-                            <button id="header-first-btn">
+                            <div class="pacientes-btn">
+                                <!-- <button id="header-first-btn">
                                 Saiba Mais
-                            </button>
-                            <button id="header-second-btn">
-                                Agende uma Visita
-                            </button>
+                            </button> -->
+                                <button data-i18n="schedule_visit" id="header-second-btn">
+                                    Agende uma Visita
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
 
-                <div class="pacientes-content-right">
-                    <img src="../../assets/beneficios-rpm/beneficios-pacientes.jpg" alt="">
+                    <div class="pacientes-content-right">
+                        <img src="../../assets/beneficios-rpm/beneficios-pacientes.jpg" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     </section>
-    
+
     <!-- IMPORT FOOTER -->
     <div id="footer-placeholder"></div>
     <script>
@@ -303,8 +334,17 @@
                 document.getElementById('footer-placeholder').innerHTML = data;
             });
     </script>
-
-<script src="../../components/header.js"></script>
+    <script src="../../components/header.js"></script>
     <!-- ------------------------------------ -->
+    <script src="../../services/i18n.js"></script>
+    <script>
+        document.getElementById('header-first-btn').addEventListener('click', function () {
+            const target = document.getElementById('learn_more_red');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    </script>
 </body>
+
 </html>

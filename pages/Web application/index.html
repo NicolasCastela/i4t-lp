@@ -47,9 +47,9 @@
             </div>
         </header>
 
-        <section class="aplicativos">
+        <section  class="aplicativos">
             <div class="n-container">
-                <div class="aplicativos-content">
+                <div id="learn_more_red" class="aplicativos-content">
                     <div class="item-top">
                         <div class="left-box">
                             <div class="imgs">
@@ -111,6 +111,14 @@
             });
     </script>
     <script src="../../components/header.js"></script>
+     <script>
+    document.getElementById('header-first-btn').addEventListener('click', function () {
+      const target = document.getElementById('learn_more_red');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  </script>
 </body>
 
 </html>
