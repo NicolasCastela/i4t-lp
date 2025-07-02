@@ -24,10 +24,4 @@
       });
   }
 
-    function changeLang(lang) {
-        localStorage.setItem('language', lang);
-        location.reload();
-    }
-
-
-  
+  // Exemplo de script para o header

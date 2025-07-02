@@ -20,26 +20,23 @@
 <body>
   <div id="header-placeholder"></div>
   <script>
-    fetch('components/header.html')
+    fetch('../../components/header.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('header-placeholder').innerHTML = data;
-        const script = document.createElement('script');
-        script.src = 'components/header.js';
-        document.head.appendChild(script);
       });
   </script>
 
   <section class="banner-home-index">
     <div class="banner-content-index">
-      <h2>
+      <h2 data-i18n="title">
         Transformando <br />
         a Saúde com <br />
         Monitoramento<br />
         Remoto (RPM) <br />
         e Inovação.
       </h2>
-      <p>
+      <p data-i18n="p-banner-content-index">
         <br />
         A <strong>Emmitec.Health</strong> conecta pacientes e profissionais de
         saúde por meio de tecnologia de<strong>
@@ -58,7 +55,7 @@
   <section class="discovery-pos-banner">
     <div class="container">
       <div class="captions">
-        <h3>
+        <h3 data-i18n="h3-discovery-pos-banner">
           Descubra como a EmmiTec está transformando a saúde com inovação e
           tecnologia.
         </h3>
@@ -70,16 +67,17 @@
           </div>
 
           <div class="children-item-b-box">
-            <h4>Nossa História</h4>
-            <span>Conheça a trajetória da
-              <span style="font-weight: 700">EmmiTec </span>
+            <h4 data-i18n="h4-children-item-b-box">Nossa História</h4>
+            <span data-i18n="span-children-item-b-box">Conheça a trajetória da
+              <strong>EmmiTec </strong>
               e como estamos liderando a transformação da assistência médica
               com soluções inovadoras e tecnológicas.</span>
-            <a href="../AboutUs/">
-              <span class="blog-card-link" style="font-weight: 600;">Saiba Mais
-                <img src="assets/utils/vector-arrow-green-right.png" alt="ícone local"
-                  style="margin-left: 10px" /></span>
-            </a>
+            <span>
+              <a href="../AboutUs/" class="blog-card-link" style="font-weight: 600;" data-i18n="learn_more_href">Saiba Mais
+              </a>
+              <img src="assets/utils/vector-arrow-green-right.png" alt="ícone local" style="margin-left: 10px" /></span>
+
+            </span>
           </div>
         </div>
         <div class="children-item">
@@ -88,18 +86,19 @@
           </div>
 
           <div class="children-item-b-box">
-            <h4>O que é RPM?</h4>
-            <span>
+            <h4 data-i18n="h4-2-children-item-b-box">O que é RPM?</h4>
+            <span data-i18n="span-2-children-item-b-box">
               Entenda como o
               <strong>Monitoramento Remoto de Pacientes (RPM)</strong> conecta
               médicos e pacientes, oferecendo dados valiosos em tempo real.
             </span>
-            <a href="../BenefitsRPM/">
+            <span>
+              <a href="../BenefitsRPM/" class="blog-card-link" style="font-weight: 600;" data-i18n="learn_more_href">Saiba
+                Mais
+              </a>
+              <img src="assets/utils/vector-arrow-green-right.png" alt="ícone local" style="margin-left: 10px" /></span>
 
-              <span class="blog-card-link" style="font-weight: 600;">Saiba Mais
-                <img src="assets/utils/vector-arrow-green-right.png" alt="ícone local"
-                  style="margin-left: 10px" /></span>
-            </a>
+            </span>
           </div>
         </div>
         <div class="children-item">
@@ -108,16 +107,20 @@
           </div>
 
           <div class="children-item-b-box">
-            <h4>Benefícios do RPM</h4>
-            <span>Descubra como o
+            <h4 data-i18n="h4-3-children-item-b-box">Benefícios do RPM</h4>
+            <span data-i18n="span-3-children-item-b-box">Descubra como o
               <strong>Monitoramento Remoto de Pacientes (RPM)</strong> melhora
               resultados, reduz custos e oferece um cuidado mais eficiente,
               personalizado e acessível.</span>
-            <a href="../TransformingRPM/">
-              <span class="blog-card-link" style="font-weight: 600;">Saiba Mais
-                <img src="assets/utils/vector-arrow-green-right.png" alt="ícone local"
-                  style="margin-left: 10px" /></span>
-            </a>
+            <span>
+              <a href="../TransformingRPM/" class="blog-card-link" style="font-weight: 600;"
+                data-i18n="learn_more_href">Saiba
+                Mais
+              </a>
+              <img src="assets/utils/vector-arrow-green-right.png" alt="ícone local" style="margin-left: 10px" /></span>
+
+            </span>
+
           </div>
         </div>
       </div>
@@ -128,13 +131,13 @@
     <div class="container">
       <div class="teste">
         <div class="children-section-left">
-          <h3 class="captions-second">
+          <h3 data-i18n="h3-tecnology-rpm" class="captions-second">
             Tecnologia RPM<br />
             que Antecipa Problemas<br />
             e Salva Vidas
           </h3>
           <div class="first-span-after-caption">
-            <span style="
+            <span data-i18n="span-tecnology-rpm" style="
                   font-weight: 590;
                   text-transform: uppercase;
                   color: #4c666d;
@@ -146,7 +149,7 @@
             </span>
             <br /><br />
 
-            <p>
+            <p data-i18n="p-tecnology-rom">
               Na EmmiTec, estamos liderando a inovação em saúde com nossa
               plataforma de
               <strong>Monitoramento Remoto de Pacientes (RPM)</strong>.
@@ -308,21 +311,20 @@
   <section class="banner-footer">
     <div class="banner-content">
       <div class="banner-items">
-        <h2>Agende sua demonstração personalizada</h2>
-        <p>
+        <h2 data-i18n="h2-banner-footer" >Agende sua demonstração personalizada</h2>
+        <p data-i18n="p-banner-footer">
           Descubra como nossa plataforma pode transformar a assistência médica
           na sua instituição de saúde.
         </p>
         <div class="banner-buttons">
-          <button data-i18n="learn_more" class="btn-primary">Saiba Mais</button>
+          <!-- <button data-i18n="learn_more" class="btn-primary">Saiba Mais</button> -->
           <button data-i18n="schedule_visit" class="btn-secondary">Agende uma Visita</button>
         </div>
       </div>
     </div>
   </section>
-</body>
-
-<footer class="footer">
+   <script src="../../components/header.js"></script>
+   <footer class="footer">
   <div class="container">
     <div class="footer-section footer-left">
       <div>
@@ -405,7 +407,13 @@
     </div>
   </div>
 </footer>
-<script src="../../components/header.js"></script>
 <script src="../../services/i18n.js"></script>
+</body>
+
+
+<script>
+  
+    
+</script>
 
 </html>

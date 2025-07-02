@@ -59,3 +59,5 @@ fetch('../../components/header.html')
       }
     }, 0); // Garante que DOM esteja atualizado
   });
+
+  // Exemplo de script para o header
