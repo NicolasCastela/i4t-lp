@@ -19,7 +19,7 @@ O projeto é composto por páginas estáticas, desenvolvidas com foco em perform
 - **Componentização:**  
   Elementos como cabeçalho, rodapé e carrosséis são reaproveitados em diferentes páginas via includes e organização de arquivos.
 - **Responsividade:**  
-  O layout se adapta perfeitamente a dispositivos desktop, tablets e smartphones, garantindo ótima experiência em qualquer resolução.
+  O layout se adapta a dispositivos desktop, tablets e smartphones, garantindo  experiência em qualquer resolução.
 - **Design Empresarial:**  
   O visual segue a identidade da EmmiTec, com foco em clareza, profissionalismo e inovação.
 
@@ -28,7 +28,7 @@ O projeto é composto por páginas estáticas, desenvolvidas com foco em perform
 ## Páginas e Funcionalidades
 
 - **Home:** Apresentação institucional, missão, visão e valores.
-- **Reconhecimentos:** Depoimentos, prêmios e cases de sucesso, com carrossel responsivo.
+- **Reconhecimentos:** Depoimentos, prêmios e com carrossel responsivo.
 - **Blog:** Últimas postagens e novidades do setor de saúde.
 - **Contato/Agendamento:** Formulários para contato e agendamento de visitas.
 - **Outras páginas:** Seções específicas para soluções, monitoramento remoto, entre outras.
@@ -39,7 +39,7 @@ O projeto é composto por páginas estáticas, desenvolvidas com foco em perform
 
 1. **Clone o repositório:**
    ```bash
-   git clone <url-do-repositorio>
+   git clone <url-do-repositorio
    ```
 2. **Abra o arquivo `index.html` em seu navegador.**
 3. **Navegue pelas páginas estáticas normalmente.**
