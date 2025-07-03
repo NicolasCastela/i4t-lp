@@ -90,8 +90,21 @@
     /*produtos-content*/
 
     .item-top,
+    .item-mid,
     .item-bottom {
       flex-wrap: wrap;
       flex-direction: column;
     }
+
+
+    .item-img {
+      object-position: center;
+    }
+
+    #header-second-btn {
+      width: 135px;
+      height: auto;
+    }
+
+    
 }

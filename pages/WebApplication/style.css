@@ -118,6 +118,7 @@ body {
 }
 
 .item-top,
+.item-mid,
 .item-bottom {
     display: flex;
     gap: 32px;
@@ -141,13 +142,13 @@ body {
   flex-direction: column;
 }
 
-.left-box img,
-.right-box img {
+.item-img {
   width: 100%;
   min-height: 365px;
   object-fit: cover;
   object-position: top left;
   border-radius: 10px;
+  border: 2px solid red;
 }
 
 .ver-todos-btn {
@@ -165,4 +166,18 @@ body {
 
 .ver-todos-btn:hover {
     background-color: #00b3b3;
+}
+
+.download-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 16px;
+}
+
+.download-btn {
+    width: 100%;
+    max-width: 150px;
 }
