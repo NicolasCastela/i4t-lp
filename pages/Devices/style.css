@@ -249,3 +249,11 @@ body {
 .last-section-left .bottom h3 {
     font-size: 1.25em;
 }
+
+
+.last-section {
+  display: none;
+}
+.last-section.show {
+    display: flex;
+}

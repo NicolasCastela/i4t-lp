@@ -45,8 +45,7 @@
                                 Saiba Mais
                             </button>
                             <a href="https://wa.me/5567992175517?text=Olá,%20tudo%20bem?%20Me%20interessei%20pela%20Emmitec%20e%20gostaria%20de%20saber%20mais!
-" target="_blank"
-                                rel="noopener noreferrer">
+" target="_blank" rel="noopener noreferrer">
                                 <button id="header-second-btn">
                                     Agende uma Visita
                                 </button>
@@ -222,14 +221,14 @@
 
     <script>
         const items = document.querySelectorAll('.item')
-
+        const lastSection = document.querySelector('.last-section');
         items.forEach(function (item) {
             item.addEventListener('click', function () {
-                const roll = document.getElementById('last_saction');
-                if (roll) {
-                    roll.scrollIntoView({ behavior: 'smooth' })
-                }
+                if (lastSection) {
+                    lastSection.classList.add('show')
+                    lastSection.scrollIntoView({ behavior: 'smooth' })
 
+                }
                 const img = item.getAttribute('data-img');
                 const tittle = item.getAttribute('data-tittle');
 
