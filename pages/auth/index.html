@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,122 +12,299 @@
             padding: 0;
             font-family: 'Segoe UI', Arial, sans-serif;
         }
-        body, html {
+
+        body,
+        html {
             height: 100%;
             width: 100%;
-            background: #f4f6fb;
         }
+
         .container {
             display: flex;
             height: 100vh;
             width: 100vw;
         }
+
         .login-section {
             flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: #fff;
-            box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+            background: transparent;
         }
+
         .login-box {
             width: 100%;
-            max-width: 350px;
-            padding: 40px 30px;
-            border-radius: 16px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-            background: #fff;
+            max-width: 500px;
+            padding: 48px 36px 36px 36px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(30, 64, 175, 0.18), 0 1.5px 8px rgba(37, 99, 235, 0.10);
+            background: rgba(255, 255, 255, 0.97);
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 28px;
+            position: relative;
+            overflow: hidden;
+            animation: fadeInUp 0.7s cubic-bezier(.23, 1.01, .32, 1) both;
         }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .login-box::before {
+            content: "";
+            position: absolute;
+            top: -60px;
+            left: -60px;
+            width: 140px;
+            height: 140px;
+            background: linear-gradient(135deg, #2563eb 60%, #1e40af 100%);
+            opacity: 0.12;
+            border-radius: 50%;
+            z-index: 0;
+        }
+
         .login-box h2 {
             text-align: center;
-            color: #2d3a4b;
+            color: #1e40af;
             margin-bottom: 8px;
-            font-weight: 600;
-            font-size: 2rem;
+            font-weight: 700;
+            font-size: 2.1rem;
+            letter-spacing: 1px;
+            position: relative;
+            z-index: 1;
         }
+
         .input-group {
             display: flex;
             flex-direction: column;
-            gap: 16px;
+            gap: 18px;
+            position: relative;
+            z-index: 1;
         }
+
         .input-group label {
             font-size: 1rem;
-            color: #4a5568;
+            color: #374151;
             margin-bottom: 4px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
         }
+
         .input-group input {
-            padding: 12px 14px;
-            border: 1px solid #d1d5db;
-            border-radius: 8px;
-            font-size: 1rem;
-            transition: border 0.2s;
-            outline: none;
+            padding: 13px 16px 13px 44px;
+            border: 1.5px solid #d1d5db;
+            border-radius: 10px;
+            font-size: 1.05rem;
             background: #f9fafb;
+            transition: border 0.25s, box-shadow 0.25s;
+            outline: none;
+            box-shadow: 0 1.5px 8px rgba(37, 99, 235, 0.04);
+            position: relative;
         }
+
         .input-group input:focus {
             border-color: #2563eb;
             background: #fff;
+            box-shadow: 0 2px 12px rgba(37, 99, 235, 0.10);
         }
+
+        .input-icon {
+            position: absolute;
+            left: 14px;
+            top: 55px;
+            font-size: 1.15em;
+            color: #2563eb;
+            opacity: 0.7;
+            pointer-events: none;
+            z-index: 2;
+            transition: color 0.2s;
+        }
+
+        .input-group input:focus~.input-icon {
+            color: #1e40af;
+            opacity: 1;
+        }
+
         .login-btn {
-            margin-top: 12px;
-            padding: 12px;
+            margin-top: 18px;
+            padding: 13px;
             background: linear-gradient(90deg, #2563eb 0%, #1e40af 100%);
             color: #fff;
             border: none;
-            border-radius: 8px;
-            font-size: 1.1rem;
-            font-weight: 600;
+            border-radius: 10px;
+            font-size: 1.13rem;
+            font-weight: 700;
             cursor: pointer;
-            transition: background 0.2s;
+            box-shadow: 0 2px 12px rgba(37, 99, 235, 0.10);
+            transition: background 0.2s, transform 0.12s;
+            letter-spacing: 0.5px;
+            position: relative;
+            z-index: 1;
         }
-        .login-btn:hover {
+
+        .login-btn:hover,
+        .login-btn:focus {
             background: linear-gradient(90deg, #1e40af 0%, #2563eb 100%);
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 4px 18px rgba(37, 99, 235, 0.16);
         }
+
+        .login-box .forgot-link {
+            text-align: right;
+            margin-top: -12px;
+            margin-bottom: 6px;
+            font-size: 0.98em;
+            color: #2563eb;
+            text-decoration: none;
+            transition: color 0.2s;
+            z-index: 1;
+            position: relative;
+        }
+
+        .login-box .forgot-link:hover {
+            color: #1e40af;
+            text-decoration: underline;
+        }
+
+        .login-box .divider {
+            border: none;
+            border-top: 1px solid #e5e7eb;
+            margin: 10px 0 0 0;
+        }
+
+        .login-box .signup-link {
+            text-align: center;
+            font-size: 1em;
+            color: #374151;
+            margin-top: 8px;
+            z-index: 1;
+            position: relative;
+        }
+
+        .login-box .signup-link a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        .login-box .signup-link a:hover {
+            color: #1e40af;
+            text-decoration: underline;
+        }
+
         .right-section {
             display: flex;
             flex: 1;
             background: #e5e9f2;
         }
+
         .right-section img {
             max-width: 100%;
             max-height: 100%;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
             object-fit: cover;
             object-position: left;
         }
+
         @media (max-width: 900px) {
             .container {
                 flex-direction: column;
+                height: 100vh;
+                width: 100vw;
+                background: linear-gradient(120deg, #2563eb 0%, #1e40af 100%);
             }
+
             .right-section {
                 display: none;
             }
+
             .login-section {
                 flex: none;
                 width: 100vw;
                 height: 100vh;
                 box-shadow: none;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding-top: 40px;
+                background: transparent;
+            }
+
+            .login-box {
+                max-width: 95vw;
+                min-width: 0;
+                margin: 0 auto;
+                padding: 32px 12px 24px 12px;
+                border-radius: 18px;
+                gap: 18px;
+                box-shadow: 0 4px 18px rgba(30, 64, 175, 0.10);
+                animation: fadeInUp 0.7s cubic-bezier(.23, 1.01, .32, 1) both;
+            }
+
+            .login-box h2 {
+                font-size: 1.5rem;
+            }
+
+            .input-group label {
+                font-size: 0.98rem;
+            }
+
+            .input-group input {
+                font-size: 1em;
+                padding: 12px 12px 12px 40px;
+            }
+
+            .input-icon {
+                left: 10px;
+                top: 55px;
+                font-size: 1em;
+            }
+
+            .login-btn {
+                font-size: 1em;
+                padding: 12px;
+            }
+
+            .login-box .forgot-link,
+            .login-box .signup-link {
+                font-size: 0.98em;
             }
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
+
 <body>
     <div class="container">
-        <div class="login-section">
-            <form class="login-box">
-                <h2>Entrar</h2>
-                <div class="input-group">
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
-                </div>
-                <div class="input-group">
-                    <label for="password">Senha</label>
-                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
-                </div>
-                <button type="submit" class="login-btn">Login</button>
+        <div class="login-section" ">
+            <form  class=" login-box" autocomplete="off">
+            <h2>Entrar</h2>
+            <div class="input-group" style="position:relative;">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <span class="input-icon"><i class="fa-solid fa-envelope"></i></span>
+            </div>
+            <div class="input-group" style="position:relative;">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                <span class="input-icon"><i class="fa-solid fa-lock"></i></span>
+            </div>
+            <a href="#" class="forgot-link">Esqueceu a senha?</a>
+            <button type="submit" class="login-btn">Login</button>
+            <hr class="divider">
+            <div class="signup-link">
+                Não tem uma conta? <a href="#">Cadastre-se</a>
+            </div>
             </form>
         </div>
         <div class="right-section">
@@ -134,4 +312,5 @@
         </div>
     </div>
 </body>
+
 </html>
