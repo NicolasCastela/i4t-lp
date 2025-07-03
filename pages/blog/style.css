@@ -119,6 +119,10 @@ body button {
     font-size: 1em;
 }
 
+.card-link.init:hover {
+    color: #11D3D3;
+}
+
 .card-link span {
     font-size: 1.2em;
     transition: transform 0.2s;
@@ -510,11 +514,14 @@ body button {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
+
 }
 
-.sidebar-post-content{
-height: 77px; display: flex; flex-direction: column; justify-content: space-around;
+.sidebar-post-content {
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -549,7 +556,8 @@ height: 77px; display: flex; flex-direction: column; justify-content: space-arou
     font-size: 1.15em;
     font-weight: 700;
     margin: 10px 18px 6px 18px;
-    color: #4C666D;;
+    color: #4C666D;
+    ;
 }
 
 .blog-card-desc {
