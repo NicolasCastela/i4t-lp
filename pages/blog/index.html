@@ -86,9 +86,7 @@
                     </div>
                 </div>
                 <div class="button-center">
-                    <a href="#seeAllPost" class="button-link">
-                        <button>Ver todos</button>
-                    </a>
+                        <button id="see_all">Ver todos</button>
                 </div>
             </div>
 
@@ -445,6 +443,15 @@
                 if (btn) btn.click();
                 document.getElementById('seeAllPost').scrollIntoView({ behavior: 'smooth' });
             });
+        });
+    </script>
+
+    <script>
+        document.getElementById('see_all').addEventListener('click', function (){
+            const seeAll = document.getElementById('seeAllPost');
+            if (seeAll) {
+                seeAll.scrollIntoView({ behavior: 'smooth' });
+            }
         });
     </script>
 
