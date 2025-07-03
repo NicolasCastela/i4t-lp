@@ -47,7 +47,9 @@
       </p>
       <div class="buttons-index">
         <button data-i18n="learn_more" id="header-first-btn" class="btn-index btn-primary-index">Saiba Mais</button>
-        <button data-i18n="schedule_demo" class="btn-index btn-secondary-index">Agende uma Demonstração</button>
+        <a href="https://wa.me/5567992175517?text=Quero%20saber%20mais" target="_blank" rel="noopener noreferrer">
+          <button data-i18n="schedule_demo" class="btn-index btn-secondary-index">Agende uma Demonstração</button>
+        </a>
       </div>
     </div>
   </section>
@@ -321,37 +323,36 @@
         </p>
         <div class="banner-buttons">
           <!-- <button data-i18n="learn_more" class="btn-primary">Saiba Mais</button> -->
-          <button data-i18n="schedule_visit" class="btn-secondary">Agende uma Visita</button>
+          <a href="https://wa.me/5567992175517?text=Quero%20saber%20mais" target="_blank" rel="noopener noreferrer">
+            <button data-i18n="schedule_visit" class="btn-secondary">Agende uma Visita</button>
+          </a>
         </div>
       </div>
     </div>
   </section>
-  <script src="../../components/header.js"></script>
   <div id="footer-placeholder"></div>
   <script>
     fetch('../../components/footer.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('footer-placeholder').innerHTML = data;
-      });
-  </script>
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    });
+    </script>
+    <script src="../../components/header.js"></script>
   <script src="../../services/i18n.js"></script>
 
   <script>
-        document.getElementById('header-first-btn').addEventListener('click', function () {
-            const target = document.getElementById('learn_more_red');
-            if (target) {
-                target.scrollIntoView({ behavior: 'smooth' });
-            }
-        });
-    </script>
+    document.getElementById('header-first-btn').addEventListener('click', function () {
+      const target = document.getElementById('learn_more_red');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  </script>
 
 </body>
 
 
-<script>
 
-
-</script>
 
 </html>

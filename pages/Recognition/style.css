@@ -112,6 +112,7 @@ body {
     color: #fff;
     font-weight: 700;
     font-size: 1em;
+    cursor: pointer;
     /* Verificar aqui */
 }
 
@@ -126,6 +127,7 @@ body {
     color: #4C666D;
     font-weight: 700;
     font-size: 1em;
+    cursor: pointer;
 }
 
 #header-first-btn:hover {
