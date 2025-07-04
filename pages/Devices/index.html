@@ -152,7 +152,7 @@
                                 <h3>Accu-Chek Guide Me</h3>
                                 <p>Medidor de glicose no sangue</p>
                             </div>
-                            <div class="item" data-img="assets/medidores/medidor-item-03.png" data-title=TD-4255>
+                            <div class="item" data-img="assets/medidores/medidor-item-03.png" data-title="TD-4255">
                                 <img src="assets/medidores/medidor-item-03.png" alt="">
                                 <h3>TD-4255</h3>
                                 <p>Medidor de glicose no sangue</p>
@@ -161,6 +161,7 @@
                     </div>
                 </div>
             </section>
+
             <section class="oximeter">
                 <div class="n-container">
                     <div class="produtos-content">
@@ -186,6 +187,122 @@
                     </div>
                 </div>
             </section>
+
+            <section class="monitor-multiparam">
+                <div class="n-container">
+                    <div class="produtos-content">
+                        <div class="produtos-title">
+                            <h2>Medidor de múltiplos parâmetros</h2>
+                        </div>
+                        <div class="produtos">
+                            <div class="item" data-img="assets/monitor-multi/monitor-multi-item-01.png"
+                                data-title="TD-4289">
+                                <img src="assets/monitor-multi/monitor-multi-item-01.png" alt="">
+                                <h3>TD-4289</h3>
+                                <p>Monitor Multiparâmetro</p>
+                            </div>
+
+                            <div class="item" data-img="assets/monitor-multi/monitor-multi-item-02.png"
+                                data-title="TD-4216">
+                                <img src="assets/monitor-multi/monitor-multi-item-02.png" alt="">
+                                <h3>TD-4216</h3>
+                                <p>Monitor Multiparâmetro</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="weight-scale">
+                <div class="n-container">
+                    <div class="produtos-content">
+                        <div class="produtos-title">
+                            <h2>Balança de Peso </h2>
+                        </div>
+                        <div class="produtos">
+                            <div class="item" data-img="assets/balancas-intel/balanca-intel-item-03.png"
+                                data-title="AND-352BLE">
+                                <img src="assets/balancas-intel/balanca-intel-item-01.png" alt="">
+                                <h3>AND-352BLE</h3>
+                                <p>Balança de Peso</p>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="ecg-portail">
+                <div class="n-container">
+                    <div class="produtos-content">
+                        <div class="produtos-title">
+                            <h2>Eletrocardiógrafo (ECG)</h2>
+                        </div>
+                        <div class="produtos">
+                            <div class="item" data-img="assets/ecg-portail/ecg-portail-item-01.png"
+                                data-title="TD-2202">
+                                <img src="assets/ecg-portail/ecg-portail-item-01.png" alt="">
+                                <h3>TD-2202</h3>
+                                <p>Gravador de ECG portátil</p>
+                            </div>
+
+                            <div class="item" data-img="assets/ecg-portail/ecg-portail-item-02.png"
+                                data-title="TD-2300">
+                                <img src="assets/ecg-portail/ecg-portail-item-02.png" alt="">
+                                <h3>TD-2300</h3>
+                                <p>Monitor de Sinais Vitais</p>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="hemoglobin">
+                <div class="n-container">
+                    <div class="produtos-content">
+                        <div class="produtos-title">
+                            <h2>Analisador de Hemoglobina</h2>
+                        </div>
+                        <div class="produtos">
+                            <div class="item" data-img="assets/hemoglobin/hemoglobin-item-01.png" data-title="TD-4611">
+                                <img src="assets/hemoglobin/hemoglobin-item-01.png" alt="">
+                                <h3>TD-4611</h3>
+                                <p>Analisador de Hemoglobina</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="biossensor">
+                <div class="n-container">
+                    <div class="produtos-content">
+                        <div class="produtos-title">
+                            <h2>Biossensor</h2>
+                        </div>
+                        <div class="produtos">
+                            <div class="item" data-img="assets/biossensor/biossensor-item-01.png"
+                                data-title="In Vitro Diagnostic Strips">
+                                <img src="assets/biossensor/biossensor-item-01.png" alt="">
+                                <h3>In Vitro Diagnostic Strips</h3>
+                                <p>Biossensor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
 
             <button class="ver-todos-btn">
                 Ver todos
@@ -224,10 +341,10 @@
                         </div>
                     </div>
                 </div>
-
+                <!--
                 <button class="ver-todos-btn">
                     Ver todos
-                </button>
+                </button> -->
             </section>
 
         </main>
@@ -255,7 +372,12 @@
 
     <script>
         let devicesData = {};
-        
+
+        // Função para detectar idioma atual
+        function getCurrentLanguage() {
+            return i18next.language || 'pt';
+        }
+
         // Carregar dados do JSON
         fetch('data/devices.json')
             .then(response => response.json())
@@ -266,38 +388,39 @@
 
         const items = document.querySelectorAll('.item')
         const lastSection = document.querySelector('.last-section');
-        
+
         items.forEach(function (item) {
             item.addEventListener('click', function () {
                 if (lastSection) {
                     lastSection.classList.add('show')
                     lastSection.scrollIntoView({ behavior: 'smooth' })
                 }
-                
+
                 const img = item.getAttribute('data-img');
                 const title = item.getAttribute('data-title');
                 const deviceData = devicesData[title];
-                
-                if (deviceData) {
+                const currentLang = getCurrentLanguage();
+
+                if (deviceData && deviceData[currentLang]) {
+                    const langData = deviceData[currentLang];
+
                     // Atualizar título
-                    document.getElementById('last_title').textContent = deviceData.title;
-                    
+                    document.getElementById('last_title').textContent = langData.title;
+
                     // Atualizar características
                     const featuresContainer = document.querySelector('.last-section-left .top');
                     const existingFeatures = featuresContainer.querySelectorAll('li');
                     existingFeatures.forEach(li => li.remove());
-                    
-                    const titleElement = featuresContainer.querySelector('h2');
-                    deviceData.features.forEach(feature => {
+
+                    langData.features.forEach(feature => {
                         const li = document.createElement('li');
                         li.textContent = feature;
                         featuresContainer.appendChild(li);
                     });
-                    
                     // Atualizar descrição
-                    document.querySelector('.bottom h3').textContent = deviceData.description.subtitle;
-                    document.querySelector('.bottom p').textContent = deviceData.description.text;
-                    
+                    document.querySelector('.bottom h3').textContent = langData.description.subtitle;
+                    document.querySelector('.bottom p').textContent = langData.description.text;
+
                     // Atualizar imagem
                     document.getElementById('last_section_img').src = img;
                 }

@@ -18,6 +18,11 @@ body {
 .termometro,
 .medidor,
 .oximeter,
+.ecg-portail,
+.weight-scale,
+.hemoglobin,
+.biossensor,
+.monitor-multiparam,
 .last-section {
     width: 100%;
     display: flex;
@@ -176,12 +181,15 @@ body {
     margin-bottom: 16px;
 }
 
-.medidor .produtos {
-    display: flex;
-    justify-items: start;
-}
 
-.oximeter .produtos {
+
+.oximeter .produtos,
+.monitor-multiparam .produtos,
+.medidor .produtos,
+.ecg-portail .produtos,
+.weight-scale .produtos,
+.hemoglobin .produtos,
+.biossensor .produtos {
     display: flex;
     justify-items: start;
 }

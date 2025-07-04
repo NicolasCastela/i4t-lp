@@ -1,152 +1,576 @@
 {
+  "TD-3128": {
+    "pt": {
+      "title": "TD-3128 : Monitor de pressão arterial.",
+      "features": [
+        "Tecnologia infravermelha.",
+        "Conversão C/F.",
+        "30 memórias.",
+        "Retroiluminação de duas cores.",
+        "Modos de medição de testa (escolha de crianças e adultos) e superfície.",
+        "BLE 5.0 (Conectividade Bluetooth de Baixa Energia)."
+      ],
+      "description": {
+        "subtitle": "Tecnologia Avançada",
+        "text": "Um termômetro sem fio que registra e rastreia automaticamente as medições através do aplicativo móvel Sanitas Remota™ e do aplicativo web Sanitas Remota™."
+      }
+    },
+    "en": {
+      "title": "TD-3128: Blood pressure monitor.",
+      "features": [
+        "Infrared Technology.",
+        "C/F convertible.",
+        "30 memory.",
+        "Dual-color backlight.",
+        "Forehead (children & adult election) and Surface measuring modes.",
+        "BLE 5.0 (Bluetooth Low Energy Connectivity)."
+      ],
+      "description": {
+        "subtitle": "Advanced Technology",
+        "text": "A wireless thermometer that automatically records and tracks measurements via Sanitas Remota™ mobile app and Sanitas Remota™ web application."
+      }
+    }
+  },
   "TD-1242": {
-    "title": "Termômetro TD-1242 : Acompanhe em tempo real, a temperatura do seu paciente.",
-    "features": [
-      "Tecnologia infravermelha.",
-      "Conversão C/F.",
-      "30 memórias.",
-      "Retroiluminação de duas cores.",
-      "Modos de medição de testa (escolha de crianças e adultos) e superfície.",
-      "BLE 5.0 (Conectividade Bluetooth de Baixa Energia)."
-    ],
-    "description": {
-      "subtitle": "Tecnologia Avançada",
-      "text": "Um termômetro sem fio que registra e rastreia automaticamente as medições através do aplicativo móvel Sanitas Remota™ e do aplicativo web Sanitas Remota™."
+    "pt": {
+      "title": "Termômetro TD-1242 : Acompanhe em tempo real, a temperatura do seu paciente.",
+      "features": [
+        "Tecnologia infravermelha.",
+        "Conversão C/F.",
+        "30 memórias.",
+        "Retroiluminação de duas cores.",
+        "Modos de medição de testa (escolha de crianças e adultos) e superfície.",
+        "BLE 5.0 (Conectividade Bluetooth de Baixa Energia)."
+      ],
+      "description": {
+        "subtitle": "Tecnologia Avançada",
+        "text": "Um termômetro sem fio que registra e rastreia automaticamente as medições através do aplicativo móvel Sanitas Remota™ e do aplicativo web Sanitas Remota™."
+      }
+    },
+    "en": {
+      "title": "TD-1242 Thermometer: Monitor your patient's temperature in real time.",
+      "features": [
+        "Infrared technology.",
+        "C/F conversion.",
+        "30 memories.",
+        "Two-color backlight.",
+        "Forehead measurement modes (children and adults choice) and surface.",
+        "BLE 5.0 (Low Energy Bluetooth Connectivity)."
+      ],
+      "description": {
+        "subtitle": "Advanced Technology",
+        "text": "A wireless thermometer that automatically records and tracks measurements through the Sanitas Remote™ mobile app and Sanitas Remote™ web app."
+      }
     }
   },
   "TD-3140": {
-    "title": "Monitor TD-3140 : Monitore a pressão arterial com precisão.",
-    "features": [
-      "Medição automática de pressão arterial.",
-      "Memória para múltiplas leituras.",
-      "Display LCD de fácil leitura.",
-      "Conectividade Bluetooth.",
-      "Braçadeira ajustável.",
-      "Detecção de arritmia."
-    ],
-    "description": {
-      "subtitle": "Monitoramento Preciso",
-      "text": "Monitor de pressão arterial com tecnologia avançada para acompanhamento contínuo da saúde cardiovascular."
+    "pt": {
+      "title": "TD-3140 : Monitor de pressão arterial.",
+      "features": [
+        "Detecção de batimentos irregulares (IHB).",
+        "200 memórias.",
+        "Tela com retroiluminação.",
+        "Unidade de braço autoconstruída.",
+        "BLE 5.0 (Conectividade Bluetooth de Baixa Energia)."
+      ],
+      "description": {
+        "subtitle": "Monitoramento Avançado",
+        "text": "Um monitor de pressão arterial sem fio que registra e rastreia automaticamente as medições através do aplicativo móvel Sanitas Remota™ e do aplicativo web Sanitas Remota™."
+      }
+    },
+    "en": {
+      "title": "TD-3140: Blood pressure monitor.",
+      "features": [
+        "Irregular heart beat (IHB) detection.",
+        "200 memory.",
+        "Display with backlight.",
+        "Self contained arm unit.",
+        "BLE 5.0 (Bluetooth Low Energy Connectivity)."
+      ],
+      "description": {
+        "subtitle": "Advanced Monitoring",
+        "text": "A wireless blood pressure monitor that automatically records and tracks measurements via Sanitas Remota™ mobile app and Sanitas Remota™ web application."
+      }
     }
   },
   "AND-651BLE": {
-    "title": "Monitor AND-651BLE : Controle sua pressão com tecnologia Bluetooth.",
-    "features": [
-      "Conectividade Bluetooth 5.0.",
-      "Memória para 60 leituras.",
-      "Detecção automática de pulso irregular.",
-      "Display digital amplo.",
-      "Braçadeira universal.",
-      "Validado clinicamente."
-    ],
-    "description": {
-      "subtitle": "Conectividade Inteligente",
-      "text": "Monitor com conectividade Bluetooth para sincronização automática com aplicativos de saúde."
+    "pt": {
+      "title": "Monitor AND-651BLE : Controle sua pressão com tecnologia Bluetooth.",
+      "features": [
+        "Conectividade Bluetooth 5.0.",
+        "Memória para 60 leituras.",
+        "Detecção automática de pulso irregular.",
+        "Display digital amplo.",
+        "Braçadeira universal.",
+        "Validado clinicamente."
+      ],
+      "description": {
+        "subtitle": "Conectividade Inteligente",
+        "text": "Monitor com conectividade Bluetooth para sincronização automática com aplicativos de saúde."
+      }
+    },
+    "en": {
+      "title": "AND-651BLE Monitor: Control your pressure with Bluetooth technology.",
+      "features": [
+        "Bluetooth 5.0 connectivity.",
+        "Memory for 60 readings.",
+        "Automatic irregular pulse detection.",
+        "Large digital display.",
+        "Universal cuff.",
+        "Clinically validated."
+      ],
+      "description": {
+        "subtitle": "Smart Connectivity",
+        "text": "Monitor with Bluetooth connectivity for automatic synchronization with health apps."
+      }
     }
   },
   "Omron BP7000": {
-    "title": "Omron BP7000 : Precisão e confiabilidade em cada medição.",
-    "features": [
-      "Tecnologia IntelliSense.",
-      "Conectividade wireless.",
-      "Memória para 100+ leituras.",
-      "Detecção de movimento corporal.",
-      "Braçadeira ComFit.",
-      "Aplicativo Omron Connect."
-    ],
-    "description": {
-      "subtitle": "Tecnologia Omron",
-      "text": "Monitor de pressão arterial com a reconhecida precisão Omron e conectividade avançada."
+    "pt": {
+      "title": "Omron BP7000 : Precisão e confiabilidade em cada medição.",
+      "features": [
+        "Tecnologia IntelliSense.",
+        "Conectividade wireless.",
+        "Memória para 100+ leituras.",
+        "Detecção de movimento corporal.",
+        "Braçadeira ComFit.",
+        "Aplicativo Omron Connect."
+      ],
+      "description": {
+        "subtitle": "Tecnologia Omron",
+        "text": "Monitor de pressão arterial com a reconhecida precisão Omron e conectividade avançada."
+      }
+    },
+    "en": {
+      "title": "Omron BP7000: Precision and reliability in every measurement.",
+      "features": [
+        "IntelliSense technology.",
+        "Wireless connectivity.",
+        "Memory for 100+ readings.",
+        "Body movement detection.",
+        "ComFit cuff.",
+        "Omron Connect app."
+      ],
+      "description": {
+        "subtitle": "Omron Technology",
+        "text": "Blood pressure monitor with recognized Omron precision and advanced connectivity."
+      }
     }
   },
   "UAM-820": {
-    "title": "Monitor UAM-820 : Monitoramento contínuo e preciso.",
-    "features": [
-      "Medição automática 24h.",
-      "Memória expandida.",
-      "Display retroiluminado.",
-      "Conectividade Bluetooth.",
-      "Bateria de longa duração.",
-      "Relatórios detalhados."
-    ],
-    "description": {
-      "subtitle": "Monitoramento 24h",
-      "text": "Ideal para monitoramento ambulatorial de pressão arterial com registros contínuos."
+    "pt": {
+      "title": "Monitor UAM-820 : Monitoramento contínuo e preciso.",
+      "features": [
+        "Medição automática 24h.",
+        "Memória expandida.",
+        "Display retroiluminado.",
+        "Conectividade Bluetooth.",
+        "Bateria de longa duração.",
+        "Relatórios detalhados."
+      ],
+      "description": {
+        "subtitle": "Monitoramento 24h",
+        "text": "Ideal para monitoramento ambulatorial de pressão arterial com registros contínuos."
+      }
+    },
+    "en": {
+      "title": "UAM-820 Monitor: Continuous and precise monitoring.",
+      "features": [
+        "24h automatic measurement.",
+        "Expanded memory.",
+        "Backlit display.",
+        "Bluetooth connectivity.",
+        "Long-lasting battery.",
+        "Detailed reports."
+      ],
+      "description": {
+        "subtitle": "24h Monitoring",
+        "text": "Ideal for ambulatory blood pressure monitoring with continuous records."
+      }
     }
   },
   "Accu-Chek Guide": {
-    "title": "Accu-Chek Guide : Controle sua glicose com precisão.",
-    "features": [
-      "Tiras de teste SmartPack.",
-      "Conectividade Bluetooth.",
-      "Memória para 720 resultados.",
-      "Marcadores de refeição.",
-      "Aplicativo mySugr.",
-      "Precisão comprovada."
-    ],
-    "description": {
-      "subtitle": "Controle Glicêmico",
-      "text": "Medidor de glicose com tecnologia avançada para controle eficaz do diabetes."
+    "pt": {
+      "title": "Accu-Chek Guide : Controle sua glicose com precisão.",
+      "features": [
+        "Tiras de teste SmartPack.",
+        "Conectividade Bluetooth.",
+        "Memória para 720 resultados.",
+        "Marcadores de refeição.",
+        "Aplicativo mySugr.",
+        "Precisão comprovada."
+      ],
+      "description": {
+        "subtitle": "Controle Glicêmico",
+        "text": "Medidor de glicose com tecnologia avançada para controle eficaz do diabetes."
+      }
+    },
+    "en": {
+      "title": "Accu-Chek Guide: Control your glucose with precision.",
+      "features": [
+        "SmartPack test strips.",
+        "Bluetooth connectivity.",
+        "Memory for 720 results.",
+        "Meal markers.",
+        "mySugr app.",
+        "Proven accuracy."
+      ],
+      "description": {
+        "subtitle": "Glycemic Control",
+        "text": "Glucose meter with advanced technology for effective diabetes control."
+      }
     }
   },
   "Accu-Chek Guide Me": {
-    "title": "Accu-Chek Guide Me : Simplicidade no controle da glicose.",
-    "features": [
-      "Design compacto.",
-      "Tiras SmartPack.",
-      "Sem codificação.",
-      "Resultado em 4 segundos.",
-      "Memória para 480 testes.",
-      "Fácil manuseio."
-    ],
-    "description": {
-      "subtitle": "Simplicidade e Precisão",
-      "text": "Medidor compacto e fácil de usar, ideal para o dia a dia do controle glicêmico."
+    "pt": {
+      "title": "Accu-Chek Guide Me : Simplicidade no controle da glicose.",
+      "features": [
+        "Design compacto.",
+        "Tiras SmartPack.",
+        "Sem codificação.",
+        "Resultado em 4 segundos.",
+        "Memória para 480 testes.",
+        "Fácil manuseio."
+      ],
+      "description": {
+        "subtitle": "Simplicidade e Precisão",
+        "text": "Medidor compacto e fácil de usar, ideal para o dia a dia do controle glicêmico."
+      }
+    },
+    "en": {
+      "title": "Accu-Chek Guide Me: Simplicity in glucose control.",
+      "features": [
+        "Compact design.",
+        "SmartPack strips.",
+        "No coding required.",
+        "4-second result.",
+        "Memory for 480 tests.",
+        "Easy handling."
+      ],
+      "description": {
+        "subtitle": "Simplicity and Precision",
+        "text": "Compact and easy-to-use meter, ideal for daily glycemic control."
+      }
     }
   },
   "TD-4255": {
-    "title": "Medidor TD-4255 : Tecnologia avançada para controle glicêmico.",
-    "features": [
-      "Conectividade Bluetooth.",
-      "Tela colorida.",
-      "Memória para 500 testes.",
-      "Resultado em 5 segundos.",
-      "Aplicativo móvel integrado.",
-      "Bateria recarregável."
-    ],
-    "description": {
-      "subtitle": "Inovação Digital",
-      "text": "Medidor com tela colorida e conectividade para acompanhamento digital da glicose."
+    "pt": {
+      "title": "Medidor TD-4255 : Tecnologia avançada para controle glicêmico.",
+      "features": [
+        "Conectividade Bluetooth.",
+        "Tela colorida.",
+        "Memória para 500 testes.",
+        "Resultado em 5 segundos.",
+        "Aplicativo móvel integrado.",
+        "Bateria recarregável."
+      ],
+      "description": {
+        "subtitle": "Inovação Digital",
+        "text": "Medidor com tela colorida e conectividade para acompanhamento digital da glicose."
+      }
+    },
+    "en": {
+      "title": "TD-4255 Meter: Advanced technology for glycemic control.",
+      "features": [
+        "Bluetooth connectivity.",
+        "Color screen.",
+        "Memory for 500 tests.",
+        "5-second result.",
+        "Integrated mobile app.",
+        "Rechargeable battery."
+      ],
+      "description": {
+        "subtitle": "Digital Innovation",
+        "text": "Meter with color screen and connectivity for digital glucose monitoring."
+      }
     }
   },
   "TD-8255": {
-    "title": "Oxímetro TD-8255 : Monitore sua saturação de oxigênio.",
-    "features": [
-      "Display OLED colorido.",
-      "Conectividade Bluetooth.",
-      "Medição de SpO2 e pulso.",
-      "Bateria de longa duração.",
-      "Design ergonômico.",
-      "Alarmes configuráveis."
-    ],
-    "description": {
-      "subtitle": "Monitoramento Respiratório",
-      "text": "Oxímetro de pulso com display colorido para monitoramento preciso da saturação de oxigênio."
+    "pt": {
+      "title": "Oxímetro TD-8255 : Monitore sua saturação de oxigênio.",
+      "features": [
+        "Tipo de dedo.",
+        "Saturação de oxigênio e frequência do pulso.",
+        "Indicador Pl (índice de perfusão %).",
+        "Desligamento automático.",
+        "Rotação de tela.",
+        "BLE 5.0 (Conectividade Bluetooth de Baixa Energia)."
+      ],
+      "description": {
+        "subtitle": "Monitoramento Respiratório",
+        "text": "Um monitor de oxímetro sem fio que registra e rastreia automaticamente as medições através do aplicativo móvel Sanitas Remota™ e do aplicativo web Sanitas Remota™."
+      }
+    },
+    "en": {
+      "title": "TD-8255 Oximeter: Monitor your oxygen saturation.",
+      "features": [
+        "Finger Type.",
+        "Oxygen saturation and pulse rate.",
+        "Pl (Perfusion Index %) indicator.",
+        "Auto power off.",
+        "Screen rotation.",
+        "BLE 5.0 (Bluetooth Low Energy Connectivity)."
+      ],
+      "description": {
+        "subtitle": "Respiratory Monitoring",
+        "text": "A wireless oximeter monitor that automatically records and tracks measurements via Sanitas Remota™ mobile app and Sanitas Remota™ web application."
+      }
     }
   },
   "UP-200BLE": {
-    "title": "Oxímetro UP-200BLE : Precisão na medição de oxigenação.",
-    "features": [
-      "Tecnologia Bluetooth 5.0.",
-      "Display LED duplo.",
-      "Medição rápida e precisa.",
-      "Desligamento automático.",
-      "Indicador de bateria baixa.",
-      "Aplicativo móvel compatível."
-    ],
-    "description": {
-      "subtitle": "Conectividade Avançada",
-      "text": "Oxímetro com conectividade Bluetooth para acompanhamento contínuo dos níveis de oxigenação."
+    "pt": {
+      "title": "Oxímetro UP-200BLE : Precisão na medição de oxigenação.",
+      "features": [
+        "Tecnologia Bluetooth 5.0.",
+        "Display LED duplo.",
+        "Medição rápida e precisa.",
+        "Desligamento automático.",
+        "Indicador de bateria baixa.",
+        "Aplicativo móvel compatível."
+      ],
+      "description": {
+        "subtitle": "Conectividade Avançada",
+        "text": "Oxímetro com conectividade Bluetooth para acompanhamento contínuo dos níveis de oxigenação."
+      }
+    },
+    "en": {
+      "title": "UP-200BLE Oximeter: Precision in oxygenation measurement.",
+      "features": [
+        "Bluetooth 5.0 technology.",
+        "Dual LED display.",
+        "Fast and accurate measurement.",
+        "Automatic shutdown.",
+        "Low battery indicator.",
+        "Compatible mobile app."
+      ],
+      "description": {
+        "subtitle": "Advanced Connectivity",
+        "text": "Oximeter with Bluetooth connectivity for continuous monitoring of oxygenation levels."
+      }
+    }
+  },
+  "TD-4289": {
+    "pt": {
+      "title": "Monitor TD-4289 : Monitoramento multiparâmetro avançado.",
+      "features": [
+        "Múltiplos parâmetros vitais.",
+        "Conectividade Bluetooth.",
+        "Display colorido de alta resolução.",
+        "Bateria de longa duração.",
+        "Alarmes configuráveis.",
+        "Sincronização automática."
+      ],
+      "description": {
+        "subtitle": "Monitoramento Completo",
+        "text": "Monitor multiparâmetro para acompanhamento abrangente dos sinais vitais do paciente."
+      }
+    },
+    "en": {
+      "title": "TD-4289 Monitor: Advanced multiparameter monitoring.",
+      "features": [
+        "Multiple vital parameters.",
+        "Bluetooth connectivity.",
+        "High-resolution color display.",
+        "Long-lasting battery.",
+        "Configurable alarms.",
+        "Automatic synchronization."
+      ],
+      "description": {
+        "subtitle": "Complete Monitoring",
+        "text": "Multiparameter monitor for comprehensive patient vital signs tracking."
+      }
+    }
+  },
+  "TD-4216": {
+    "pt": {
+      "title": "Monitor TD-4216 : Solução compacta multiparâmetro.",
+      "features": [
+        "Design compacto e portátil.",
+        "Medição de múltiplos sinais vitais.",
+        "Interface intuitiva.",
+        "Conectividade wireless.",
+        "Memória expandida.",
+        "Relatórios detalhados."
+      ],
+      "description": {
+        "subtitle": "Portabilidade e Precisão",
+        "text": "Monitor compacto ideal para monitoramento móvel de múltiplos parâmetros vitais."
+      }
+    },
+    "en": {
+      "title": "TD-4216 Monitor: Compact multiparameter solution.",
+      "features": [
+        "Compact and portable design.",
+        "Multiple vital signs measurement.",
+        "Intuitive interface.",
+        "Wireless connectivity.",
+        "Expanded memory.",
+        "Detailed reports."
+      ],
+      "description": {
+        "subtitle": "Portability and Precision",
+        "text": "Compact monitor ideal for mobile monitoring of multiple vital parameters."
+      }
+    }
+  },
+  "AND-352BLE": {
+    "pt": {
+      "title": "Balança AND-352BLE : Controle de peso inteligente.",
+      "features": [
+        "Conectividade Bluetooth.",
+        "Medição precisa de peso.",
+        "Display digital claro.",
+        "Plataforma antiderrapante.",
+        "Desligamento automático.",
+        "Aplicativo móvel integrado."
+      ],
+      "description": {
+        "subtitle": "Monitoramento de Peso",
+        "text": "Balança inteligente com conectividade para acompanhamento contínuo do peso corporal."
+      }
+    },
+    "en": {
+      "title": "AND-352BLE Scale: Smart weight control.",
+      "features": [
+        "Bluetooth connectivity.",
+        "Precise weight measurement.",
+        "Clear digital display.",
+        "Non-slip platform.",
+        "Automatic shutdown.",
+        "Integrated mobile app."
+      ],
+      "description": {
+        "subtitle": "Weight Monitoring",
+        "text": "Smart scale with connectivity for continuous body weight tracking."
+      }
+    }
+  },
+  "TD-2202": {
+    "pt": {
+      "title": "ECG TD-2202 : Gravador portátil de eletrocardiograma.",
+      "features": [
+        "Gravação de ECG de 12 derivações.",
+        "Design portátil e compacto.",
+        "Conectividade Bluetooth.",
+        "Bateria recarregável.",
+        "Análise automática.",
+        "Transmissão em tempo real."
+      ],
+      "description": {
+        "subtitle": "Cardiologia Portátil",
+        "text": "Gravador de ECG portátil para monitoramento cardíaco preciso e contínuo."
+      }
+    },
+    "en": {
+      "title": "TD-2202 ECG: Portable electrocardiogram recorder.",
+      "features": [
+        "12-lead ECG recording.",
+        "Portable and compact design.",
+        "Bluetooth connectivity.",
+        "Rechargeable battery.",
+        "Automatic analysis.",
+        "Real-time transmission."
+      ],
+      "description": {
+        "subtitle": "Portable Cardiology",
+        "text": "Portable ECG recorder for precise and continuous cardiac monitoring."
+      }
+    }
+  },
+  "TD-2300": {
+    "pt": {
+      "title": "Monitor TD-2300 : Monitor completo de sinais vitais.",
+      "features": [
+        "Monitoramento de múltiplos sinais vitais.",
+        "ECG, pressão arterial e SpO2.",
+        "Display touchscreen.",
+        "Conectividade avançada.",
+        "Alarmes personalizáveis.",
+        "Relatórios automáticos."
+      ],
+      "description": {
+        "subtitle": "Monitoramento Integral",
+        "text": "Monitor completo para acompanhamento abrangente de todos os sinais vitais do paciente."
+      }
+    },
+    "en": {
+      "title": "TD-2300 Monitor: Complete vital signs monitor.",
+      "features": [
+        "Multiple vital signs monitoring.",
+        "ECG, blood pressure and SpO2.",
+        "Touchscreen display.",
+        "Advanced connectivity.",
+        "Customizable alarms.",
+        "Automatic reports."
+      ],
+      "description": {
+        "subtitle": "Integral Monitoring",
+        "text": "Complete monitor for comprehensive tracking of all patient vital signs."
+      }
+    }
+  },
+  "TD-4611": {
+    "pt": {
+      "title": "Analisador TD-4611 : Análise precisa de hemoglobina.",
+      "features": [
+        "Medição rápida de hemoglobina.",
+        "Tecnologia não invasiva.",
+        "Resultados em segundos.",
+        "Conectividade Bluetooth.",
+        "Calibração automática.",
+        "Interface simples."
+      ],
+      "description": {
+        "subtitle": "Análise Hematológica",
+        "text": "Analisador portátil para medição rápida e precisa dos níveis de hemoglobina."
+      }
+    },
+    "en": {
+      "title": "TD-4611 Analyzer: Precise hemoglobin analysis.",
+      "features": [
+        "Fast hemoglobin measurement.",
+        "Non-invasive technology.",
+        "Results in seconds.",
+        "Bluetooth connectivity.",
+        "Automatic calibration.",
+        "Simple interface."
+      ],
+      "description": {
+        "subtitle": "Hematological Analysis",
+        "text": "Portable analyzer for fast and accurate hemoglobin level measurement."
+      }
+    }
+  },
+  "In Vitro Diagnostic Strips": {
+    "pt": {
+      "title": "Biossensor : Tiras diagnósticas in vitro avançadas.",
+      "features": [
+        "Diagnóstico in vitro preciso.",
+        "Múltiplos biomarcadores.",
+        "Resultados rápidos.",
+        "Alta sensibilidade.",
+        "Fácil manuseio.",
+        "Compatibilidade universal."
+      ],
+      "description": {
+        "subtitle": "Diagnóstico Molecular",
+        "text": "Tiras biossensoras para diagnóstico molecular rápido e preciso de diversos biomarcadores."
+      }
+    },
+    "en": {
+      "title": "Biosensor: Advanced in vitro diagnostic strips.",
+      "features": [
+        "Precise in vitro diagnosis.",
+        "Multiple biomarkers.",
+        "Fast results.",
+        "High sensitivity.",
+        "Easy handling.",
+        "Universal compatibility."
+      ],
+      "description": {
+        "subtitle": "Molecular Diagnosis",
+        "text": "Biosensor strips for fast and accurate molecular diagnosis of various biomarkers."
+      }
     }
   }
 }
