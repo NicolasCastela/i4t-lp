@@ -101,4 +101,20 @@
       object-position: center;
     }
 
+    /* Grid responsivo mobile */
+    .apps-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 0 16px;
+    }
+
+    .app-card {
+        padding: 20px;
+    }
+
+    .app-card img {
+        max-width: 150px;
+        height: 150px;
+    }
+
 }
