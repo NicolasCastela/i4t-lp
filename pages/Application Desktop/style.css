@@ -10,12 +10,12 @@
 
 body {
     padding: 0;
-     color: #4C666D;
+    color: #4C666D;
 }
 
 .body-container {
     display: flex;
-    align-items: center ;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -27,10 +27,9 @@ body {
 
 
 .appli-header {
-    background: linear-gradient(to right, rgba(17, 211, 211, 0.199) 0%, rgba(0, 0, 0, 0.53) 53%)
-, url(assets/header-banner.png);
+    background: linear-gradient(to right, rgba(17, 211, 211, 0.199) 0%, rgba(0, 0, 0, 0.53) 53%), url(assets/header-banner.png);
     background-size: cover;
-    background-position:  left center;
+    background-position: left center;
     background-repeat: no-repeat;
     width: 100%;
     display: flex;
@@ -48,7 +47,7 @@ body {
     gap: 80px;
 }
 
-.header-appli-tittle {
+.header-appli-title {
     width: 100%;
     max-width: 543px;
     height: auto;
@@ -57,17 +56,17 @@ body {
     flex-direction: column;
 }
 
-.header-appli-tittle h1 {
+.header-appli-title h1 {
     font-size: 3.5em;
     line-height: 120%;
     color: #fff;
 }
 
-.header-appli-tittle span {
+.header-appli-title span {
     text-transform: uppercase;
 }
 
-.header-appli-tittle p {
+.header-appli-title p {
     font-size: 1.25em;
     line-height: 150%;
     color: #fff;
@@ -100,7 +99,7 @@ body {
     width: 100%;
 }
 
-.first-section-tittle h2 {
+.first-section-title h2 {
     font-size: 2.5em;
     line-height: 120%;
     text-align: center;
@@ -129,10 +128,10 @@ body {
 }
 
 .card img {
-  width: 100%;
-  height: 209px;
-  object-fit: cover;
-  display: block;
+    width: 100%;
+    height: 209px;
+    object-fit: cover;
+    display: block;
 }
 
 .card-span {
@@ -160,11 +159,11 @@ body {
     width: 100%;
 }
 
-.second-section-tittle {
+.second-section-title {
     padding: 24px;
 }
 
-.second-section-tittle h2 {
+.second-section-title h2 {
     font-size: 2.5em;
     line-height: 120%;
     text-align: center;
@@ -177,7 +176,7 @@ body {
     width: 100%;
 }
 
-.card-icon img{
+.card-icon img {
     width: 56px;
     height: auto;
     object-fit: fill;
@@ -192,14 +191,14 @@ body {
 }
 
 .last-section::before {
-  content: '';
-  position: absolute;
-  right: 0;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle at top right, #11D3D3 -80%, transparent 60%);
-  z-index: 0;
-  pointer-events: none;
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle at top right, #11D3D3 -80%, transparent 60%);
+    z-index: 0;
+    pointer-events: none;
 }
 
 .last-section-content {
@@ -258,97 +257,96 @@ body {
 /* ............... */
 
 .banner-footer {
-  padding-bottom: 120px !important;
-  padding-top: 120px !important;
-  display: flex;
+    padding-bottom: 120px !important;
+    padding-top: 120px !important;
+    display: flex;
 }
 
 .banner-footer {
-  position: relative;
-  width: 100%;
-  padding-bottom: 120px;
-  padding-top: 120px;
-  max-width: 1280px;
-  margin: 0 auto;
-  border-radius: 2px;
-  overflow: hidden;
-  font-family: 'Inter', sans-serif;
-  color: white;
+    position: relative;
+    width: 100%;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    max-width: 1280px;
+    margin: 0 auto;
+    border-radius: 2px;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    color: white;
 }
 
 
 .banner-content {
-  background-image: linear-gradient(135deg,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 50%,
-      rgba(18, 223, 223, 0.2) 100%),
-    url(assets/footer-banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 402px;
-  z-index: 99;
+    background-image: linear-gradient(135deg,
+            rgba(0, 0, 0, 0.7) 0%,
+            rgba(0, 0, 0, 0.7) 50%,
+            rgba(18, 223, 223, 0.2) 100%),
+        url(assets/footer-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 402px;
+    z-index: 99;
 }
 
 .banner-items {
-  max-width: 768px;
-  padding: 32px;
-  height: auto;
+    max-width: 768px;
+    padding: 32px;
+    height: auto;
 }
 
 .banner-items h2 {
-  font-weight: 700;
-  font-size: 3em;
-  line-height: 1.2;
-  margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1.2;
+    margin-bottom: 16px;
 }
 
 .banner-items p {
-  font-weight: 300;
-  line-height: 150%;
-  font-size: 1.1em;
-  margin-bottom: 24px;
-  max-width: 420px;
+    font-weight: 300;
+    line-height: 150%;
+    font-size: 1.1em;
+    margin-bottom: 24px;
+    max-width: 420px;
 }
 
 .banner-buttons {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
 }
 
 .btn-primary,
 .btn-secondary {
-  cursor: pointer;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 12px 24px;
-  border: none;
-  transition: background-color 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 24px;
+    border: none;
+    transition: background-color 0.3s ease;
 }
 
 .btn-primary {
-  width: 135px;
-  height: 48px;
-  background-color: #11D3D3;
-  color: white;
+    width: 135px;
+    height: 48px;
+    background-color: #11D3D3;
+    color: white;
 }
 
 .btn-primary:hover {
-  background-color: #00b7c3;
+    background-color: #00b7c3;
 }
 
 .btn-secondary {
-  width: 198px;
-  height: 48px;
-  background-color: transparent;
-  color: white;
-  border: 1px solid #11D3D3;
+    width: 198px;
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #11D3D3;
 }
 
 .btn-secondary:hover {
-  background-color: #235f74;
+    background-color: #235f74;
 }
-

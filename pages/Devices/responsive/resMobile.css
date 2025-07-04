@@ -1,8 +1,8 @@
 @media (max-width: 768px) {
-  
-    .body-container {
-        padding: 40px 10px;
-    }
+
+  .body-container {
+    padding: 40px 10px;
+  }
 
   .first-section {
     flex-wrap: wrap;
@@ -12,7 +12,7 @@
     padding: 25px;
     border-radius: 10px;
   }
-  
+
   .header-content {
     flex-wrap: wrap;
     gap: 16px;
@@ -23,11 +23,11 @@
     align-items: flex-start;
   }
 
-  .produtos .item{
+  .produtos .item {
     max-width: 768px;
   }
 
- 
+
 
   .banner-home-index {
     padding: 40px 20px;
@@ -75,67 +75,67 @@
 
   /*PRIMEIRA SEÇÃO*/
 
-      .header-container-left h1 {
-        font-size: 2em;
-        text-align: center;
-    }
+  .header-container-left h1 {
+    font-size: 2em;
+    text-align: center;
+  }
 
-    .header-container-right p {
-      font-size: 0.9em;
-    }
+  .header-container-right p {
+    font-size: 0.9em;
+  }
 
-    .recipient-btn {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
+  .recipient-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .produtos-tittle h2 {
-        font-size: 1.6em;
-    }
+  .produtos-title h2 {
+    font-size: 1.6em;
+  }
 
-    .produtos .item h3 {
-        font-size: 1em;
-    }
+  .produtos .item h3 {
+    font-size: 1em;
+  }
 
-    .produtos-tittle {
-      text-align: center;
-    }
+  .produtos-title {
+    text-align: center;
+  }
 
-    /*produtos-content*/
+  /*produtos-content*/
 
-    .produtos-content,
-    .termometro {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    
-    .medidor .produtos{
-      display: flex;
-      flex-wrap: wrap !important;
-      justify-content: center;
-    }
+  .produtos-content,
+  .termometro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .produtos-tittle {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .last-section-left .top h2 {
-        font-size: 2em;
-    }
+  .medidor .produtos {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center;
+  }
 
-    .last-section-left .bottom h3 {
-        font-size: 1em;
-    }
+  .produtos-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .last-section-content {
-      flex-wrap: wrap;
-      text-align: center;
-    }
+  .last-section-left .top h2 {
+    font-size: 2em;
+  }
+
+  .last-section-left .bottom h3 {
+    font-size: 1em;
+  }
+
+  .last-section-content {
+    flex-wrap: wrap;
+    text-align: center;
+  }
 }

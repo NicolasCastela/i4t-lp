@@ -26,22 +26,22 @@
         border-radius: 10px;
         background-color: rgba(0, 0, 0, 0.5);
     }
-    
-    .header-appli-tittle h1 {
+
+    .header-appli-title h1 {
         font-size: 3em;
     }
 
-    .header-appli-tittle p {
+    .header-appli-title p {
         font-size: 1.125em;
     }
 
     /* ......................... */
 
-    .first-section-tittle h2,
-    .second-section-tittle h2 {
+    .first-section-title h2,
+    .second-section-title h2 {
         font-size: 2em;
     }
-    
+
     .first-section-cards,
     .second-section-cards {
         gap: 10px;
@@ -51,20 +51,20 @@
     .second-section-content {
         gap: 60px;
     }
-    
+
     /* ......................... */
 
 
-.last-section::before {
-  content: '';
-  position: absolute;
-  right: 0;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle at top right, #11D3D3 -80%, transparent 40%);
-  z-index: 0;
-  pointer-events: none;
-}    
+    .last-section::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(circle at top right, #11D3D3 -80%, transparent 40%);
+        z-index: 0;
+        pointer-events: none;
+    }
 
     .last-section-content {
         gap: 60px;

@@ -1,0 +1,152 @@
+{
+  "TD-1242": {
+    "title": "Termômetro TD-1242 : Acompanhe em tempo real, a temperatura do seu paciente.",
+    "features": [
+      "Tecnologia infravermelha.",
+      "Conversão C/F.",
+      "30 memórias.",
+      "Retroiluminação de duas cores.",
+      "Modos de medição de testa (escolha de crianças e adultos) e superfície.",
+      "BLE 5.0 (Conectividade Bluetooth de Baixa Energia)."
+    ],
+    "description": {
+      "subtitle": "Tecnologia Avançada",
+      "text": "Um termômetro sem fio que registra e rastreia automaticamente as medições através do aplicativo móvel Sanitas Remota™ e do aplicativo web Sanitas Remota™."
+    }
+  },
+  "TD-3140": {
+    "title": "Monitor TD-3140 : Monitore a pressão arterial com precisão.",
+    "features": [
+      "Medição automática de pressão arterial.",
+      "Memória para múltiplas leituras.",
+      "Display LCD de fácil leitura.",
+      "Conectividade Bluetooth.",
+      "Braçadeira ajustável.",
+      "Detecção de arritmia."
+    ],
+    "description": {
+      "subtitle": "Monitoramento Preciso",
+      "text": "Monitor de pressão arterial com tecnologia avançada para acompanhamento contínuo da saúde cardiovascular."
+    }
+  },
+  "AND-651BLE": {
+    "title": "Monitor AND-651BLE : Controle sua pressão com tecnologia Bluetooth.",
+    "features": [
+      "Conectividade Bluetooth 5.0.",
+      "Memória para 60 leituras.",
+      "Detecção automática de pulso irregular.",
+      "Display digital amplo.",
+      "Braçadeira universal.",
+      "Validado clinicamente."
+    ],
+    "description": {
+      "subtitle": "Conectividade Inteligente",
+      "text": "Monitor com conectividade Bluetooth para sincronização automática com aplicativos de saúde."
+    }
+  },
+  "Omron BP7000": {
+    "title": "Omron BP7000 : Precisão e confiabilidade em cada medição.",
+    "features": [
+      "Tecnologia IntelliSense.",
+      "Conectividade wireless.",
+      "Memória para 100+ leituras.",
+      "Detecção de movimento corporal.",
+      "Braçadeira ComFit.",
+      "Aplicativo Omron Connect."
+    ],
+    "description": {
+      "subtitle": "Tecnologia Omron",
+      "text": "Monitor de pressão arterial com a reconhecida precisão Omron e conectividade avançada."
+    }
+  },
+  "UAM-820": {
+    "title": "Monitor UAM-820 : Monitoramento contínuo e preciso.",
+    "features": [
+      "Medição automática 24h.",
+      "Memória expandida.",
+      "Display retroiluminado.",
+      "Conectividade Bluetooth.",
+      "Bateria de longa duração.",
+      "Relatórios detalhados."
+    ],
+    "description": {
+      "subtitle": "Monitoramento 24h",
+      "text": "Ideal para monitoramento ambulatorial de pressão arterial com registros contínuos."
+    }
+  },
+  "Accu-Chek Guide": {
+    "title": "Accu-Chek Guide : Controle sua glicose com precisão.",
+    "features": [
+      "Tiras de teste SmartPack.",
+      "Conectividade Bluetooth.",
+      "Memória para 720 resultados.",
+      "Marcadores de refeição.",
+      "Aplicativo mySugr.",
+      "Precisão comprovada."
+    ],
+    "description": {
+      "subtitle": "Controle Glicêmico",
+      "text": "Medidor de glicose com tecnologia avançada para controle eficaz do diabetes."
+    }
+  },
+  "Accu-Chek Guide Me": {
+    "title": "Accu-Chek Guide Me : Simplicidade no controle da glicose.",
+    "features": [
+      "Design compacto.",
+      "Tiras SmartPack.",
+      "Sem codificação.",
+      "Resultado em 4 segundos.",
+      "Memória para 480 testes.",
+      "Fácil manuseio."
+    ],
+    "description": {
+      "subtitle": "Simplicidade e Precisão",
+      "text": "Medidor compacto e fácil de usar, ideal para o dia a dia do controle glicêmico."
+    }
+  },
+  "TD-4255": {
+    "title": "Medidor TD-4255 : Tecnologia avançada para controle glicêmico.",
+    "features": [
+      "Conectividade Bluetooth.",
+      "Tela colorida.",
+      "Memória para 500 testes.",
+      "Resultado em 5 segundos.",
+      "Aplicativo móvel integrado.",
+      "Bateria recarregável."
+    ],
+    "description": {
+      "subtitle": "Inovação Digital",
+      "text": "Medidor com tela colorida e conectividade para acompanhamento digital da glicose."
+    }
+  },
+  "TD-8255": {
+    "title": "Oxímetro TD-8255 : Monitore sua saturação de oxigênio.",
+    "features": [
+      "Display OLED colorido.",
+      "Conectividade Bluetooth.",
+      "Medição de SpO2 e pulso.",
+      "Bateria de longa duração.",
+      "Design ergonômico.",
+      "Alarmes configuráveis."
+    ],
+    "description": {
+      "subtitle": "Monitoramento Respiratório",
+      "text": "Oxímetro de pulso com display colorido para monitoramento preciso da saturação de oxigênio."
+    }
+  },
+  "UP-200BLE": {
+    "title": "Oxímetro UP-200BLE : Precisão na medição de oxigenação.",
+    "features": [
+      "Tecnologia Bluetooth 5.0.",
+      "Display LED duplo.",
+      "Medição rápida e precisa.",
+      "Desligamento automático.",
+      "Indicador de bateria baixa.",
+      "Aplicativo móvel compatível."
+    ],
+    "description": {
+      "subtitle": "Conectividade Avançada",
+      "text": "Oxímetro com conectividade Bluetooth para acompanhamento contínuo dos níveis de oxigenação."
+    }
+  }
+}

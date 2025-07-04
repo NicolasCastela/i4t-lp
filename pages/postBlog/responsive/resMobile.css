@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-  
+
   .body-container {
     padding: 40px 10px;
   }
@@ -23,109 +23,108 @@
   }
 
   .span-i {
-        height: auto;
-    }
+    height: auto;
+  }
 
-    .depo-cards {
-        flex-direction: column;
-    }
+  .depo-cards {
+    flex-direction: column;
+  }
 
-    .depo-card {
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-        padding: 15px;
-        border-radius: 10px;
-    }
+  .depo-card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+  }
 
-    .intro-content,
-    .depo-content,
-    .comp-content {
-      text-align: center;
-    }
+  .intro-content,
+  .depo-content,
+  .comp-content {
+    text-align: center;
+  }
 
-    .card-perfil {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+  .card-perfil {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .card-right {
-      border-left: none;
-      border-top: 1px solid #4C666D;
-    }
+  .card-right {
+    border-left: none;
+    border-top: 1px solid #4C666D;
+  }
 
-    .card-right img {
-      margin-left: 0;
-    }
+  .card-right img {
+    margin-left: 0;
+  }
 
-    .comp-btn {
-      flex-direction: column;
-      align-items: center;
-    }
+  .comp-btn {
+    flex-direction: column;
+    align-items: center;
+  }
 
 
-    .item-left .mid h1 {
-      font-size: 2.5em;
-    }
+  .item-left .mid h1 {
+    font-size: 2.5em;
+  }
 
-    .tittle-top h2 {
-      font-size: 2em;
-    }
+  .title-top h2 {
+    font-size: 2em;
+  }
 
-.tittle-top p,
-.tittle-bottom p,
-.sub-tittle p {
+  .title-top p,
+  .title-bottom p,
+  .sub-title p {
     font-size: 0.9em;
     line-height: 150%;
-}
+  }
 
-.tittle-bottom span {
-  font-size: 1em;
-}
-
-.span-i span {
-  font-size: 1.125em;
-}
-
-.sub-tittle h3 {
-  font-size: 1.5em;
-}
-
-.intro-bottom .top h4 {
+  .title-bottom span {
     font-size: 1em;
-}
+  }
 
-.intro-bottom .bottom-a a {
-  font-size: 0.9em;
-}
+  .span-i span {
+    font-size: 1.125em;
+  }
 
-
-.depo-tittle h2 {
-    font-size: 2em;
-}
-
-.depo-tittle p {
-    font-size: 1em;
-}
-
-.depo-card p {
+  .sub-title h3 {
     font-size: 1.5em;
-}
+  }
 
-.depo-card span {
-    font-size: 1.1em;
-}
+  .intro-bottom .top h4 {
+    font-size: 1em;
+  }
 
-.card-info span,
-.card-info p  {
+  .intro-bottom .bottom-a a {
     font-size: 0.9em;
-}
+  }
 
 
-.comp-tittle h2 {
-  font-size: 2em;
-}
+  .depo-title h2 {
+    font-size: 2em;
+  }
 
-.comp-tittle p {
-  font-size: 1em;
-}
-}
+  .depo-title p {
+    font-size: 1em;
+  }
 
+  .depo-card p {
+    font-size: 1.5em;
+  }
+
+  .depo-card span {
+    font-size: 1.1em;
+  }
+
+  .card-info span,
+  .card-info p {
+    font-size: 0.9em;
+  }
+
+
+  .comp-title h2 {
+    font-size: 2em;
+  }
+
+  .comp-title p {
+    font-size: 1em;
+  }
+}

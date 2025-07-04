@@ -10,7 +10,7 @@
 
 body {
     padding: 0;
-     color: #4C666D;
+    color: #4C666D;
 }
 
 .body-container {
@@ -48,11 +48,11 @@ body {
     max-width: 628px;
 }
 
-.item-left .top  img{
+.item-left .top img {
     margin-right: 8px;
 }
 
-.item-left .top  a {
+.item-left .top a {
     text-decoration: none;
     color: #4C666D;
     font-size: 1em;
@@ -79,7 +79,7 @@ body {
 .sub-mid p {
     padding: 4px 8px;
     font-weight: 600;
-    font-size: 0.9em;    
+    font-size: 0.9em;
 }
 
 .item-left .mid h1 {
@@ -148,6 +148,7 @@ body {
     font-size: 1em;
     margin-right: 8px;
 }
+
 .top .top-left img {
     margin-right: 8px;
 }
@@ -173,14 +174,14 @@ body {
     width: 19px;
 }
 
-.tittle-top h2 {
+.title-top h2 {
     font-size: 2.5em;
     padding: 24px 0px;
 }
 
-.tittle-top p,
-.tittle-bottom p,
-.sub-tittle p {
+.title-top p,
+.title-bottom p,
+.sub-title p {
     font-size: 1em;
     line-height: 150%;
 }
@@ -195,7 +196,7 @@ body {
     font-size: 0.9em;
 }
 
-.tittle-bottom span{
+.title-bottom span {
     font-size: 1.25em;
     line-height: 140%;
 }
@@ -212,7 +213,7 @@ body {
     line-height: 150%;
 }
 
-.sub-tittle h3 {
+.sub-title h3 {
     font-size: 2em;
     padding: 24px 0px;
 }
@@ -259,7 +260,7 @@ body {
     font-weight: 600;
     font-size: 0.9em;
     text-decoration: none;
-    color: #4C666D;    
+    color: #4C666D;
 }
 
 
@@ -312,7 +313,7 @@ body {
 }
 
 
-.depo-tittle {
+.depo-title {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -320,11 +321,11 @@ body {
     gap: 24px;
 }
 
-.depo-tittle h2 {
+.depo-title h2 {
     font-size: 3em;
 }
 
-.depo-tittle p {
+.depo-title p {
     font-size: 1.125em;
 }
 
@@ -358,7 +359,7 @@ body {
 }
 
 .card-info span,
-.card-info p  {
+.card-info p {
     font-size: 1em;
 }
 
@@ -383,7 +384,7 @@ body {
 .compartilhe {
     width: 100%;
     height: 440px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),  url(assets/images/compartilhe.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(assets/images/compartilhe.jpg);
     background-position: left center;
     background-size: cover;
     display: flex;
@@ -398,7 +399,7 @@ body {
     width: 100%;
 }
 
-.comp-tittle {
+.comp-title {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -406,13 +407,13 @@ body {
     max-width: 768px;
 }
 
-.comp-tittle h2 {
+.comp-title h2 {
     font-size: 3em;
     color: #fff;
     line-height: 120%;
 }
 
-.comp-tittle p {
+.comp-title p {
     font-size: 1.125em;
     color: #fff;
     line-height: 150%;
@@ -446,8 +447,8 @@ body {
     background-color: transparent;
     font-weight: 700;
     font-size: 1em;
-    color: #fff;  
-    cursor: pointer;  
+    color: #fff;
+    cursor: pointer;
     border: 1px solid #11D3D3;
     transition: brackground 0.3 ease;
 }
@@ -459,5 +460,3 @@ body {
 #btn-right:hover {
     background-color: #4C666D;
 }
-
-
